@@ -1,16 +1,73 @@
 .promo {
-  position: relative;
-  text-align: center;
+  margin-top: 10vw;
+  background: url("../img/svg/map.svg");
+  background-repeat: no-repeat;
+  background-size: 500px 600px;
 
-  &-text {
-    position: absolute;
-    top: 22vw;
-    left: 50%;
-    transform: translateX(-50%);
+  &-info {
+    position: relative;
+    z-index: 5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6vw 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: 3.4vw;
-    line-height: 4vw;
-    font-weight: 500;
+    background-color: $white;
+    border-radius: 5vw;
+    box-shadow: 0 0 20px 0 rgba($black, 0.2);
   }
 
+  &-info p {
+    margin: 0;
+    margin-top: 4vw;
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+
+  &-content {
+    position: relative;
+    margin-top: -5vw;
+    padding: 15vw 0;
+    text-align: center;
+    background-color: rgba($yellow, 0.6);
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: $container-padding-x;
+      background-color: rgba($yellow, 0.6);
+    }
+
+    &::before {
+      left: -$container-padding-x
+    }
+
+    &::after {
+      right: -$container-padding-x;
+    }
+  }
+
+  &-item {
+
+    &:first-child {
+      margin-bottom: 15vw;
+    }
+  }
+
+  &-item b {
+    margin-bottom: 4vw;
+    display: block;
+    font-size: 10vw;
+    line-height: 5vw;
+  }
+
+  &-item small {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
 }
