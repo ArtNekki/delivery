@@ -1,0 +1,24 @@
+.page-section {
+  text-align: center;
+
+  &-title {
+    text-align: center;
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+
+  &-content {
+    position: relative;
+  }
+
+  &-btn {
+    display: inline-block;
+    margin-top: 8vw;
+    padding: 5.3vw 6vw;
+    color: $black;
+    font-size: 5.5vw;
+    text-decoration: none;
+    border-radius: $border-radius;
+    background-color: $yellow;
+  }
+}

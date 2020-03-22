@@ -1,0 +1,27 @@
+.page-header {
+
+  &-inner {
+    position: relative;
+    margin-top: 15px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 60px;
+      width: calc(100% - #{$grid-gutter-width});
+      box-shadow: 0 3px 12px 0 rgba($black, 0.2);
+    }
+  }
+
+  &-logo {
+    margin-left: $container-padding-x;
+  }
+
+  &-select {
+    margin-right: $container-padding-x;
+  }
+}

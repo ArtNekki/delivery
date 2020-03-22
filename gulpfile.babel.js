@@ -168,16 +168,16 @@ function svg() {
   return gulp.src('src/assets/img/svg/*.svg')
     .pipe(svgmin({
         js2svg: {
-            pretty: true
+            // pretty: true
         }
     }))
     .pipe(cheerio({
         run: function ($) {
             // $('[fill]').removeAttr('fill');
             // $('[stroke]').removeAttr('stroke');
-            $('[style]').removeAttr('style');
+            // $('[style]').removeAttr('style');
         },
-        parserOptions: {xmlMode: true}
+        // parserOptions: {xmlMode: true}
     }))
     .pipe(replace('&gt;', '>'))
     .pipe(svgSprite({

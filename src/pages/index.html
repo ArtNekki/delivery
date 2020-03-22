@@ -4,5 +4,12 @@ layout: default
 ---
 
 <div>
-  Привет
+  {{> page-header}}
+  <section class="page-section">
+   <div class="container">
+     <h2 class="page-section-title">Сверхсрочная<br />доставка</h2>
+     {{> promo }}
+     <a href="#" class="page-section-btn">Заказать курьера</a>
+   </div>
+  </section>
 </div>

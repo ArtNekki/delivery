@@ -22,14 +22,15 @@
 @import "global/grid/grid";
 @import "global/grid";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 //components
-// @import 'components/table';
-// @import 'components/map';
-// @import 'components/marker';
-// @import 'components/custom-scroll';
-// @import 'components/link';
-// @import 'components/custom-checkbox';
-// @import 'components/tabs';
-// @import 'components/slider';
-// @import 'components/lightbox';
-// @import 'components/dropdown';
+@import "components/page-header";
+@import "components/page-section";
+@import 'components/link';
+@import "components/promo";
+@import "components/btn";

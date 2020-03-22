@@ -1,6 +1,7 @@
 // colors
 $white: #ffffff;
 $black: #000000;
+$yellow: #FFDD00;
 $gray: #eceeef;
 $gray-darken: #C3CFD6;
 $gray-dark: #373a3c;
@@ -15,7 +16,7 @@ $font-family--secondary: "Open sans";
 
 //common
 $box-shadow: 0px 3px 3px rgba($black, 0.25);
-$border-radius: 4px;
+$border-radius: 2.5vw;
 
 $enable-grid-classes:  true !default;
 
@@ -54,7 +55,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           60px !default;
+$grid-gutter-width:           30px !default;
 $grid-row-columns:            6 !default;
 
 
