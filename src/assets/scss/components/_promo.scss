@@ -1,8 +1,22 @@
 .promo {
-  margin-top: 10vw;
-  background: url("../img/svg/map.svg");
-  background-repeat: no-repeat;
-  background-size: 500px 600px;
+  position: relative;
+  padding-top: 10vw;
+  padding-bottom: 33vw;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -25vw;
+    //z-index: 1;
+    background: url("../img/svg/map.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 49%;
+    background-size: 116vw 300vw;
+  }
 
   &-info {
     position: relative;
