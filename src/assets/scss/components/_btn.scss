@@ -7,6 +7,14 @@
   text-decoration: none;
   border-radius: $border-radius;
   background-color: $yellow;
+  transition: all 0.2s ease-in;
+
+  &:hover,
+  &:active {
+    background-color: rgba($yellow, 0.8);
+    box-shadow: 0 0 15px 0 rgba($black, 0.2);
+  }
+
 
   @include media-breakpoint-up(md) {
     margin-top: 40px;

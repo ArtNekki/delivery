@@ -18,6 +18,18 @@
     background-color: $white;
   }
 
+  &--advantages {
+    margin-top: -10vw;
+
+    @include media-breakpoint-up(md) {
+      margin-top: -70px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: -50px;
+    }
+  }
+
   &-title {
     margin-top: 0;
     margin-bottom: 5vw;

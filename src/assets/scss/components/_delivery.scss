@@ -32,5 +32,12 @@
       font-size: 14px;
       line-height: 16px;
     }
+
+    a {
+      color: $black;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 }
