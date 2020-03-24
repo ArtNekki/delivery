@@ -4,6 +4,8 @@
   list-style: none;
 
   &-item {
-
+    margin: 5px 10px;
+    display: inline-block;
+    vertical-align: top;
   }
 }
