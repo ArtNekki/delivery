@@ -3,6 +3,14 @@
   padding: 0;
   list-style: none;
 
+  &-group {
+    display: inline-block;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+
   &-item {
     margin: 5px 10px;
     display: inline-block;
