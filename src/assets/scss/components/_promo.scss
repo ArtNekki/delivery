@@ -9,6 +9,10 @@
     padding-bottom: 250px;
   }
 
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 395px;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -23,6 +27,11 @@
 
     @include media-breakpoint-up(md) {
       background-size: 900px 1150px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-size: 600px 1250px;
+      background-position: 33% 57%;
     }
   }
 
@@ -41,7 +50,30 @@
     box-shadow: 0 0 20px 0 rgba($black, 0.2);
 
     @include media-breakpoint-up(md) {
-      padding: 40px 70px;
+      padding: 40px 75px;
+      border-radius: 25px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+    }
+  }
+
+  &-logo {
+    width: 25vw;
+    height: 20vw;
+
+    @include media-breakpoint-up(md) {
+      width: 18vw;
+      height: 18vw;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-right: 40px;
+      width: 300px;
+      height: 100px;
     }
   }
 
@@ -49,11 +81,16 @@
     margin: 0;
     margin-top: 4vw;
     font-size: 3.5vw;
-    line-height: 4vw;
+    line-height: 4.5vw;
 
     @include media-breakpoint-up(md) {
       margin-top: 20px;
       font-size: 22px;
+      line-height: 26px;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
     }
   }
 
@@ -67,6 +104,15 @@
     @include media-breakpoint-up(md) {
       margin-top: -35px;
       padding: 150px 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 100px;
+      padding-right: 40px;
+      padding-left: 40px;
+      padding-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
     }
 
     &::before,
@@ -108,7 +154,17 @@
       @include media-breakpoint-up(md) {
         margin-bottom: 100px;
       }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+      }
     }
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+      text-align: left;
+    }
+
   }
 
   &-item b {
@@ -119,8 +175,16 @@
 
     @include media-breakpoint-up(md) {
       margin-bottom: 30px;
-      font-size: 80px;
+      font-size: 70px;
       line-height: 40px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-right: 15px;
+      margin-bottom: 0;
+      display: inline-block;
+      vertical-align: sub;
+      font-size: 60px;
     }
   }
 
@@ -132,6 +196,14 @@
       margin-bottom: 30px;
       font-size: 30px;
       line-height: 30px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+      display: inline-block;
+      vertical-align: sub;
+      font-size: 25px;
+      line-height: 25px;
     }
   }
 }

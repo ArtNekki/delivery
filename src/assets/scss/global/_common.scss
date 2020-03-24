@@ -7,3 +7,21 @@ body {
   color: $black;
   background-color: $gray-light;
 }
+
+.u-tac {
+  text-align: center;
+}
+
+.u-mobile-hide {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+}
+
+.u-desktop-hide {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}

@@ -1,8 +1,9 @@
 .page-section {
+  margin-top: 10vw;
   text-align: center;
 
   @include media-breakpoint-up(md) {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   &--partners {
@@ -12,20 +13,33 @@
   }
 
   &--partners &-inner {
-    padding: 3vw;
+    padding: 5vw;
     border-radius: 30px;
     background-color: $white;
   }
 
   &-title {
     margin-top: 0;
+    margin-bottom: 5vw;
     text-align: center;
     font-size: 8vw;
-    line-height: 8vw;
+    line-height: 9vw;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
       font-size: 50px;
       line-height: 50px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 60px;
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+
+  &-title br {
+    @include media-breakpoint-up(md) {
+      display: none;
     }
   }
 
