@@ -4,6 +4,16 @@
   padding: 0;
   list-style: none;
 
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-item {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
 
   &-item svg {
     margin-top: 25px;
