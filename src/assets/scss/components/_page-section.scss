@@ -1,6 +1,12 @@
 .page-section {
   text-align: center;
 
+  &--partners &-inner {
+    padding: 3vw;
+    border-radius: 30px;
+    background-color: $white;
+  }
+
   &-title {
     text-align: center;
     font-size: 8vw;
