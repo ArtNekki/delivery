@@ -1,0 +1,1435 @@
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg); } }
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg); } }
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+@font-face {
+  font-family: "Kelson";
+  src: url("../fonts/kelson_light.woff2") format("woff2"), url("../fonts/kelson_light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Kelson";
+  src: url("../fonts/kelson.woff2") format("woff2"), url("../fonts/kelson.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Kelson";
+  src: url("../fonts/kelson_bold.woff2") format("woff2"), url("../fonts/kelson_bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Rb Sans";
+  src: url("../fonts/RbSans.woff2") format("woff2"), url("../fonts/RbSans.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Kelson", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 14px;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px; } }
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1170px; } }
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col {
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 100%; }
+
+.row-cols-1 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%; }
+
+.row-cols-2 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%; }
+
+.row-cols-3 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.33333%;
+      -ms-flex: 0 0 33.33333%;
+          flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
+
+.row-cols-4 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%; }
+
+.row-cols-5 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  max-width: 20%; }
+
+.row-cols-6 > * {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 16.66667%;
+      -ms-flex: 0 0 16.66667%;
+          flex: 0 0 16.66667%;
+  max-width: 16.66667%; }
+
+.col-auto {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: auto;
+  max-width: 100%; }
+
+.col-1 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 8.33333%;
+      -ms-flex: 0 0 8.33333%;
+          flex: 0 0 8.33333%;
+  max-width: 8.33333%; }
+
+.col-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 16.66667%;
+      -ms-flex: 0 0 16.66667%;
+          flex: 0 0 16.66667%;
+  max-width: 16.66667%; }
+
+.col-3 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%; }
+
+.col-4 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.33333%;
+      -ms-flex: 0 0 33.33333%;
+          flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
+
+.col-5 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 41.66667%;
+      -ms-flex: 0 0 41.66667%;
+          flex: 0 0 41.66667%;
+  max-width: 41.66667%; }
+
+.col-6 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%; }
+
+.col-7 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 58.33333%;
+      -ms-flex: 0 0 58.33333%;
+          flex: 0 0 58.33333%;
+  max-width: 58.33333%; }
+
+.col-8 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 66.66667%;
+      -ms-flex: 0 0 66.66667%;
+          flex: 0 0 66.66667%;
+  max-width: 66.66667%; }
+
+.col-9 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 75%;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  max-width: 75%; }
+
+.col-10 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 83.33333%;
+      -ms-flex: 0 0 83.33333%;
+          flex: 0 0 83.33333%;
+  max-width: 83.33333%; }
+
+.col-11 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 91.66667%;
+      -ms-flex: 0 0 91.66667%;
+          flex: 0 0 91.66667%;
+  max-width: 91.66667%; }
+
+.col-12 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%; }
+
+.offset-1 {
+  margin-left: 8.33333%; }
+
+.offset-2 {
+  margin-left: 16.66667%; }
+
+.offset-3 {
+  margin-left: 25%; }
+
+.offset-4 {
+  margin-left: 33.33333%; }
+
+.offset-5 {
+  margin-left: 41.66667%; }
+
+.offset-6 {
+  margin-left: 50%; }
+
+.offset-7 {
+  margin-left: 58.33333%; }
+
+.offset-8 {
+  margin-left: 66.66667%; }
+
+.offset-9 {
+  margin-left: 75%; }
+
+.offset-10 {
+  margin-left: 83.33333%; }
+
+.offset-11 {
+  margin-left: 91.66667%; }
+
+@media (min-width: 576px) {
+  .col-sm {
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 100%; }
+  .row-cols-sm-1 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .row-cols-sm-2 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .row-cols-sm-3 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .row-cols-sm-4 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .row-cols-sm-5 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%; }
+  .row-cols-sm-6 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-sm-auto {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+  .col-sm-1 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.33333%;
+        -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  .col-sm-2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-sm-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .col-sm-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .col-sm-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.66667%;
+        -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .col-sm-7 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.33333%;
+        -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  .col-sm-8 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.66667%;
+        -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  .col-sm-9 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+    max-width: 75%; }
+  .col-sm-10 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.33333%;
+        -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  .col-sm-11 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.66667%;
+        -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  .col-sm-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .offset-sm-0 {
+    margin-left: 0; }
+  .offset-sm-1 {
+    margin-left: 8.33333%; }
+  .offset-sm-2 {
+    margin-left: 16.66667%; }
+  .offset-sm-3 {
+    margin-left: 25%; }
+  .offset-sm-4 {
+    margin-left: 33.33333%; }
+  .offset-sm-5 {
+    margin-left: 41.66667%; }
+  .offset-sm-6 {
+    margin-left: 50%; }
+  .offset-sm-7 {
+    margin-left: 58.33333%; }
+  .offset-sm-8 {
+    margin-left: 66.66667%; }
+  .offset-sm-9 {
+    margin-left: 75%; }
+  .offset-sm-10 {
+    margin-left: 83.33333%; }
+  .offset-sm-11 {
+    margin-left: 91.66667%; } }
+
+@media (min-width: 768px) {
+  .col-md {
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 100%; }
+  .row-cols-md-1 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .row-cols-md-2 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .row-cols-md-3 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .row-cols-md-4 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .row-cols-md-5 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%; }
+  .row-cols-md-6 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-md-auto {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+  .col-md-1 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.33333%;
+        -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  .col-md-2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-md-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .col-md-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.66667%;
+        -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .col-md-7 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.33333%;
+        -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  .col-md-8 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.66667%;
+        -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  .col-md-9 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+    max-width: 75%; }
+  .col-md-10 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.33333%;
+        -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  .col-md-11 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.66667%;
+        -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  .col-md-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .offset-md-0 {
+    margin-left: 0; }
+  .offset-md-1 {
+    margin-left: 8.33333%; }
+  .offset-md-2 {
+    margin-left: 16.66667%; }
+  .offset-md-3 {
+    margin-left: 25%; }
+  .offset-md-4 {
+    margin-left: 33.33333%; }
+  .offset-md-5 {
+    margin-left: 41.66667%; }
+  .offset-md-6 {
+    margin-left: 50%; }
+  .offset-md-7 {
+    margin-left: 58.33333%; }
+  .offset-md-8 {
+    margin-left: 66.66667%; }
+  .offset-md-9 {
+    margin-left: 75%; }
+  .offset-md-10 {
+    margin-left: 83.33333%; }
+  .offset-md-11 {
+    margin-left: 91.66667%; } }
+
+@media (min-width: 992px) {
+  .col-lg {
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 100%; }
+  .row-cols-lg-1 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .row-cols-lg-2 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .row-cols-lg-3 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .row-cols-lg-4 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .row-cols-lg-5 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%; }
+  .row-cols-lg-6 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-lg-auto {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+  .col-lg-1 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.33333%;
+        -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  .col-lg-2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .col-lg-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .col-lg-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.66667%;
+        -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  .col-lg-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .col-lg-7 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.33333%;
+        -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  .col-lg-8 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.66667%;
+        -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  .col-lg-9 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+    max-width: 75%; }
+  .col-lg-10 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.33333%;
+        -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  .col-lg-11 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.66667%;
+        -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  .col-lg-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .offset-lg-0 {
+    margin-left: 0; }
+  .offset-lg-1 {
+    margin-left: 8.33333%; }
+  .offset-lg-2 {
+    margin-left: 16.66667%; }
+  .offset-lg-3 {
+    margin-left: 25%; }
+  .offset-lg-4 {
+    margin-left: 33.33333%; }
+  .offset-lg-5 {
+    margin-left: 41.66667%; }
+  .offset-lg-6 {
+    margin-left: 50%; }
+  .offset-lg-7 {
+    margin-left: 58.33333%; }
+  .offset-lg-8 {
+    margin-left: 66.66667%; }
+  .offset-lg-9 {
+    margin-left: 75%; }
+  .offset-lg-10 {
+    margin-left: 83.33333%; }
+  .offset-lg-11 {
+    margin-left: 91.66667%; } }
+
+@media (min-width: 1200px) {
+  .col-xl {
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 100%; }
+  .row-cols-xl-1 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .row-cols-xl-2 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .row-cols-xl-3 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .row-cols-xl-4 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .row-cols-xl-5 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%; }
+  .row-cols-xl-6 > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-xl-auto {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+  .col-xl-1 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.33333%;
+        -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+    max-width: 8.33333%; }
+  .col-xl-2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+    max-width: 16.66667%; }
+  .col-xl-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%; }
+  .col-xl-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  .col-xl-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.66667%;
+        -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+    max-width: 41.66667%; }
+  .col-xl-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .col-xl-7 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.33333%;
+        -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+    max-width: 58.33333%; }
+  .col-xl-8 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.66667%;
+        -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  .col-xl-9 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+    max-width: 75%; }
+  .col-xl-10 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.33333%;
+        -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+    max-width: 83.33333%; }
+  .col-xl-11 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.66667%;
+        -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+    max-width: 91.66667%; }
+  .col-xl-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%; }
+  .offset-xl-0 {
+    margin-left: 0; }
+  .offset-xl-1 {
+    margin-left: 8.33333%; }
+  .offset-xl-2 {
+    margin-left: 16.66667%; }
+  .offset-xl-3 {
+    margin-left: 25%; }
+  .offset-xl-4 {
+    margin-left: 33.33333%; }
+  .offset-xl-5 {
+    margin-left: 41.66667%; }
+  .offset-xl-6 {
+    margin-left: 50%; }
+  .offset-xl-7 {
+    margin-left: 58.33333%; }
+  .offset-xl-8 {
+    margin-left: 66.66667%; }
+  .offset-xl-9 {
+    margin-left: 75%; }
+  .offset-xl-10 {
+    margin-left: 83.33333%; }
+  .offset-xl-11 {
+    margin-left: 91.66667%; } }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.page-header-inner {
+  position: relative;
+  margin-top: 15px;
+  height: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-header-inner::before {
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: calc(100% - 30px);
+    -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2); }
+
+.page-header-logo {
+  margin-left: 15px; }
+
+.page-header-select {
+  margin-right: 15px; }
+
+.page-section {
+  text-align: center; }
+  .page-section--partners .page-section-inner {
+    padding: 3vw;
+    border-radius: 30px;
+    background-color: #ffffff; }
+  .page-section-title {
+    text-align: center;
+    font-size: 8vw;
+    line-height: 8vw; }
+  .page-section-content {
+    position: relative; }
+  .page-section-btn {
+    display: inline-block;
+    margin-top: 8vw;
+    padding: 5.3vw 6vw;
+    color: #000000;
+    font-size: 5.5vw;
+    text-decoration: none;
+    border-radius: 2.5vw;
+    background-color: #FFDD00; }
+
+.link {
+  position: relative;
+  display: inline-block;
+  font-family: "Kelson", -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 14px;
+  color: #72C2E0;
+  text-decoration: none; }
+  .link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #72C2E0; }
+  .link:hover::before {
+    opacity: 0; }
+  .link--no-underline::before {
+    display: none; }
+  .link--no-underline:hover {
+    color: #93d0e7; }
+
+.banner {
+  position: relative;
+  text-align: center; }
+  .banner-text {
+    position: absolute;
+    top: 22vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
+    font-size: 3.4vw;
+    line-height: 4vw;
+    font-weight: 500; }
+
+.delivery {
+  padding: 0 10px; }
+  .delivery-title {
+    margin: 4vw 0 6vw 0;
+    font-size: 4.5vw;
+    line-height: 4.5vw; }
+  .delivery-content {
+    border-radius: 4vw;
+    background-color: #cccccc; }
+  .delivery-content {
+    padding: 2vw 5vw 4vw 5vw; }
+  .delivery-text {
+    margin-top: 5vw;
+    font-size: 2.5vw; }
+
+.promo {
+  position: relative;
+  padding-top: 10vw;
+  padding-bottom: 33vw;
+  overflow: hidden; }
+  .promo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -25vw;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1388.94 1855.07'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bopacity:0.74%3B%7D.cls-2%2C.cls-4%7Bfill:%23fff%3B%7D.cls-2%7Bstroke:%23ccc%3Bstroke-miterlimit:10%3Bstroke-width:2.83px%3B%7D.cls-3%2C.cls-5%7Bfill:%23ffdc00%3B%7D.cls-3%2C.cls-4%7Bstroke:%23000%3Bstroke-linecap:round%3Bstroke-linejoin:round%3Bstroke-width:3.17px%3B%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='%D0%A1%D0%BB%D0%BE%D0%B9_1' data-name='%D0%A1%D0%BB%D0%BE%D0%B9 1'%3E%3Cg class='cls-1'%3E%3Cpath class='cls-2' d='M148.91%2C1529.55c8.81-.4%2C15.47%2C4.7%2C21.93%2C9.43%2C3.51%2C2.57%2C6.62%2C4.33%2C11%2C4.15%2C15.3-.63%2C30.63.92%2C45.94-1%2C6.93-.88%2C12.09%2C2.8%2C16%2C8.3%2C1.1%2C3.51%2C1.67%2C7-.16%2C10.47-1.58%2C3%2C.77%2C4.87%2C2%2C7.12%2C1.48%2C2.68%2C3.91%2C4.9.36%2C8.47s-4.89%2C4.18-7.4-.31c-2.93-5.24-13.14-8.62-18.3-6.06-4.46%2C2.22-5.84%2C11.85-2.31%2C16.58a17.55%2C17.55%2C0%2C0%2C0%2C4.38%2C4.26c2.11%2C1.38%2C3.45%2C2.8%2C2%2C5.5a2.93%2C2.93%2C0%2C0%2C0%2C1.05%2C3.8c1.61%2C1.14%2C2.58-.44%2C3.58-1.37a14.79%2C14.79%2C0%2C0%2C0%2C3.08-3.76c.75-1.39%2C1.77-3.22%2C3.71-2%2C1.64%2C1%2C1.21%2C2.88.54%2C4.44-2.07%2C4.81-4.11%2C9.65-8%2C13.37.12%2C3.6-.4%2C6.74-4%2C8.86-2%2C1.17-3.21%2C3.22-3.8%2C5.93a15.08%2C15.08%2C0%2C0%2C1-4%2C7.18c-1.55%2C1.58-2.77%2C3.61.57%2C5.28%2C1.65.82%2C4%2C3.13%2C1.58%2C4.75-1.54%2C1.06-4.22%2C5.44-7%2C.32-1.3-2.36-7.68-1.21-9.63%2C1.74-1.73%2C2.6-1.72%2C4.69%2C2.12%2C6.44%2C4.14%2C1.9%2C4%2C6.12.25%2C8.76-1.32.94-2.8%2C1.72-4%2C2.76-4.33%2C3.7-8.33%2C4.77-12.08-.82-.87-1.3-2.25-2.59-4.09-1-1.64%2C1.41-2.14%2C3-.61%2C4.77.8.94%2C1.16%2C2.58%2C2%2C3%2C4.44%2C2%2C4.31%2C5.89%2C4.47%2C9.73q.54%2C0%2C.51.51c1.63%2C2.61%2C3.47.78%2C5.29.3%2C1.14-.31%2C2.62-.93%2C3.4.17%2C1.16%2C1.61-.59%2C2.52-1.49%2C3.47a40%2C40%2C0%2C0%2C1-12.11%2C8.42c-2.45%2C5-6.09%2C10%2C2.07%2C13.43%2C1.49.62%2C1.74%2C2.19.62%2C3.63s-2.44%2C2.47-4.2%2C1.77a15.67%2C15.67%2C0%2C0%2C1-3.45-2.48c-4.95-3.88-10.74-2.68-12.57%2C3.41-2.18%2C7.23-7.9%2C14.55-1.17%2C22.44.85%2C1%2C.75%2C3.56-.38%2C4-5.71%2C2.1-3.09%2C8.58-6.63%2C11.91-2.13%2C2-.43%2C3.88%2C2%2C5.16%2C4.18%2C2.25%2C5.36%2C13.49%2C1.6%2C16.4-2.64%2C2.05-6.44%2C2.26-8.14-.74-1.48-2.62-8.13-4-3.12-9.15.94-1-.92-.39-1.38-.68-3.09-2-7.23-2.73-7.91-8.15-3.63%2C5.1-6.73%2C6.45-11.65%2C2.52-2.55-2-7-3.81-10.62-.27-.52.51-1.74%2C1.16-2%2C1-6-5.2-6.73%2C2.34-8.3%2C4.34-2%2C2.61-4.26%2C5.55-6.38%2C8-2.42%2C2.74-8%2C1.62-9.86-.91-3.88-5.25-9.71-5.8-14.75-8.16-2.43-1.14-4.46-2.22-4.52-5.08s1.76-4.44%2C4.38-5.15c1.58-.43%2C3.88-.8%2C3.16-2.82-1-2.87-3.36-.82-4.53%2C0-4.3%2C2.92-9.14%2C1-13.67%2C1.8-5.86%2C1-8.46%2C5.4-11.77%2C9.09-1.47%2C1.64-.45%2C3.22%2C2%2C2.62%2C6-1.46%2C10.44%2C2.8%2C13.63%2C5.88s3.81%2C1.15%2C5.39-.25%2C1.72-5%2C4.76-3.4.83%2C4.62%2C0%2C6.44c-1.69%2C3.6-.61%2C5.28%2C2.76%2C6.38%2C1.94.64%2C3.8%2C1.88%2C5.76%2C2%2C5%2C.35%2C5.91%2C3.36%2C5.6%2C7.53s0%2C8.36%2C2%2C12c2.94%2C5.35-.19%2C7-4.32%2C7.12-5.22.09-6.94%2C1.2-7.3%2C7.15-.38%2C6.44-.58%2C13.1-1.75%2C19.43-1.26%2C6.84-4.09%2C13.43-5.56%2C20.35-.51%2C2.41-2.82%2C3.33-5.18%2C3.66-.08-.18-.11-.43-.25-.56-6.12-5.91-9.07-12.79-7.61-21.54.58-3.44-2.39-5.88-4.74-8.2-6.39-6.33-13.09-12.4-16.9-20.83-3-6.56-4.37-12.57.63-19.41%2C3.3-4.51%2C7.26-9.69%2C6.08-16.21-1.24-6.81-12.17-16.21-19.8-16.67-4.39-.27-8.67-.36-13.15%2C1.66-5.49%2C2.48-8.84-2.69-12-6.1s1.08-5.12%2C2.84-6.66c11.65-10.2%2C23.41-20.28%2C37.18-27.66a14.34%2C14.34%2C0%2C0%2C1%2C12.91-.75c7.81%2C3.13%2C13.47-.21%2C14.44-8.48.31-2.66.83-5%2C3.49-5.89s5.62-.81%2C7.93%2C1.66c3.53%2C3.77%2C7.35%2C4%2C11.29.55a10.77%2C10.77%2C0%2C0%2C1%2C7.93-2.66%2C51.19%2C51.19%2C0%2C0%2C0%2C5.54%2C0c4.36-.26%2C9.76%2C1.58%2C12.4-3.1s-2.78-7.39-5-11.66c3.4%2C0%2C6.23-.21%2C9%2C0%2C6.66.61%2C10.48-2.44%2C13.39-8.35%2C2.42-4.92%2C1-7.6-3-10.12-5.34-3.32-8.84-16.43-5.67-21.64%2C1.22-2%2C3.48-2.73%2C5.78-3.08%2C3.3-.49%2C4.33-3%2C3-5.36-1.69-3-1-5.18%2C1.25-6.92%2C7.53-5.78%2C6.59-13.23%2C3.58-20.47-3.16-7.63-2.54-13.88%2C4-19.2%2C2.28-1.86%2C2.88-4.24%2C2.81-7.08-.12-5.33.15-10.68-.08-16-.2-4.89.14-9.29%2C4.48-12.61%2C2.64-2%2C1.71-4.72.44-7.24C150.32%2C1538.75%2C148.29%2C1534.5%2C148.91%2C1529.55Z'/%3E%3Cpath class='cls-2' d='M1386.15%2C249.15c.39%2C4.27%2C1.71%2C8.44%2C1.29%2C12.81-.54%2C5.62-3.58%2C8.66-9.22%2C8.24-4-.3-6.74.92-8.42%2C4.59-4.07%2C8.92-10%2C17-12.62%2C26.54-3%2C10.93-7.87%2C21-13.19%2C30.78-4.09%2C7.53-9.47%2C14.35-13.7%2C21.81-3.79%2C6.68-3.93%2C14.5-5.62%2C21.85a51.58%2C51.58%2C0%2C0%2C0-.17%2C23.51c1%2C4.49-.51%2C8.38-3.58%2C12.37-6.28%2C8.15-7.62%2C18.56-9.37%2C28.28a72%2C72%2C0%2C0%2C0-.32%2C25.65c.77%2C4.19%2C1.15%2C8.31%2C3.72%2C12.15%2C2.8%2C4.21.9%2C9.57%2C1.91%2C14.4%2C1.18%2C5.64-4.31%2C8.59-7.54%2C11-13.73%2C10.4-17.31%2C25-19%2C40.75-.8%2C7.54-1.8%2C15.07-1.3%2C22.68.13%2C2-.11%2C4.39.82%2C6%2C5.57%2C9.66%2C1.25%2C17.81-3.67%2C25.82-2.67%2C4.35-5.47%2C8.62-8.57%2C12.74-4.19%2C5.57-7.59%2C11.71-7.19%2C19.19a11.5%2C11.5%2C0%2C0%2C1-3.1%2C8.5c-9.5%2C10-13.71%2C22.87-19.06%2C35.11-4.47%2C10.22-9.11%2C20.18-9.7%2C31.8-.47%2C9.2-8.23%2C15.31-13.4%2C22.3-3.94%2C5.33-7.85%2C10.38-9.06%2C17.11-.79%2C4.37-4.37%2C7-7.66%2C9.26-8.3%2C5.8-14.06%2C13.6-18.66%2C22.37-1.22%2C2.32-3%2C4.64-2.8%2C7.4%2C1.22%2C13-7.09%2C22-14.07%2C31.09-5.08%2C6.62-6.36%2C14.37-9.3%2C21.61-1.06%2C2.61-2.08%2C4.77-4.42%2C6.27a49.43%2C49.43%2C0%2C0%2C0-18.09%2C21%2C64.21%2C64.21%2C0%2C0%2C1-15.93%2C20.69c-9.32%2C8.14-18.31%2C17.07-16.07%2C31.72%2C1.49%2C9.77-1.22%2C18-9.24%2C25.21-9.92%2C9-15.61%2C21.42-22.57%2C32.75a6.07%2C6.07%2C0%2C0%2C0%2C.29%2C7c1.89%2C2.87%2C1.65%2C5.31-1.35%2C7.37a13.92%2C13.92%2C0%2C0%2C0-6.46%2C12.52c.09%2C2.72-1.2%2C4.6-3.42%2C6.12-3.67%2C2.51-4.4%2C5.68-1.74%2C9.47a19.18%2C19.18%2C0%2C0%2C1%2C1.6%2C3.32%2C4.07%2C4.07%2C0%2C0%2C1-1%2C5c-1.53%2C1.33-3.09.38-4.48-.56s-3-2.11-4.49-3.22-3-3.15-5.36-2a5.72%2C5.72%2C0%2C0%2C0-3%2C5.67c.15%2C4.38.4%2C8.46-4.41%2C11-1.86%2C1-1.77%2C3.37.44%2C4.44%2C6.83%2C3.29%2C3.54%2C6-.53%2C8.26-8.84%2C4.94-12.73%2C12.32-11.61%2C22.34a13.31%2C13.31%2C0%2C0%2C0%2C1.09%2C4.74c2.54%2C4.76%2C3.77%2C8.83-2%2C12.57-2.77%2C1.81-1.46%2C5.71-1.71%2C8.72-6.32-8.08-14.75-8.4-23.85-6.62a16.79%2C16.79%2C0%2C0%2C1-6.69.18c-4-.89-7.39-1-10.75%2C2.17-2.81%2C2.66-6.75%2C2.13-8.26-1.42-1.15-2.71-4-6.48%2C1.33-9.28%2C6-3.12%2C9.49-15.2%2C6.84-21.38-2.23-5.22-1.91-10.86-2.72-16.29-.54-3.72-2.08-7.05-2.81-10.65-.52-2.56-2.5-2.91-4.67-3.06-4.17-.29-8.1%2C1.07-12.13%2C1.72-1.62.26-3.35%2C1-4.62-.37-1.58-1.76%2C0-3.44.64-5.08a4.7%2C4.7%2C0%2C0%2C1%2C.88-1.62c9.23-9.06%2C9.88-21.59%2C13.3-33%2C1.64-5.49%2C3-11.09%2C4.68-16.55%2C1.22-3.85.6-6.62-3-8.89-7.44-4.67-14.76-9.53-22.05-14.45-5.13-3.46-10.87-3.11-16.61-3.14-2.19%2C0-4.85.43-5.92-2.17s1.23-4.15%2C2.79-5.63c4-3.79%2C9.41-6.73%2C12-11.29%2C4-7%2C12.65-11.34%2C11.8-21.29-.39-4.54%2C3.7-4.06%2C6.79-3.22%2C3.75%2C1%2C7.36%2C2.56%2C11.13%2C3.47%2C6.06%2C1.47%2C8.48-.51%2C7.2-6.51-1.1-5.12.44-6.9%2C5.36-7.95%2C5.45-1.17%2C11.64-2.5%2C9-11-.6-2%2C1.65-3.6%2C3.54-4.57%2C2.36-1.22%2C4.72-2.5%2C7.18-3.5%2C4.66-1.89%2C6.71-4.91%2C5.49-10.1-1.43-6.09-.78-11%2C6.42-13.69%2C3.81-1.42%2C7.25-4.65%2C10-7.8%2C2.52-2.86%2C2-6.6-1-9.34a15%2C15%2C0%2C0%2C0-5.15-3.27c-4.73-1.57-6.81-5-5.88-9.44%2C1.68-8.1.11-15.87-1.37-23.69-.77-4-.11-6.81%2C4.11-8.84%2C6.15-3%2C10.15-8.78%2C15.34-13.07%2C3.74-3.09.82-17.88-3.77-19.91-4.13-1.83-2.6-2.94-.12-4.09%2C6.48-3%2C10.47-9.12%2C16.32-12.94%2C3.43-2.23%2C3.15-5.53%2C1.13-8.62-1.56-2.39-3.07-5.08-5.28-6.73-8-6-6.11-13.92-1.86-21.38%2C3.58-6.27%2C4.88-12%2C1.11-18.45a10.41%2C10.41%2C0%2C0%2C1-.55-9.47%2C30.63%2C30.63%2C0%2C0%2C0%2C1.93-10.82c.15-7.08%2C14.18-21%2C20.77-19.29%2C10%2C2.68%2C20.57%2C3.1%2C30.24%2C7.11a6.61%2C6.61%2C0%2C0%2C1%2C2.17%2C1.14c2.84%2C2.8%2C6.21%2C4.6%2C9.92%2C2.64%2C3.45-1.82%2C1.6-5.38%2C1.54-8.34-.11-6.39%2C6.65-13.08%2C13.13-13.1%2C5.12%2C0%2C10.2%2C0%2C15.25-1.35%2C5.33-1.41%2C6.42-4.48%2C4.33-9.18-.75-1.68-1.67-3.29-2.55-4.9-2.25-4.14-1.23-7.37%2C3.19-8.76%2C10.17-3.2%2C19.28-7.86%2C25.91-16.55a4.58%2C4.58%2C0%2C0%2C1%2C2.46-1.76c9.57-1.52%2C10.25-8.58%2C10.25-16.14%2C0-11.82%2C1-23.39%2C9-33%2C1.44-1.73%2C2.76-3.85%2C4.64-4.86%2C6.06-3.26%2C9.34-6.81%2C7.48-14.79-1.23-5.26%2C5.56-6.19%2C9.42-7.84%2C3.7-1.58%2C7.92-1.89%2C11.82-3%2C3-.88%2C5.94-2.14%2C6.62-5.66s-1.55-5.25-4.14-6.83a37.59%2C37.59%2C0%2C0%2C1-4.53-3.18c-5-4.18-5.57-9.15-1.07-13.71%2C3.5-3.55%2C3-6.48-.2-9.4-3.06-2.78-4-6.22-5-10.12-2.3-8.85-6.78-17-8-26.32-.42-3.21-2.76-5.85-5.95-7.43-5.46-2.7-8.13-7.56-8.76-13.26-.6-5.51-3.26-9.71-7-13.24a24.18%2C24.18%2C0%2C0%2C1-8-14.77c-.73-5.41-2.76-9.6-8.23-11.89-7.33-3.07-11.5-8.64-12.56-16.77-1-7.37-3.95-13.68-10.89-17.78-2.88-1.69-6-3.62-7.86-6.74-2.25-7.88-.49-11.81%2C7.3-15.8a23.16%2C23.16%2C0%2C0%2C0%2C6.51-4.49c2.84-3%2C5.71-5.69%2C10.45-3.23%2C1.58.82%2C3.63.05%2C5.26-1%2C8.21-5.27%2C15.92-11.09%2C21-19.67a7.39%2C7.39%2C0%2C0%2C0%2C.15-8.1c-2.88-4.92-1.5-8.23%2C3.85-10.61s11.94-3.44%2C12.86-11.26c.18-1.57%2C3-1.74%2C4.66-2.48a8.67%2C8.67%2C0%2C0%2C0%2C3.75-13.17%2C9.34%2C9.34%2C0%2C0%2C1-1.78-4.44c-.81-7.36-3.94-10.12-11.48-10.34-.62%2C0-1.23%2C0-1.85%2C0-2.53%2C0-5.39-.24-6.37-2.67-.75-1.86%2C1.37-3.49%2C2.79-5a34.72%2C34.72%2C0%2C0%2C0%2C4.19-5.25c3.3-5.15%2C1.76-8.53-4.21-9.29-4.24-.54-6.8-3.11-9.14-6.47-5.75-8.26-17.71-8.44-24.19-.63a67.63%2C67.63%2C0%2C0%2C1-5.17%2C5.27c-3.86%2C3.76-7.79%2C4.39-12.5%2C1.07s-10.21-6-15.07-9.32a22.74%2C22.74%2C0%2C0%2C0-19.45-3c-5%2C1.43-10%2C4.15-14.87%2C6.64a39.34%2C39.34%2C0%2C0%2C1-3.67%2C2.18%2C9.81%2C9.81%2C0%2C0%2C1-9.8-1.72c-2-1.72.38-4.9%2C1.45-7.23%2C3.48-7.52%2C9.57-12.52%2C16.69-16.29%2C3.52-1.86%2C6.57-3.83%2C8.15-7.76%2C2.6-6.47%2C1.37-9.12-5.33-11-3.45-1-7-1.58-9-5.45-1.56-2.9-5.09-3-8.26-2.92-5.35.16-10-1.34-13.61-5.56a13.09%2C13.09%2C0%2C0%2C0-8.59-4.29c-10.43-1.2-12.54-9.31-14.13-17.4-1.44-7.27%2C3.1-11.66%2C8.7-15.45%2C8.75-5.91%2C17.52-11.79%2C25.88-18.28%2C4.06-3.14%2C5.71-8.13%2C10.24-11%2C3-1.87%2C4.26-2.58%2C6.94.13%2C5.71%2C5.78%2C7.33%2C5.68%2C14.11.39%2C1.53-1.19%2C2.92-.56%2C4.56-.45%2C6.27.45%2C12.53%2C1.41%2C18.77-1%2C5.22-2%2C9-5.06%2C11.37-10.26%2C6.37-13.66%2C17.74-21.82%2C31.37-27.23%2C5.58-2.22%2C7.47-6%2C4.06-11.59-3.82-6.31-2.29-10.88%2C2-15.94%2C2.62-3.1%2C4.84-6.5%2C8.08-9s6.12-5.11%2C10.65-1.55c2.33%2C1.82%2C6.35%2C1.7%2C8.85.05%2C4.94-3.24%2C8.18-.84%2C11.19%2C2.47%2C1.79%2C2%2C3.51%2C4%2C5.83%2C5.3%2C5.16%2C2.83%2C7.88%2C5.71%2C2.89%2C11.4-2.23%2C2.54-1.65%2C6.12%2C1%2C8.9%2C3.83%2C4%2C7.57%2C8.06%2C12.49%2C10.72%2C2.88%2C1.55%2C3.81%2C3.79%2C3.95%2C7%2C.6%2C13%2C9%2C17.65%2C19.74%2C10.61%2C4.2-2.75%2C8.41-2.69%2C12.89-2.65%2C3.24%2C0%2C5.27%2C1.69%2C6.59%2C4.57%2C1.42%2C3.09-.34%2C5-2.22%2C7-6.83%2C7.2-14.33%2C13.78-18.29%2C23.33-3.35%2C8.08-.9%2C12.83%2C7.79%2C13%2C6%2C.15%2C9.5%2C4.36%2C13.51%2C7.64%2C3.61%2C3%2C6.56%2C6.36%2C11.49%2C7.79a9.52%2C9.52%2C0%2C0%2C1%2C6.68%2C6.41c1.19%2C4.21%2C5.76%2C4.15%2C9.32%2C4%2C4.34-.23%2C7.18%2C1.15%2C8.22%2C5.38s-1.61%2C6.52-5%2C8c-4%2C1.75-7%2C5.69-6.19%2C8.94%2C1.44%2C6-3.37%2C6.52-5.73%2C9.4-6.63%2C8.06-15%2C13.29-24.51%2C17.37-4.43%2C1.91-4.49%2C6.85-4.79%2C11.17-.27%2C3.93%2C2.79%2C4.18%2C5.32%2C5.53a146.31%2C146.31%2C0%2C0%2C1%2C13.93%2C8.8c2.11%2C1.46%2C2.83%2C3.91%2C2.86%2C6.5.11%2C7.42%2C0%2C14.65-5.82%2C20.55-2.85%2C2.9-2.28%2C7.27-.77%2C10.42%2C1.21%2C2.53%2C4.85%2C1.7%2C7.26.73%2C1.9-.75%2C2.62-.48%2C3.07%2C1.31.82%2C3.29%2C3.53%2C3.26%2C5.92%2C2.93%2C11.12-1.5%2C22.91-.45%2C31.51-10.53%2C4-4.76%2C11-4%2C15.25-.68C1369%2C242.4%2C1378.57%2C243.68%2C1386.15%2C249.15Z'/%3E%3Cpath class='cls-2' d='M1138.77%2C337.68c.62%2C3.53%2C3.79%2C5%2C6.22%2C6.42%2C7.17%2C4.17%2C10.11%2C10.73%2C11.2%2C18.28%2C1.12%2C7.83%2C5%2C13.35%2C12.22%2C16.31%2C5.69%2C2.35%2C7.77%2C6.72%2C8.55%2C12.35a23.53%2C23.53%2C0%2C0%2C0%2C7.71%2C14.25c3.78%2C3.54%2C6.51%2C7.66%2C7.23%2C13.15.77%2C5.84%2C3.51%2C10.85%2C9.06%2C13.76a11.66%2C11.66%2C0%2C0%2C1%2C6.46%2C9.89c.51%2C10.31%2C7.58%2C18.61%2C8.29%2C28.8.07%2C1%2C1.17%2C2.21%2C2.1%2C2.93%2C3.51%2C2.71%2C3.39%2C4.93.47%2C8.44-3.62%2C4.35-2.15%2C12.33%2C2.14%2C16.27%2C1.19%2C1.1%2C2.72%2C1.84%2C3.94%2C2.92%2C1.56%2C1.4%2C5%2C1.86%2C4%2C4.68-.79%2C2.28-3.42%2C3.31-5.94%2C3.78a58.76%2C58.76%2C0%2C0%2C0-15.7%2C4.83c-5.26%2C2.62-7%2C6.73-5.73%2C12.13.52%2C2.27.67%2C3.9-1.62%2C5.18-14.25%2C8-18%2C21.43-18.67%2C36.37-.13%2C2.87.17%2C5.77-.11%2C8.61-.58%2C5.76-2%2C11-9%2C12a7.18%2C7.18%2C0%2C0%2C0-4.5%2C3.05c-5.91%2C7.52-13.76%2C11.87-22.7%2C14.89-7%2C2.36-8.75%2C7.77-5.45%2C14.47%2C3.83%2C7.77%2C3.81%2C7.68-4.67%2C9.75a38.75%2C38.75%2C0%2C0%2C1-9.16.71c-11.46.07-17.32%2C6.28-16.64%2C17.78.08%2C1.43.77%2C2.92-1%2C3.7-1.32.57-2.23-.25-3.25-1a25.69%2C25.69%2C0%2C0%2C0-17-5.78c-4.57.1-8.74-2.1-13-3.52-7.36-2.45-14-1-19.5%2C3.88-3.22%2C2.84-5.44%2C1.65-7.06-.67-2-2.94-7.55-4.63-4.14-10.09%2C5.52-8.83%2C2.92-15-6.82-18.08-13.49-4.3-25.65-11.3-37.49-19A51.55%2C51.55%2C0%2C0%2C0%2C972%2C590.3c-4.62-.12-7.94%2C2.83-10.32%2C6.74-4.43%2C7.28-6.86%2C8.21-15.09%2C5.94a29.93%2C29.93%2C0%2C0%2C1-4.17-1.05c-9-4-17.37-5.11-26.22%2C1.65-5.19%2C4-9.09%2C1.07-10.25-5.74-.84-5-3.36-9.28-6.07-13.33-3-4.54-10.6-4.49-13.6.58-3.9%2C6.6-9.37%2C10.09-16.2%2C13-5.47%2C2.35-9.35%2C7.72-14.85%2C10.62-4%2C2.12-6.89%2C2.2-10.24-1.38-5.55-5.93-11.75-6.33-18.89-2.4-2.91%2C1.61-2.6%2C3.92-2%2C6.33%2C1.64%2C6.44%2C0%2C11.27-5.45%2C15-2.36%2C1.61-5%2C2.79-7.32%2C4.51-5.47%2C4.11-9%2C9-8.49%2C16.57.44%2C6.12-2.9%2C11.75-4.29%2C17.66a2.61%2C2.61%2C0%2C0%2C1-3.46%2C1.78c-4.5-1.19-7.75.84-11.08%2C3.64-5%2C4.25-10.33%2C1.29-15-.92s-7.51-1.7-11.3%2C2c-7.16%2C7-16.53%2C10.56-25.87%2C13.54-5%2C1.59-8.34%2C4-10%2C8.84-.75%2C2.18-1.56%2C4.4-4.68%2C3.64-6.69-1.62-11.85%2C1.72-17%2C5.23-5.76%2C3.92-9%2C3.66-12.63-2.52-3.15-5.41-5.87-5.66-11.28-3.06-5.14%2C2.48-10.52%2C5.08-16.68%2C5.32a8.64%2C8.64%2C0%2C0%2C0-8%2C6c-2.74%2C9.39-11.13%2C14.23-16.61%2C21.38-1.74%2C2.28-5.08%2C2.32-7.86%2C3.06-6.32%2C1.68-11.81%2C3.24-19%2C.61-8.34-3-13.38%2C4.88-10%2C13.75%2C3.54%2C9.26%2C3.31%2C9.17-6.1%2C11.9-10.26%2C3-20.62%2C4.11-31.23%2C5.12-6.51.62-10.07-.74-14.53-4.58s-10.91-2.26-16.38-3c-8.15-1.16-12.09-4.44-11.77-12.64.07-1.64.06-3.28.09-4.92%2C5.47-.62%2C8.91-5.52%2C7-11.23-1-3-1.11-4.43%2C1.87-5.61%2C4.08-1.6%2C3.8-4%2C1.47-7.15-1.94-2.63-2.59-5.61.31-8.28%2C1.29-1.2%2C2-2.74%2C1.25-4.43-1-2.21-3.2-1.15-4.89-1.5-2.26-.48-5.81%2C2.57-6.48-.53-.59-2.72%2C3.41-3.58%2C5.93-4.67a18.64%2C18.64%2C0%2C0%2C0%2C5.68-3.45c5.53-5.45%2C2.29-15.32-6.41-19.79-2.54-1.3-5.24-2.48-8.16-2.33a4.79%2C4.79%2C0%2C0%2C1-5-5.53c1.76-5.5.64-12.06%2C5.46-16.48a6.49%2C6.49%2C0%2C0%2C0%2C1.68-7.37c-1.69-4.27.73-6.5%2C2.75-9.73a56.77%2C56.77%2C0%2C0%2C1%2C14.64-15.81c2.66-2%2C5-3.19%2C8.29-3%2C2.86.16%2C5.78-.28%2C8.6.09%2C10.34%2C1.34%2C19.29-.87%2C26.28-9.15a9.66%2C9.66%2C0%2C0%2C1%2C7.67-3.23c15.51-.08%2C26.54-14.88%2C22.7-31.44-1.43-6.18-6.59-11.54-10.29-17.12-2.17-3.27-3.36-6.17-1.35-10.14s1.43-8.31-.12-12.51c-3.27-8.9-1.7-11.23%2C7.4-11.28%2C1.24%2C0%2C2.47%2C0%2C3.7%2C0%2C9-.23%2C12.55-4.6%2C10.8-13.43a24.49%2C24.49%2C0%2C0%2C0-.83-2.31c-2.62-8.76-1.31-11.31%2C7.58-12.41%2C4.47-.55%2C5.27-2.48%2C3.93-6-1.22-3.24-3.77-7.19-.68-9.6%2C4.29-3.35%2C7.94-8.64%2C14.51-8%2C4%2C.37%2C7%2C0%2C9.85-4.06a9.49%2C9.49%2C0%2C0%2C1%2C10.95-3.3c6.34%2C2.18%2C13%2C1%2C19.49%2C1.37%2C4.31.25%2C6-1.42%2C5.63-5.68-.3-3.81-.5-7.49%2C2.35-10.92%2C6.83-8.23%2C13.37-6.85%2C22.86-1.74a15.3%2C15.3%2C0%2C0%2C0%2C11.72%2C1.69c5.28-1.35%2C8.83-.31%2C11.9%2C5.23%2C4.83%2C8.7%2C12.18%2C15.09%2C22.76%2C16.39%2C2.76.34%2C4.41%2C2.24%2C5.49%2C4.43%2C1.17%2C2.37-.15%2C4.38-2%2C5.91-3.6%2C3-4.8%2C5.83-.71%2C9.55%2C1.42%2C1.3%2C2.27%2C4.27-1.14%2C4.42-4.69.22-6.26%2C3.5-6.35%2C6.8-.1%2C3.94%2C3.66%2C5.75%2C7%2C6.7%2C3.88%2C1.09%2C7.89%2C0%2C9.37-3.78s3.68-4.45%2C7-4.59c6-.25%2C9.7-5.07%2C14-8.16%2C3.77-2.69%2C6.6-2.8%2C9.69-.2%2C3.52%2C3%2C6.07%2C2.88%2C9.34-.62%2C3.07-3.3%2C7.67-4.5%2C11.84-6.18%2C1.17-.47%2C2.43-1.06%2C3.31.19a3.07%2C3.07%2C0%2C0%2C1-.27%2C4c-.95%2C1.05-2.26%2C1.77-3.2%2C2.83a7%2C7%2C0%2C0%2C0-1.71%2C6.85c.86%2C2.9%2C3.4%2C2.47%2C5.6%2C2.55%2C2%2C.08%2C4.27-.42%2C6.13.19%2C4.59%2C1.5%2C10.38%2C1%2C10.57%2C9%2C.11%2C4.4%2C3.5%2C9%2C9.58%2C8.07%2C6.6-1%2C11.62%2C4.49%2C18.32%2C3.93%2C5.46-.45%2C9.15-1.75%2C11.56-7.08%2C2.15-4.76%2C5.28-9.11%2C8.28-13.44%2C1.85-2.67%2C3.84-3.95%2C6.55-.15%2C2%2C2.75%2C4.42%2C5.17%2C6.45%2C8%2C7%2C9.73%2C17.46%2C9.16%2C27.79%2C8.46%2C1.61-.11%2C3.22-.92%2C4.8-.82%2C6.21.37%2C10.32%2C0%2C11.48-8.4%2C1.32-9.57%2C11.15-13.67%2C20.6-10.7.39.12.85.44%2C1.16.33%2C6.93-2.4%2C13.47.3%2C20.16%2C1.37%2C3.33.53%2C5.68-.86%2C5.48-4.72a6.17%2C6.17%2C0%2C0%2C1%2C2.75-5.84c4.66-3.06%2C6.8-9.11%2C12.89-10.56%2C2.18-.52%2C2.76-2.89%2C2.81-5%2C.22-9.31%2C7.24-15.3%2C12.79-20.54%2C4.7-4.43%2C9.26-8.79%2C12.86-14.06a58.67%2C58.67%2C0%2C0%2C0%2C5.91-11.33c2-5-1.66-8-5.15-9.9-4.79-2.65-6.33-5.81-4.65-11%2C.93-2.91.48-6-.1-9.11-1.51-8.09-.82-15.61%2C5.1-22.23a14.67%2C14.67%2C0%2C0%2C0%2C4.08-11.27%2C13.7%2C13.7%2C0%2C0%2C1%2C0-3.07c.62-4.64.85-10.61%2C5.47-12.08s10.07.38%2C14.24%2C3.49c6%2C4.49%2C8.14%2C4.7%2C13.19-.85%2C2.12-2.33%2C3.72-2.25%2C6.27-.95a49.93%2C49.93%2C0%2C0%2C1%2C13.93%2C10.73c4%2C4.25%2C8.24%2C2.72%2C13.34%2C1.48%2C8-2%2C13-7.33%2C19-11.84C1134.94%2C343%2C1137.55%2C341.2%2C1138.77%2C337.68Z'/%3E%3Cpath class='cls-2' d='M515.91%2C737.72c-.3%2C2.23-.56%2C4.46-.92%2C6.68-1.32%2C8.28%2C5.43%2C14.94%2C13.83%2C15.4%2C7.4.4%2C15.53%2C0%2C20.84%2C7.48%2C3%2C4.2%2C7.5%2C6.71%2C12.27%2C8.94%2C4%2C1.88%2C8.81%2C4%2C4.94%2C10.59-2.57%2C4.35%2C2.37%2C7.05%2C3.81%2C10.55%2C1.19%2C2.9-5.24%2C5.89-2.12%2C10.35%2C2%2C2.9%2C4%2C5.56%2C8.25%2C5.27%2C5.21-.36%2C10.09%2C1.19%2C14.83%2C3.36%2C5.35%2C2.44%2C10.24%2C2.35%2C14.21-2.89%2C4.73-6.24%2C11.6-5%2C17.56-3.51%2C10.24%2C2.52%2C16.67%2C18.36%2C12.07%2C27.82a5.5%2C5.5%2C0%2C0%2C1-5.34%2C3.43c-5.66%2C0-7.25%2C3.18-7.33%2C8.32-.18%2C12.25%2C6.91%2C21.29%2C19.09%2C23.82.6.12%2C1.47%2C0%2C1.78.36%2C5.83%2C7%2C11.23%2C2.74%2C17.27%2C0%2C9.49-4.36%2C19.22-2.76%2C25.23%2C7.45%2C5.64%2C9.59%2C15.7%2C10.58%2C24.45%2C3.69a115.64%2C115.64%2C0%2C0%2C0%2C10.21-8.63c4.87-4.83%2C11.9-3.13%2C18-3.47%2C3.55-.2%2C7.17%2C1.7%2C10.81%2C1.95%2C8.88.61%2C13.13%2C6.45%2C15.27%2C13.86s-3.82%2C12-7.23%2C17.41c-.85%2C1.33-3.37%2C2.29-3.34%2C3.38.22%2C8-2.89%2C15-5.82%2C22.09a5%2C5%2C0%2C0%2C0%2C.07%2C2.43c1%2C6.37%2C15.32%2C20.82%2C21.64%2C21.71%2C2.42.34%2C5%2C.56%2C7.08-1.16%2C3.35-2.78%2C5.13-1.16%2C6.33%2C2.14%2C3.36%2C9.32%2C11.07%2C14.76%2C18.76%2C19.72%2C6%2C3.86%2C9.47%2C12.21%2C5.67%2C18.21-1.73%2C2.73-5%2C2.6-7.76%2C2.4-2.43-.18-4.79-1.16-7.22-1.46-4.66-.57-8.31.23-11.73%2C4.55-5.7%2C7.21-13.25%2C10.82-23.18%2C8.61-11.57-2.58-19.62%2C5.34-18.26%2C17.1.68%2C5.93-1.53%2C9-7.7%2C10.74-9.83%2C2.7-18.79%2C2.14-25.92-6.47-4.53-5.48-10.65-7.1-17.66-6.56-3%2C.24-6.07-.75-9.12-1-1.83-.15-4.18-.64-5.45.24-11.86%2C8.24-21.35.26-30.3-5.22-8.61-5.28-15.62-5.62-23.27.68-3.16%2C2.6-6.72%2C4.71-9.82%2C7.38-3.57%2C3.08-5.57%2C1.48-6.83-2a20.06%2C20.06%2C0%2C0%2C0-7-9.71c-4.12-3.12-8.05-4.24-13.11-3-8%2C1.95-14.38-.72-18.87-7.81-1-1.58-.89-2.58.33-3.71%2C3.57-3.3%2C3.67-7.58%2C3.38-12-.15-2.3-.42-4.68%2C2.57-5.45%2C5.69-1.47%2C7-6.17%2C7.2-10.89.42-9.55%2C5.56-17%2C10.42-24.46%2C3.1-4.72%2C5.39-9.15%2C4.31-14.74-.84-4.29.31-8.16%2C2-11.89%2C4.26-9.3%2C2.37-12.69-7.33-12.54a4.09%2C4.09%2C0%2C0%2C1-4.07-2.11c-2.83-4.89-7.57-7.79-12.55-9.25a62.34%2C62.34%2C0%2C0%2C1-22.9-12.6c-4.34-3.65-9.06-7.09-14.5-9.13-4.13-1.55-6.55-4.9-8.74-8.33-3.82-6-9.54-8.12-16.13-8.44-4.17-.2-8-2.19-11.92-2.45-7.53-.49-14.2-1.81-20.07-7.06-1.55-1.39-5.15-.48-7.81-.63%2C1.85-5.63%2C6-10.35%2C6.19-16.69.08-3.08%2C1.68-3.49%2C3.77-1%2C1%2C1.24%2C2.09%2C2.77%2C3.49%2C3.38%2C3.24%2C1.41%2C6.6%2C1.93%2C7.27-3%2C.43-3.2%2C2.25-6.39%2C1-9.61-2.38-6.37.81-7.81%2C6.16-7.34%2C4.73.42%2C6.58-2.63%2C4.93-5.9-4.25-8.44%2C1.76-14%2C4.78-20.29%2C2.21-4.6%2C3.8-8.82%2C1.67-13.94-1.24-3-4.11-3.81-6.06-5.8-7.83-8-7.81-10.26%2C2.24-14.81%2C5.95-2.7%2C6.6-7%2C6.3-12.42-.09-1.54-.59-3.62%2C1.26-4.4S514.88%2C736.52%2C515.91%2C737.72Z'/%3E%3Cpath class='cls-2' d='M131.47%2C1130.43c6.62.72%2C10.25%2C5.34%2C9.46%2C12-.26%2C2.23-.37%2C4.48-.76%2C6.69-1.13%2C6.56%2C1.64%2C11%2C7.31%2C14%2C3.89%2C2%2C6.57%2C4.82%2C6.3%2C9.63-.13%2C2.44.72%2C4.48%2C3.27%2C5.31%2C2.78.9%2C6.08.64%2C7.21-1.81%2C3.14-6.78%2C10.87-5.93%2C15.48-10.12%2C1.65-1.5%2C3.5-.39%2C4.48%2C1.55%2C2.83%2C5.65%2C5.54%2C11.37%2C8.49%2C17%2C1%2C1.81-.33%2C2.55-1%2C3.75-4.51%2C8.63.19%2C17.27%2C9.1%2C21.56%2C5.36%2C2.58%2C13.06%2C2.63%2C15.59%2C10.71.88%2C2.8%2C5.5%2C4.62%2C8.66%2C6.45%2C2.64%2C1.53%2C2.5%2C2.81.52%2C4.58-3.5%2C3.12-6.51%2C6.81-10.88%2C8.89a11.08%2C11.08%2C0%2C0%2C0-6.44%2C9c-.46%2C3.16-.16%2C5.77%2C3.58%2C6.64%2C1.7.39%2C3.12%2C1.22%2C3.15%2C3.22%2C0%2C1.57-1.5%2C1.79-2.48%2C2.41-7.59%2C4.77-10.88%2C15.13-8.2%2C23.76%2C1.43%2C4.62%2C3.92%2C10-3.39%2C12.94-2.83%2C1.15-4.09%2C4.26-4.18%2C7.7s-.85%2C6.89-1.19%2C10.34c-.23%2C2.42-1%2C4.63-3.39%2C5.37-2.66.81-4.93-.68-6.42-2.68-3.06-4.09-5.75-8.47-8.7-12.65-4.08-5.78-6.47-6-11.78-1.41-7.6%2C6.59-15.55%2C12.59-25%2C16.41-7.47%2C3-14.7%2C3.34-21.92-.36-2.14-1.1-4.35-1-6.6-.92-7.91-18.33-13.86-37.4-20.78-56.1-8.35-22.54-16.32-45.24-24.83-67.72-1.76-4.66-5.14-8.71-7.86-13-3.48-5.47-9.61-4.78-14.81-6-2.36-.55-4.4-.89-5.15-3.43s1.24-3.67%2C2.54-5.21c2.54-3%2C6.14-4%2C9.67-4.9%2C10.52-2.51%2C13.53-6.49%2C12.37-17-.22-2-.14-4.07%2C2.45-3.91%2C4.39.28%2C8.79-1.58%2C12.95%2C3%2C3.57%2C3.94%2C9.84%2C2.33%2C14.55%2C1a8.93%2C8.93%2C0%2C0%2C0%2C6.87-9c.24-9.73%2C7.88-13.94%2C16.83-10.28C121.28%2C1129.78%2C126.19%2C1131.38%2C131.47%2C1130.43Z'/%3E%3Cpath class='cls-2' d='M119.35%2C1395.48a9%2C9%2C0%2C0%2C0%2C3-.55c4.36-2.46%2C7.71-3.52%2C6.84%2C3.72-.29%2C2.39%2C1.33%2C4.67%2C3.54%2C3.85%2C7.13-2.65%2C11.77%2C2.51%2C16.33%2C5.6%2C6.21%2C4.2%2C11.83%2C3.24%2C18%2C1.41.37-.11.64-.53%2C1-.71%2C4.08-2.07%2C5.78%2C4.72%2C10.17%2C2.59%2C3.59-1.73%2C6.76-1.49%2C8.77%2C3.18%2C1.64%2C3.81%2C7.74%2C4.54%2C9.5%2C1%2C2.55-5.08%2C6.25-3.6%2C9.46-2.58%2C4.56%2C1.46%2C8.45.39%2C12.35-1.49%2C6.1-3%2C7.82-8.89%2C4.26-14.5-3-4.74-4.22-10.13-5.39-15.47-.75-3.42%2C1.52-5.94%2C4.52-7.09%2C2.42-.94%2C4.71-3.77%2C8-.29s8.26%2C4.14%2C13.09%2C3.92c3.16-.15%2C5.5.35%2C6%2C4.35.45%2C3.62%2C3.9%2C5.12%2C6.68%2C6.69%2C4.12%2C2.34%2C5.13%2C5.11%2C3.18%2C9.58-2.86%2C6.59-2.07%2C7.26%2C5.07%2C9.29%2C3.61%2C1%2C7.17%2C1.45%2C10-.49%2C6.18-4.19%2C14.19-3.64%2C20.05-8.35.95-.76%2C2.24-1.24%2C2.91-2.17%2C2.52-3.52%2C5.21-3.87%2C8.54-1.09%2C2.7%2C2.24%2C6.19%2C1.9%2C9.38%2C2.25%2C7.48.83%2C15%2C1.37%2C22.47%2C2.11%2C2.22.22%2C3.93-.82%2C6-2%2C.11%2C1.84.23%2C3.44.3%2C5%2C.37%2C8.37%2C2.53%2C11%2C10.76%2C13.07a35.43%2C35.43%2C0%2C0%2C1%2C4.71%2C1.24c2.13.85%2C5.28.91%2C5.48%2C3.85s-2.63%2C2.84-4.72%2C3.72c-4.15%2C1.73-3.3%2C6.13-3.79%2C9.53-.52%2C3.56-.51%2C7.5%2C3.09%2C9.8%2C7.12%2C4.53%2C7.68%2C11.66-.35%2C15.46-7.66%2C3.63-10.71%2C12.16-18.65%2C14.87a2.63%2C2.63%2C0%2C0%2C0-1.4%2C1.9c-.51%2C7.18-5.39%2C6.9-10.88%2C7.72-4.47.66-8.51%2C4.28-12.6%2C6.52-.45-.36-.7-.45-.73-.59-2.54-13.76-4-15.7-18.22-14.76-9.41.62-14.57-3.08-19-10.58-2.73-4.59-5-11.17-12.81-9.36a17%2C17%2C0%2C0%2C0-4.62%2C1.33c-2.38%2C1.39-3.7%2C2.76-5.84-1-1.84-3.28-6.42-1.54-9.76-1.27-3%2C.25-2.74%2C3-2.83%2C5.3-.17%2C4.19-.19%2C6.75-6%2C3.62-9.7-5.24-15.11.73-18.23%2C11.18a38.94%2C38.94%2C0%2C0%2C1-8.64%2C15.08c-4.81%2C5.35-11.1%2C9.39-15.87%2C15-1.54%2C1.81-3.83%2C1.4-5.79%2C1.23-6.78-.61-10.8%2C3-14.4%2C8.19-5.55%2C8-11.8%2C15.4-23.35%2C12.63-3.52-5.38-9.51-7.28-14.75-10.1-4.07-2.19-6.41-5.46-8.1-9.45-1.34-3.17-1.15-6.42%2C2.1-8%2C4.35-2.06%2C4.33-5.68%2C2.9-8.7-4.35-9.21-3.67-19.72-7.91-28.91-.58-1.26.24-2.72.55-4.11.78-3.56%2C1.52-7.29-2-10.09-1.56-1.24-1.07-2.67-.57-4.38.57-1.89%2C1.2-4.47.37-5.94-2.93-5.17-.89-9.5%2C1.1-14.19%2C3.86-9.09%2C6.06-18.14-3-25.83C119.24%2C1397%2C119.42%2C1396.09%2C119.35%2C1395.48Z'/%3E%3Cpath class='cls-2' d='M422.28%2C1000.25c1.59.33%2C3.28%2C1.2%2C4.76.92%2C8.3-1.59%2C16.08%2C1.56%2C24.11%2C2.3%2C5%2C.46%2C10.28%2C1.61%2C14.59-2.57%2C1.29-1.25%2C2.93-1.21%2C4.53-.22s3.6%2C2%2C5.34%2C3c11.33%2C7%2C17.75%2C6.11%2C27-3.72%2C4.3-4.55%2C7.72-4.49%2C10.38.76%2C1.56%2C3.09%2C3.64%2C4.3%2C6.75%2C4.1%2C3.6-.23%2C7-1.34%2C8.88-4.62%2C3.49-6.14%2C6.54-8%2C13.18-5.79%2C9.38%2C3.07%2C18.27%2C7.19%2C24.51%2C15.43%2C3.16%2C4.17%2C7.92%2C3.59%2C12.39%2C3.76%2C5.72.22%2C11.69-2%2C16.72%2C3.29a24.83%2C24.83%2C0%2C0%2C1%2C5.52%2C7.86c2.69%2C6.62%2C6%2C7.49%2C11.73%2C3.45%2C4.34-3.06%2C9-5.72%2C12.94-9.27s7.82-3.47%2C11.73-1c3.72%2C2.33%2C9.9%2C3.17%2C10.48%2C7.59.66%2C5.07-6.26%2C4.7-9.22%2C7.53a18.66%2C18.66%2C0%2C0%2C1-15.6%2C5.32%2C5.5%2C5.5%2C0%2C0%2C0-6.33%2C4.66c-1.62%2C8-6.27%2C15.8-1.86%2C24.39%2C1.44%2C2.81-1.32%2C5-2.46%2C7.24-2.25%2C4.44-2.45%2C8.09.89%2C12.4%2C3%2C3.86%2C5.43%2C8.1%2C9%2C11.58a11%2C11%2C0%2C0%2C1-1.93%2C17.56c-4%2C2.48-5.44%2C5-4%2C9.5a6.71%2C6.71%2C0%2C0%2C1-2.14%2C7.29c-2.63%2C2.26-4.38-.15-6.4-1.44a6.43%2C6.43%2C0%2C0%2C0-6.51-.33c-5%2C2.72-10.53%2C4.55-15.48%2C7.27-9.36%2C5.15-20.61%2C2.6-25.66-6.78-7.31-13.58-17.44-25.09-27.41-36.61-9.09-10.51-22-9.2-34.23-8.48-2.34.13-3.16%2C2.4-4.09%2C4.21-2%2C3.82-3.83%2C7.7-5.86%2C11.5-.73%2C1.37-1.35%2C3.35-3.47%2C2.78a3%2C3%2C0%2C0%2C1-2-3.44c.59-4.83-1.48-4-4.57-2.51-7.66%2C3.66-20.57-1.76-23.54-9.63-1-2.72.67-4.74%2C1.67-6.9%2C4.82-10.4%2C3.26-13.2-8.21-14.93-7.09-1.07-8-6.94-8.81-12.35-.62-4.28-2.16-6.5-6.67-5.77a5%2C5%2C0%2C0%2C0-4.34%2C3.86c-1.49%2C6.1-5.72%2C7.45-11.23%2C6.82%2C2.66-2.45%2C5.06-5.29%2C8-7.27%2C5.78-3.86%2C7.3-10.71%2C7.12-15.8-.18-5.37-.54-11.76-4.18-17.07C424.33%2C1014.29%2C419.55%2C1008.3%2C422.28%2C1000.25Z'/%3E%3Cpath class='cls-2' d='M323.16%2C1195.85a.9.9%2C0%2C0%2C0-.71.67c-1.33%2C1.21-1.92%2C3.06-3.67%2C4-1.24.64-2.77%2C1.76-1.94%2C3.34s3.05%2C3%2C4.62%2C2.31c4.2-1.72%2C9.88.6%2C12.76-5.07%2C1-2%2C3.79-1.5%2C5.25.41%2C1.23%2C1.62%2C2.34%2C3.33%2C3.71%2C4.85a3%2C3%2C0%2C0%2C1%2C.15%2C4c-1.06%2C1.32-2.54%2C1.06-3.76-.09-3.2-3-5-.87-5.7%2C2-1.06%2C4.13-3.32%2C5.4-7.49%2C5.36-4.44%2C0-8.8%2C1.19-12%2C4.71-1%2C1.11-2.21%2C2.11-3.69%2C1.88-8.39-1.35-17.29-1.4-23.15-9.25-3.11-4.17-1.77-12.08%2C2.78-14.56%2C1.66-.9%2C3.48-1.63%2C3.11-4-.32-2-2.1-2.15-3.7-2.59-9.41-2.56-18.8-5.36-28.54-6-7.46-.51-15.63-6.77-17.73-16.84-.39-.78-.8-1.56-1.25-2.32-5.38-8.58-5.94-16.5.57-25.39%2C3.14-4.28%2C6.52-9.23%2C7.53-15.09%2C1.45-8.46-1.65-15.17-7.08-21.22-.28-.53-.53-1.07-.76-1.62-.83-5.08-4.29-6.11-8.86-6.46-8.09-.62-12.76-5.57-13-12.67-.12-3.87%2C2.72-6.25%2C4.51-9%2C1.65-2.53%2C2-4.23-.26-6.31-5.15-4.65-8.36-10.82-10.37-17.08a20.12%2C20.12%2C0%2C0%2C1%2C2.16-16.6c12%2C1.29%2C23.72%2C4.37%2C35.55%2C6.68%2C27.65%2C5.41%2C55.26%2C11.07%2C82.89%2C16.57%2C15%2C3%2C30%2C5.84%2C45%2C8.75%2C1.72%2C2.35-.16%2C4.5-1%2C6.09-3.81%2C7-5.82%2C14.65-8.57%2C22-3.53%2C9.47-8.12%2C18.65-16%2C25.49a5.55%2C5.55%2C0%2C0%2C0-2%2C4.82c.08%2C8.92-.36%2C17.78%2C2.7%2C26.53%2C2.77%2C7.93-2%2C18.76-8.5%2C24-4.18%2C3.38-9%2C5.92-12.29%2C10.74C332.06%2C1192.41%2C327.19%2C1193.88%2C323.16%2C1195.85Z'/%3E%3Cpath class='cls-2' d='M469%2C850a10.68%2C10.68%2C0%2C0%2C1%2C10.87%2C3.91c3.18%2C3.74%2C6.7%2C4.77%2C12.34%2C3.61%2C5.17-1.06%2C11.12%2C2.5%2C17%2C2.68a14.66%2C14.66%2C0%2C0%2C1%2C13.24%2C8.25c3.49%2C6.88%2C10.63%2C8.52%2C16.25%2C12.25%2C8.59%2C5.7%2C15.7%2C13.91%2C26.18%2C16.42a34%2C34%2C0%2C0%2C1%2C12.91%2C6.56c1%2C.73%2C2.51%2C1.38%2C2.69%2C2.29%2C1.11%2C5.51%2C5.26%2C4.16%2C8.77%2C4%2C1.7-.06%2C3.65-1.64%2C4.75.83a5.4%2C5.4%2C0%2C0%2C1-.37%2C5.26c-3.21%2C5.14-5%2C10.5-3%2C16.66%2C1%2C3.17-.6%2C5.88-2.39%2C8.49-6.08%2C8.85-12.22%2C17.53-12.6%2C29.07-.12%2C3.79-1.62%2C8.24-7.33%2C9.08-3.87.58-4%2C4.61-3%2C7.47%2C1.52%2C4.22.15%2C7.17-2.74%2C9.84-3.25%2C3-6.11.46-8.81-1.05-7.26-4.06-15-4.75-23.12-4.23-2.38.16-4.13.68-3.85%2C3.45.48%2C4.76-3.19%2C5.89-6.38%2C6.92-4.08%2C1.33-4.08-2.3-5.33-4.8-2.07-4.11-11.9-4.62-14.55-.55-2.92%2C4.45-7.78%2C5.73-11.54%2C8.71-1.47%2C1.16-2.66.58-3.92-.13-2.84-1.59-5.68-3.17-8.48-4.84-5-3-9.51-6-15.2-.35-3.48%2C3.47-8.66%2C1.28-12.91.17-8.67-2.27-17.58-1.38-26.31-2.56-.2-6.61-2.9-13.12-.22-19.85%2C2.94-7.37%2C2.83-15.32%2C4-23%2C1.54-10.11%2C8-17.43%2C16-23.5%2C4.29-3.28%2C9.2-5.73%2C12.36-10.48%2C1.62-2.42%2C4.59-3%2C7.63-3.07%2C6-.16%2C7.94-2.58%2C6.53-8-1.12-4.32-3-8.4%2C4.75-6.85%2C4.11.82%2C3.76-4%2C2.64-4.81-4.08-2.89-.75-4%2C.63-5.91%2C2.46-3.45.19-6.21-2-8.63-3.41-3.84-8.35-7-3.4-13.13.63-.77%2C0-2.78-.36-4.11-.65-2.23-1.36-3.78%2C1.59-5.45s1.89-6-1.38-7C468.85%2C853%2C467.56%2C852.45%2C469%2C850Z'/%3E%3Cpath class='cls-2' d='M246.77%2C1167.54a.51.51%2C0%2C0%2C1%2C.57.54c1.95%2C12%2C6.25%2C15.06%2C18.74%2C16.31a106%2C106%2C0%2C0%2C1%2C21%2C4.66c3.09%2C1%2C6.1%2C2.57%2C5.79%2C6.73a16.24%2C16.24%2C0%2C0%2C0-12.43%2C4.18c-3%2C2.73-6.71%2C4.09-10.89%2C5-7.26%2C1.68-12.92%2C7-19%2C11-5.73%2C3.84-12.26%2C5.59-18.3%2C8.55-3.81%2C1.87-12.61-3.25-14.25-8.13-1-3-3-3.56-5.44-4.85-5.9-3.1-13-4.31-17.19-10.49-2.74-4-3.92-7.54-.12-11.44a5%2C5%2C0%2C0%2C0%2C.55-6.77c-3.67-4.57-5-10.25-8-15.13-3.47-5.65-6.64-6.68-12-3.16-4.78%2C3.13-11.06%2C3.59-14.44%2C9.5-1.4%2C2.45-5%2C.84-4.85-2.43.21-6.09-3.19-9.09-7.84-12-6.09-3.86-7.37-8.56-5.24-15.19%2C2.64-8.2-1.82-15.26-10.43-16.49-2.68-7.51%2C2.22-10.22%2C7.32-14.5%2C9.72-8.17%2C19.46-16.83%2C25.16-28.69%2C1.37-2.83.56-6.07.55-9.12%2C0-4.71-3.81-3.83-6.63-4.51a3%2C3%2C0%2C0%2C1-1.59-1.58c-.7-1.55%2C3.51-15.08%2C5-15.93a6.54%2C6.54%2C0%2C0%2C1%2C4.6-1.1c9.49%2C1.73%2C12.48-.61%2C14.71-10.61%2C1.56-7%2C3.74-13.85%2C8.06-19.59%2C3.93-5.22%2C6.23-4.87%2C7.72%2C1.35%2C2.12%2C8.83%2C7.45%2C12.47%2C16.1%2C12.23a5.64%2C5.64%2C0%2C0%2C1%2C2%2C4.92c-1.52%2C9.78%2C4.91%2C16.64%2C8.91%2C24.39%2C1%2C1.89%2C3%2C2.68%2C4.58%2C3.92%2C4.16%2C3.21%2C4.43%2C6.2.29%2C9.23-3%2C2.2-3.52%2C6.12-7%2C8.07-1.87%2C1%2C.32%2C3.75%2C1.42%2C5.3%2C2.37%2C3.31%2C5.91%2C3.82%2C9.78%2C3.78%2C10.61-.1%2C10.61%2C0%2C12.25%2C9.25l-.06-.16c8.16%2C7.6%2C9.48%2C16.8%2C7.27%2C27.35-.64%2C3.07.24%2C5.84-4.07%2C6.17-.87.07-1.47%2C1.48-1.31%2C2.54.51%2C3.27-1.4%2C5.67-3.44%2C7.43-4.87%2C4.18-4.72%2C8.57-1.39%2C13.32C244.51%2C1163.41%2C244.07%2C1166.42%2C246.77%2C1167.54Z'/%3E%3Cpath class='cls-2' d='M112%2C1322.82c4.71.36%2C8.59%2C3.28%2C13.47%2C3.7%2C14.5%2C1.26%2C25.84-5.32%2C36.26-13.86%2C11.68-9.59%2C9.33-8.49%2C16.66%2C2.13%2C3.73%2C5.4%2C6.9%2C12.44%2C15%2C9.89%2C7.64-2.41%2C4.64-10.27%2C5.88-15.87.47-2.15%2C0-4.45%2C1.52-6.44%2C2.57-3.41%2C6.5-3.91%2C10-3.49%2C3.09.37%2C4.42%2C4.5%2C4.08%2C6.84-2%2C14.09%2C5.82%2C25.58%2C9.39%2C38.16a31.61%2C31.61%2C0%2C0%2C1%2C1%2C7.89c.06%2C2.46-.76%2C5.56.42%2C7.26%2C5.83%2C8.38-.16%2C11.06-6.16%2C13.85-5%2C2.34-6.14%2C6.29-4.73%2C11.21a123.06%2C123.06%2C0%2C0%2C0%2C4.35%2C13.39c3.14%2C7.51-1.16%2C13.71-9.57%2C13.17a47.08%2C47.08%2C0%2C0%2C1-6.63-1.21c-3.16-.67-5.88-.88-7.9%2C2.63-1.84%2C3.2-4.21%2C2.77-6-.4-2.17-3.8-5.57-4.63-9.49-3.68a5.35%2C5.35%2C0%2C0%2C1-5.58-1.34%2C4.73%2C4.73%2C0%2C0%2C0-5.74-.9c-9.29%2C6-16.26.16-23.49-4.3-1.57-1-2.93-2.42-4.9-2.27-4.62.35-8.52.21-7.43-6.33.26-1.55-1.62-2.09-3.13-2.3a10.84%2C10.84%2C0%2C0%2C0-8.63%2C2.31c.3-5.66%2C1.43-10.81%2C6.9-14%2C3.38-2%2C3.33-5.08%2C2-8.57C123.56%2C1354.47%2C117.81%2C1338.63%2C112%2C1322.82Z'/%3E%3Cpath class='cls-2' d='M824%2C1001.28c-2.21-3.53-5.46-5-9.77-5.33-3.71-.25-3-3.85-2.74-6.41%2C1.08-10.39%2C0-10.62-8.26-16.7-6.73-5-14.44-9.79-17.22-18.84-1.51-4.91-5.61-5.67-9.34-3.18-5.72%2C3.81-10%2C1.16-13.34-2.71-3.22-3.68-6.17-7.62-9.58-11.18-3.22-3.37-3.43-7.13.06-10.27a8.52%2C8.52%2C0%2C0%2C0%2C2.8-9.38c-1.06-3.7.42-5.79%2C2.88-8.54%2C8.41-9.39%2C11.8-17.37%2C5.5-28.18-2.38-4.08-5.35-6.73-10.35-7.75s-10.32-3.56-14.72-3.36c-8.17.37-17.5-1.13-24.15%2C6.87a34.85%2C34.85%2C0%2C0%2C1-12.51%2C9.62c-6%2C2.55-11.41-1.36-13.88-6.33-7.44-15-23.17-12.27-34.17-6.9-2.71%2C1.33-4.64%2C2.35-6.94-.27-1.5-1.7-3.74-1.41-5.73-1.79-8.14-1.54-17.26-11.91-17.25-19.26%2C0-4.61%2C1.58-7.57%2C6.63-7.67%2C2.63-.06%2C4.7-.85%2C6-3.46a24.05%2C24.05%2C0%2C0%2C0-7.82-30.34c-8-5.51-21.21-4.44-27.93%2C2.47-2.3%2C2.37-4.58%2C3.29-7.62%2C1.73-5.21-2.69-10.78-3.57-16.62-3.81-5.56-.23-7.44-4.22-4.51-9%2C2.06-3.39%2C1.56-6.2-1.39-8.68-1.38-1.16-3.09-1.91-2.14-4.41%2C2.72-7.17%2C1.31-11.08-4.8-14.36-2.53-1.36-7.28-1.47-6.46-5.19.91-4.1%2C5.64-2.69%2C8.55-2.36%2C11%2C1.27%2C20.88-3.41%2C31.21-5.53%2C5.1-1%2C5.13-5.34%2C4.52-9.34a23.38%2C23.38%2C0%2C0%2C0-2.26-6.31%2C5.94%2C5.94%2C0%2C0%2C1%2C1.69-7.73c2.62-2.19%2C5.83-2.69%2C8.41-.21%2C4.48%2C4.29%2C8.53%2C4.22%2C12.69-.23A2.65%2C2.65%2C0%2C0%2C1%2C625%2C736c13.82%2C0%2C19.17-11.35%2C26.67-19.85a8.35%2C8.35%2C0%2C0%2C0%2C2.09-4.31c.56-3.27%2C3.15-5.66%2C5.76-5.69%2C7.08-.11%2C12.53-4.55%2C19-6.18%2C2.92-.73%2C4.14-.06%2C6.08%2C2.09%2C9%2C10%2C10.16%2C9%2C18.1%2C3.23%2C4.4-3.18%2C8.82-6.63%2C15.11-4.65%2C3.12%2C1%2C5.47-.77%2C6.47-4.1%2C1.57-5.2%2C5.43-7.39%2C10.47-9.16%2C9.59-3.37%2C19.37-6.85%2C26.61-14.6%2C2.16-2.31%2C4-1%2C6.1-.25%2C7.77%2C2.82%2C15.44%2C4.81%2C22.29-2.14a3.47%2C3.47%2C0%2C0%2C1%2C3.47-.65c6.18%2C1.52%2C8.75-1.71%2C9.37-7.3.69-6.16%2C4.23-11.48%2C3.25-18.45-.6-4.19%2C4.34-8.86%2C9.14-11.49%2C4.28-2.34%2C8.47-4.76%2C11.22-9.24a15.77%2C15.77%2C0%2C0%2C0%2C2.07-10.57c-.19-1.74-2.85-4%2C.43-5.14%2C2.94-1%2C5.78-3.79%2C9.23-1.52a23.58%2C23.58%2C0%2C0%2C1%2C4.75%2C3.84c4%2C4.4%2C8.6%2C4.59%2C13.36%2C2%2C4.47-2.4%2C9.23-4.46%2C12.52-8.69a8.5%2C8.5%2C0%2C0%2C1%2C4-2.81%2C26.7%2C26.7%2C0%2C0%2C0%2C16.26-12.89c2.79-4.8%2C6.72-4.29%2C9.42.67%2C2.42%2C4.45%2C5.43%2C8.76%2C5.48%2C14.19%2C0%2C3.27%2C1.87%2C4.77%2C5.07%2C4.88%2C4.75.16%2C9.33.24%2C13.51-2.85%2C4-2.93%2C8.1-4%2C13.16-1.39%2C4.11%2C2.1%2C8.94%2C3%2C13.55%2C3.88%2C5.85%2C1.13%2C11-.23%2C14.34-5.75%2C5.2-8.52%2C9.13-9.48%2C19.06-6.2%2C12.58%2C4.15%2C22.5%2C13.11%2C34.51%2C18.33%2C5.79%2C2.52%2C11.2%2C5.83%2C17.42%2C7.47%2C8.83%2C2.32%2C10.63%2C6.75%2C5.75%2C14.27-2.68%2C4.14-1.33%2C6.79%2C1.48%2C10.27%2C2%2C2.5%2C7.89%2C4.09%2C5.17%2C8.3-2.36%2C3.66-2.43%2C7.15-2.83%2C11a26.62%2C26.62%2C0%2C0%2C1-1.73%2C7.75%2C16%2C16%2C0%2C0%2C0%2C.81%2C15.32c2.45%2C4.13%2C2.07%2C7.88-.66%2C11.4-3.06%2C4-3.66%2C8.65-4.29%2C13.27-.71%2C5.23-.2%2C10.22%2C4.74%2C13.68%2C1.3.91%2C2.09%2C2.52%2C3.21%2C3.71%2C3.58%2C3.84%2C4%2C6.62-1.24%2C10s-9.38%2C8.38-15%2C11.64c-4.24%2C2.46-3.53%2C5.41%2C1.16%2C7.71%2C6%2C2.95%2C7.25%2C13.6%2C1.89%2C17.49-5.62%2C4.07-9.66%2C10-16.24%2C13-2.48%2C1.1-2.3%2C3.81-1.82%2C6%2C2%2C9.43%2C3.25%2C18.89%2C2.19%2C28.57-.55%2C5%2C1.17%2C8.74%2C6.49%2C10.38%2C1.86.58%2C3.53%2C2.07%2C5.06%2C3.4s2.21%2C3.08.17%2C4.66c-3.37%2C2.61-6.46%2C6-10.28%2C7.53-4.89%2C2-7%2C5.2-6.27%2C9.82%2C1.39%2C8.81-1.88%2C13.93-10.44%2C16.28-3%2C.81-6%2C2.93-5.5%2C6.56.89%2C6.69-3.36%2C9-8.4%2C9.74-6.23.89-7.37%2C4.55-6.37%2C9.51%2C1.16%2C5.79-2.16%2C5.09-5.58%2C4.24-4.33-1.08-8.24-3.47-13-3.37-4.39.1-6.63%2C1.63-6.24%2C6.16.36%2C4.23-.68%2C7.55-5%2C9.52-3.51%2C1.63-2.73%2C6-5.06%2C8.79-5.49%2C6.53-14.49%2C9.77-17.42%2C18.64-.29.9-1.19.73-2.06.76-8.55.3-13.45%2C3.53-15.86%2C11-2%2C6.29-3.68%2C12.59-11%2C15.06-.94.32-1.76%2C1.8-2.11%2C2.9-1.78%2C5.69-6%2C7.38-11.42%2C7.28a10.3%2C10.3%2C0%2C0%2C0-7.25%2C2.83%2C22.14%2C22.14%2C0%2C0%2C1-5.4%2C4c-6.94%2C3-12.5%2C7.27-15.84%2C14.39-1.89%2C4-6.09%2C3.42-9.83%2C3.14-5.22-.39-7.66-4-8.39-8.35-.76-4.61-3-6.68-7.42-7.6-6.93-1.47-8-.7-7.55%2C6.43C825.12%2C998.84%2C825.9%2C1000.08%2C824%2C1001.28Z'/%3E%3Cpath class='cls-2' d='M676.33%2C1432.3c-2.26%2C0-4.59-.37-6.76.07-5.53%2C1.14-9.14-.09-12.53-5.35-3.84-6-10.79-3.17-16.53-2.75-2.62.2-5.18%2C1.16-7.75%2C1.84-4.56%2C1.22-8.64%2C1.06-12.54-2.33-3.45-3-8-2.9-12.36-2.49-7.8.72-15.5%2C1.32-21.83-4.78a3.71%2C3.71%2C0%2C0%2C0-2.79-1.1c-7.89%2C1.83-12-5-17.8-7.73-2.7-1.27-3.18-3.82-2.82-6.28%2C1.24-8.49-3.91-15.78-4.25-24-.16-4.07-4.52-4.14-7.83-3.88-7.59.59-7.51.68-6.71-7.22.57-5.55-.48-10.2-6.91-11.91a6.94%2C6.94%2C0%2C0%2C1-5-5.71c-1-5.22-2.24-10.43-2.88-15.7-.5-4.22%2C2.43-7.68%2C4.13-11.18%2C4.64-9.56%2C9.29-19.13%2C14.15-28.59%2C4.24-8.24%2C6.7-17.54%2C8.9-26.62%2C1.77-7.26%2C5.08-12.29%2C12.26-14.67%2C3.11-1%2C6-2.57%2C9.13-3.66%2C7.17-2.51%2C9.26-5.94%2C6.07-13.16-2.94-6.65-2.2-12.15%2C1.89-17.78%2C3.46-4.77%2C3.44-9.41-1.09-13.73a9.85%2C9.85%2C0%2C0%2C1-2.73-10.71%2C9.07%2C9.07%2C0%2C0%2C0%2C.37-4.25c-1-5.1-.5-7.95%2C5.78-5.38%2C2.22.91%2C4-.7%2C5.74-2.53%2C7.27-7.76%2C9.06-18.24%2C13.84-27.22%2C1.17-2.19-.28-4.35-.89-6.5-1.24-4.37%2C1.23-9.43%2C5.47-9.94%2C5.69-.68%2C7.23-4%2C7.06-8.85-.15-4.26.42-7.36%2C4.62-10.24%2C6.75-4.63%2C7-16%2C1-21.64-4.09-3.87-6.68-8.75-10.13-13-1.86-2.31-.79-4.1.31-6.15a18.65%2C18.65%2C0%2C0%2C0%2C1.5-15.13c-1.85-6.4%2C1.13-13.21%2C4.27-19.23%2C1-2%2C3.48-2.12%2C5.54-2%2C10.48.79%2C17.11-6.73%2C24.72-11.78%2C2.94-2%2C4.63-3.24%2C7.92-1.1%2C4.35%2C2.83%2C9%2C2.58%2C13.13-.69a9.13%2C9.13%2C0%2C0%2C1%2C8.59-1.93%2C6.31%2C6.31%2C0%2C0%2C0%2C2.4.46c12-1.92%2C20%2C4.93%2C27.91%2C12.35%2C6.31%2C5.89%2C28.73%2C1.58%2C32.85-6a6.29%2C6.29%2C0%2C0%2C0%2C.3-5.31c-2.92-8.77%2C3-16.35%2C12.31-15.71%2C6.24.43%2C12.5%2C2.8%2C18.48-1.35%2C3.69-2.57%2C7.75-4.61%2C10.16-8.65a6%2C6%2C0%2C0%2C1%2C5-3.17c2.08-.13%2C4.71.15%2C5.62%2C1.75%2C1.26%2C2.23-1.84%2C2.58-3%2C3.82-1.5%2C1.67-3.84%2C3.08-4.41%2C5-3%2C10.46-8.9%2C20.55-5.48%2C32%2C1.55%2C5.21-2%2C8.55-3.91%2C12.44-3.16%2C6.33-2.66%2C7.33%2C4.06%2C9%2C7.59%2C1.91%2C13.44.74%2C17.91-6.5%2C4.25-6.9%2C18.64-11.75%2C26.4-9.72.71.19%2C1.76.65%2C1.88%2C1.16a2%2C2%2C0%2C0%2C1-1.68%2C2.23%2C6%2C6%2C0%2C0%2C1-3-.08c-3.39-.88-7-2.29-9.59%2C1.17-3.23%2C4.29-3.21%2C9.28-1.25%2C14%2C3.27%2C7.94%2C2%2C11-6.52%2C13.81s-11.15%2C5.89-10.52%2C12.11c.14%2C1.45.2%2C3%2C1.39%2C4%2C5.21%2C4%2C2.68%2C7.78-.17%2C11.56-3.53%2C4.67-9.84%2C6.91-14.57%2C5.22q-12.81-4.56-18.76%2C7.62c-.84%2C1.73-1.61%2C3.63-.47%2C5.27%2C5.49%2C7.93%2C3.87%2C15.46.36%2C23.82a50.91%2C50.91%2C0%2C0%2C0-3.4%2C25.95c1%2C8%2C7.15%2C12.85%2C12.09%2C18%2C5.33%2C5.55%2C4.74%2C12.5%2C6.26%2C18.76.71%2C2.94-4.72%2C6.25-7.71%2C7.56-4.17%2C1.84-9.43%2C6.15-14.25.18-1.23-1.53-3.39-1.32-5.24-1.12-11.92%2C1.26-21.47%2C10.32-24.81%2C22.25-2.75%2C9.81-7.49%2C19-7.93%2C29.52-.11%2C2.75-.31%2C5.3%2C1.27%2C7.65%2C4.33%2C6.47%2C6.31%2C12.87%2C1.16%2C20.1-2.57%2C3.61-2.6%2C7.85%2C1.35%2C11%2C3%2C2.37%2C3.4%2C5.56%2C3.1%2C8.88-.63%2C7.09%2C2.75%2C11.64%2C8.66%2C14.88%2C2.69%2C1.47%2C5.29%2C3.13%2C7.83%2C4.85%2C8.24%2C5.56%2C6.94%2C13.71%2C0%2C20.67-8%2C8-18.55%2C14.56-20.59%2C27.66-.74%2C4.77-6.37%2C8-7.1%2C13.66-.69%2C5.21-3.52%2C9.91-3.74%2C15.39-.2%2C4.93-3.11%2C8.06-8.45%2C7.62-6.77-.56-11.71%2C1.36-13.29%2C8.65-1%2C4.54-4.55%2C2.2-7%2C2.49A57.32%2C57.32%2C0%2C0%2C1%2C676.33%2C1432.3Z'/%3E%3Cpath class='cls-2' d='M947.91%2C1239c2.94%2C9.48-3.22%2C12.89-10.36%2C15.9-4.41%2C1.86-10.15%2C3.42-5.58%2C10.32-4.44%2C4.09-.14%2C7.8%2C1.08%2C13.38-3-3.72-5.41-5.76-8.7-6.05s-5.66%2C1.77-3.18%2C4.14c4.45%2C4.27%2C2.76%2C10.7%2C6.8%2C15.1%2C2.16%2C2.35%2C2.54%2C3.65%2C4.2.14.59-1.24%2C1.11-3%2C3-2.24%2C1.68.72%2C1.23%2C2.37.82%2C3.77-1.8%2C6.18-1.72%2C13.11-7.39%2C17.74-1.71%2C1.39-1.44%2C3.72-1.7%2C5.74-.48%2C3.59-1.69%2C6.71-5.18%2C8.53-1%2C.55-2.47%2C1.48-2.62%2C2.42-1.51%2C9.21-10.41%2C12.2-15.34%2C18.49-1.5%2C1.91-3.56%2C3.86-6.17%2C1.29-2-2-2.2-4.17-.33-6.54%2C1-1.22%2C2.19-2.47%2C1.9-5.4-4.41%2C3.21-9.09%2C5.12-13.06%2C7.6-4.67%2C2.91-.61%2C5.18%2C2.74%2C6.38a39.65%2C39.65%2C0%2C0%2C1%2C2.69%2C11.23c.43%2C4.1-.23%2C7-3.57%2C9.62-2.9%2C2.22-4.31%2C5.11-3.2%2C9.14%2C1.18%2C4.28-2.09%2C8.94-1.24%2C12.56%2C2.27%2C9.64-3.82%2C10.36-10.1%2C13.74-8%2C4.31-16.34%2C9.36-20.29%2C19-3.56%2C8.64-13%2C11.53-19.36%2C17.45-1.19%2C1.11-2.74%2C1.92-3.66%2C3.2-4.14%2C5.8-4.08%2C5.84-11.53%2C4.48-.12%2C3.59%2C2.74%2C5.84%2C3.76%2C8.84%2C1.44%2C4.19.38%2C7.16-4.16%2C7.56-5.37.47-9.3%2C4.16-14.23%2C5.52-1.82.51-2.14%2C2.08-1.88%2C4%2C.89%2C6.69-5.45%2C14.88-12.17%2C15.59-4.76.5-7.2%2C4.41-10.7%2C6.73a64.18%2C64.18%2C0%2C0%2C0-6.05%2C5.18c-1.9-5.06-5.57-7.72-10.91-8.57-10.36-1.66-17.28-11.38-18.43-21.16-.79-6.7-3.58-10.4-9.48-12.83s-11.54-5.28-17.26-8a19.44%2C19.44%2C0%2C0%2C0-7.59-2.19c-7.14-.37-16.77-9.94-17.38-17.07a9.46%2C9.46%2C0%2C0%2C1%2C8.11-9.92c11.23-1.35%2C10.54-1.58%2C14.32-13.06%2C2.4-7.28%2C2.2-16%2C9.28-21.4%2C1.86-1.44.73-4.41%2C1.68-6.39%2C2.2-4.55%2C3.81-9.43%2C8.49-12.45%2C5.84-3.77%2C8.83-10.35%2C14.45-14.71s2.88-18-3.17-22c-3.57-2.4-7.28-4.58-10.86-7a11.68%2C11.68%2C0%2C0%2C1-5.64-10.27c0-3.5.73-5.82%2C4.87-6.29%2C5.62-.64%2C8.45-3.87%2C7.15-9.77-.81-3.7.24-6.3%2C3.74-8%2C3.85-1.92%2C5.47-5.76%2C6-9.53.67-4.57%2C2.92-6.64%2C7.07-8a55.13%2C55.13%2C0%2C0%2C0%2C16.91-9.8c3.92-3.2%2C7.49-3.4%2C11.6-.26%2C12.15%2C9.29%2C25.95%2C10%2C40.53%2C8.14%2C5.94-.76%2C12.73%2C1.27%2C17.39-3.29%2C5-4.84%2C13.58-5.81%2C14.67-15.22.5-4.29%2C5.63-7.64%2C6.53-12.73.32-1.79%2C2.64-2%2C4-.46%2C3.44%2C4%2C5.64%2C1.47%2C9.17-.47%2C6.53-3.59%2C7.59-8.5%2C6.33-14.85-.68-3.45.95-4.21%2C3.75-3.11a14%2C14%2C0%2C0%2C0%2C12.94-1.07c.68-.4%2C1.89-1%2C2.26-.69%2C5.61%2C4.21%2C13.92%2C3.77%2C18.16%2C9.92%2C1.76%2C2.56%2C3.52%2C3.41%2C6%2C2.82a8.78%2C8.78%2C0%2C0%2C1%2C8.07%2C1.86C939.46%2C1238.74%2C943.53%2C1239.18%2C947.91%2C1239Z'/%3E%3Cpath class='cls-2' d='M1029.15%2C1101.17a7.51%2C7.51%2C0%2C0%2C1-2.15%2C5c-6.71%2C6.66-13.5%2C13.52-21.65%2C18.19-9.52%2C5.45-17%2C13.47-26.53%2C18.93-4.2%2C2.41-4.09%2C9-8.24%2C12.41-1.18%2C1%2C.77%2C3.82%2C2.21%2C5.24%2C2%2C2%2C2%2C3.92%2C1.23%2C6.61-2.76%2C9.92-5.23%2C19.84-16.62%2C23.66-2.26.75-1.68%2C3.63-3.35%2C4.89-8.12-2.74-12.68-11.14-21.36-13.29-2.2-.55-2-3.86-1-6.51s2.41-5.62.68-8.82c-2.82-5.23-5.56-6-13.5-3.14-3.74%2C1.35-7.5%2C5.32-11.14%2C3.48-3.28-1.67-5.29-6-7.06-9.69-4.72-9.91-13.78-16.31-20.44-24.68-3.26-4.09-4.34-9.64-9.14-12.66-3.05-1.93-5.45-4.64-9.47-5.08a8.24%2C8.24%2C0%2C0%2C1-7.1-6.74c-1.38-6.42-6-10.13-11.49-9.89-7.75.35-15.38-2.63-23.08-.43-.39.11-.82.06-1.22.14-11.28%2C2.49-12.69%2C2-18.8-7.33-1.88-2.85-.92-5.23%2C1.58-6.85a36.12%2C36.12%2C0%2C0%2C1%2C8.19-4.11c8.83-2.89%2C11.61-9.55%2C6.77-17.73a8.11%2C8.11%2C0%2C0%2C1-.48-8c1.44-3.56%2C3.3-4.86%2C6.89-2.76%2C3%2C1.72%2C5.75%2C1.58%2C8.36-1%2C1.79-1.76%2C2.65-3.71%2C1.9-6.06s-3.06-1.6-4.75-1.66c-8-.24-15.93-.41-23.14%2C3.79-2.25%2C1.3-5.05%2C2.13-6.21%2C4.7-4%2C9-10.76%2C9.93-19.26%2C6.56%2C1.53-2.77%2C2.91-5.63%2C4.62-8.27%2C2.3-3.55%2C2.82-7.08%2C1.06-11a12.49%2C12.49%2C0%2C0%2C1%2C.42-11.76%2C12.64%2C12.64%2C0%2C0%2C0%2C1.44-5.26c.6-9.81%2C6.28-15.66%2C14.28-20.56%2C5.13-3.14%2C10.16-2.36%2C15.38-2.38a2.69%2C2.69%2C0%2C0%2C1%2C2.66%2C2.19c.8%2C3.91%2C3.61%2C4.43%2C6.54%2C3.42%2C3.36-1.15%2C2.15-4.4%2C2.18-6.95%2C0-1.16-1.42-2.12-.22-3.81%2C4.45%2C0%2C8.33.15%2C9.25%2C6.58.66%2C4.64%2C2.91%2C9.49%2C9%2C9.31%2C5.75-.17%2C12.43%2C2.57%2C15.85-5.47%2C2-4.85%2C5.4-8.81%2C11.15-10.33a15.76%2C15.76%2C0%2C0%2C0%2C7.66-4.79c2.57-3.07%2C5.48-3.95%2C9.11-3.88%2C5%2C.08%2C8.76-1.45%2C10.18-6.83.39-1.48%2C1-3.48%2C2.77-3.85%2C7.12-1.49%2C8.56-7.53%2C10.07-13%2C1.28-4.66%2C4.14-7.81%2C7.27-11%2C1.6-1.64%2C2.82-2.18%2C5.22-.78A15%2C15%2C0%2C0%2C0%2C935%2C952c9.53-1.29%2C17.41%2C2.23%2C24.87%2C7.64a171.62%2C171.62%2C0%2C0%2C0%2C14.74%2C9.76c3.1%2C1.8%2C3.39%2C3.79%2C2.51%2C6.92-3.33%2C11.92-6.46%2C23.89-9.65%2C35.85a13.27%2C13.27%2C0%2C0%2C1-4.47%2C7.16c-3.41%2C2.57-4.6%2C6.28-6%2C9.75-1.52%2C3.83-.42%2C6.74%2C4.73%2C6.78%2C4%2C0%2C7.72-.94%2C11.44-1.83%2C4.1-1%2C5.38-.64%2C7.19%2C4%2C3.54%2C9%2C1.14%2C19.15%2C6.06%2C27.81%2C1.26%2C2.21-6.11%2C13.31-8.91%2C14.34-1%2C.35-1.85.51-2.33%2C1.63-1%2C2.26.93%2C12.75%2C2.87%2C13.89%2C4.45%2C2.62%2C9.13%2C2.74%2C13.08-.71%2C1.77-1.54%2C3-1.69%2C5.18-1.52%2C4.23.32%2C8.47.49%2C12.79-.62%2C6.12-1.58%2C11.7-.33%2C15.56%2C5.38C1025.75%2C1099.74%2C1027.09%2C1101.06%2C1029.15%2C1101.17Z'/%3E%3Cpath class='cls-2' d='M771.69%2C1505c-2.6%2C6.43-2.84%2C6.55-12.94%2C6.41-.85%2C1.15%2C0%2C1.94.73%2C2.55%2C4%2C3.43%2C3.25%2C5.71-1.61%2C7.09a10.24%2C10.24%2C0%2C0%2C0-5.33%2C4c-2.69%2C3.6-4.91%2C7.72-10.63%2C6.22-.74-.19-2%2C.62-2.67%2C1.28-6.13%2C5.76-12.58%2C11.07-20.07%2C15a4%2C4%2C0%2C0%2C0-1.9%2C3c.42%2C5.91-4%2C10-5.42%2C15.25-1.47%2C5.41-6.62%2C7.4-10.73%2C10.25-1.14.79-3.36.74-3.83%2C1.69-4.09%2C8.33-13.63%2C12.87-15.61%2C22.62a13.29%2C13.29%2C0%2C0%2C1-1.26%2C3.44c-1.15%2C2.14-2.42%2C5.25-4.83%2C4.92-2.12-.3-3.51-3.15-3.75-5.78-.37-4.17-2.84-4.8-5.1-2-5.07%2C6.38-12.78%2C9.46-18.11%2C15.41-2.64%2C3-6.58%2C5-5.44%2C10.14.3%2C1.35-1%2C2.76-2.39%2C3.25-1.69.58-1.74-1.2-2.49-2-2-2.27-4.07-4.57-6.31-6.63-2.52-2.32-4.65-4.32-2.8-8.35%2C1-2.19-.41-4.62-3.15-4.9a3.48%2C3.48%2C0%2C0%2C0-3.95%2C3.78c.75%2C5.66-.53%2C9.55-6.76%2C10.64a2.33%2C2.33%2C0%2C0%2C0-1.43%2C1.76c.76%2C8.48-5%2C7.21-10.09%2C6.78-2.74-.23-5.32%2C0-5.16%2C3.47a7.27%2C7.27%2C0%2C0%2C1-4.83%2C7.18c-5.39%2C1.82-8.78%2C5.77-12.62%2C9.34a7.76%2C7.76%2C0%2C0%2C1-5.69%2C1.81c-4.71%2C0-9.43%2C0-14.14-.09.39-6.41-2.81-9-9-8.5a16.21%2C16.21%2C0%2C0%2C1-7.23-1.13c-5.75-2.3-6.38-6.39-1.7-10.36%2C5.12-4.34%2C9-10%2C14.72-13.78%2C2.76-1.82%2C1.89-5.21%2C1.52-8a145.34%2C145.34%2C0%2C0%2C0-2.46-15.75c-1.2-4.85%2C1.14-6.85%2C4.74-9.29%2C6.12-4.14%2C13.61-4.08%2C20-7.56%2C4.62-2.52%2C7.13-5.29%2C6.39-10.48-1.26-8.93%2C1.59-14.73%2C10.24-19.14%2C6.21-3.17%2C12.5-7.48%2C14.69-16%2C1.49-5.81%2C6.62-10.66%2C10-16a87.36%2C87.36%2C0%2C0%2C0%2C4.71-8.6c1.49-3.09%2C2.19-7.17.27-9.49-8.42-10.19-14.19-23.32-29-26.85-4.84-1.15-10-6.89-12.13-11.38a51.82%2C51.82%2C0%2C0%2C1-3.67-12.32c-.79-4-2-7.46-6.56-8.67-2.49-.65-3.2-2.82-3.28-5.31-.19-5.8%2C3.66-9.85%2C6.18-14.42%2C1.24-2.26%2C3.44-1%2C4.77.18%2C6.72%2C5.75%2C14.66%2C5.34%2C22.58%2C4.48%2C3.4-.37%2C6.89-.71%2C9.41%2C1.52%2C7.18%2C6.33%2C15.06%2C4.16%2C22.66%2C2%2C7.89-2.21%2C14.32-2.65%2C18.58%2C6.16%2C1.66%2C3.43%2C5.2%2C3.25%2C9.15%2C2.17%2C7.53-2%2C15.35-2.92%2C22.26%2C2.43.32.25.87.38%2C1%2C.69%2C7.35%2C18.2%2C27.48%2C14.81%2C40.46%2C23.66%2C5.56%2C3.79%2C9.7%2C6.37%2C10.76%2C13.92%2C1.28%2C9%2C6.32%2C17.37%2C15.89%2C19.93C763.25%2C1498.16%2C767.86%2C1500.55%2C771.69%2C1505Z'/%3E%3Cpath class='cls-2' d='M950.41%2C1227.89c-3%2C2.2-2.32%2C5.49-2.5%2C8.52a11.06%2C11.06%2C0%2C0%2C1-8.54-2.6c-2.19-1.8-4.84-3.38-7.81-3.27-3.85.13-7.39.21-8.41-4.61-7.58%2C0-12-8-19.69-7.79a6.89%2C6.89%2C0%2C0%2C0-3.55.74c-3.83%2C2.71-7.59%2C2.08-11.59.48-2-.8-4.34-2-6.34%2C0s-1.6%2C4.34-.76%2C6.87c2%2C6-.89%2C11.19-7%2C13.07-1.88.58-2.45-1.06-3.63-1.64-4.16-2-7.65-1.12-8.55%2C3.47-1.2%2C6.11-4.95%2C11.59-7.9%2C16-4%2C5.93-11.14%2C12-19.55%2C12.69-11.13%2C1-22.35%2C1.92-33.55-.07-5.16-.92-8.21-5.14-12.47-7.49-5.43-3-11.39-3.32-16.51.44-5.95%2C4.38-11.89%2C8.75-19.17%2C10.68-3.14.83-3.95%2C3.09-4.5%2C5.87-.94%2C4.73-2.71%2C8.93-7.34%2C11.45-3.9%2C2.12-4.09%2C6.11-3.31%2C9.73s-.65%2C5.23-3.63%2C6.63c-4%2C1.87-6.61-.28-9.29-2.63-2.5-2.18-1.78-4.72%2C0-6.48%2C7-6.75%2C3.29-14.73.32-20.45-3.39-6.52-3-12.13-1.35-18.11%2C2.27-8.26%2C5.3-16.32%2C8.12-24.42%2C3.39-9.76%2C13-11%2C20.69-14.85a2.47%2C2.47%2C0%2C0%2C1%2C2.23.57%2C9.3%2C9.3%2C0%2C0%2C0%2C9.9%2C3.15c6.43-1.59%2C12.24-4.3%2C16.83-9.2a4%2C4%2C0%2C0%2C0%2C1.06-2.78c-.8-6.88-1.87-14-5.13-19.94a40.54%2C40.54%2C0%2C0%2C0-8.49-10.36c-5.79-5.14-6.69-11.5-5.26-18.5a123.29%2C123.29%2C0%2C0%2C1%2C5.63-19.31c2.29-6%2C2.78-13.55-1.07-19.89-1.75-2.89-.42-4.64%2C1.31-6.46%2C2.45-2.56%2C4.28-6.22%2C9-4.86%2C12.36%2C3.58%2C16%2C2.43%2C23.75-7.35.91-1.15%2C1.46-2.44%2C3.31-2%2C5.42%2C1.16%2C10.47-.77%2C15.71-1.6%2C6.74-1.07%2C13.64.59%2C20.54.43%2C4.8-.11%2C8.24%2C3.52%2C9.7%2C8.2s4.44%2C7.32%2C9.39%2C8.51c5.17%2C1.23%2C9.25%2C5%2C11.76%2C9.39%2C4.65%2C8.1%2C10.71%2C14.67%2C17.41%2C21.07%2C4.31%2C4.11%2C6.74%2C10.16%2C10.09%2C15.29%2C4.86%2C7.44%2C7.57%2C8.25%2C15.8%2C4.84a53.29%2C53.29%2C0%2C0%2C1%2C6.22-2.62c5.44-1.46%2C8.32%2C1.59%2C6.92%2C7.12-2.45%2C9.72-2.43%2C9.69%2C6.63%2C14.32%2C2.17%2C1.11%2C4.7%2C2.16%2C6.12%2C4%2C3.17%2C4.06%2C7.42%2C5.49%2C12.09%2C6.4-.08%2C2.64.62%2C5.71-1.32%2C7.69-5.63%2C5.71-6.14%2C11.85-2.64%2C18.75C950.53%2C1225.7%2C950.32%2C1226.87%2C950.41%2C1227.89Z'/%3E%3Cpath class='cls-2' d='M558.74%2C1653.91c-.75%2C3.61-3%2C5.36-6.58%2C6.2-5.2%2C1.23-10.15%2C3.16-14.27%2C6.82-2.7%2C2.39-5.18%2C5.06-4.8%2C8.83.5%2C4.82-2.62%2C5.78-6%2C5.86-3.53.08-6.77.13-9.87%2C2.26s-3.82-.11-3.83-2.8c3.39-2.24%2C7-4.25%2C10.14-6.78s2.37-6%2C1.4-9.14-4-3.05-6.28-2.28c-4.57%2C1.52-7.39-.07-9.77-3.85-.82-1.29-2.42-2.12-3.73-3.07-3.8-2.77-6.59-6-6.77-11.1-.16-4.46-3.07-6.33-6.94-8.28-11.06-5.56-20.05-2.45-28.41%2C5.29-1.22%2C1.12-2.52%2C2.25-4.36%2C1.63s-1.24-2.34-1.14-3.67c.31-4.08-1.78-5.75-5.55-5.38s-5.29-1.13-5.4-4.78a6.11%2C6.11%2C0%2C0%2C0-1.34-3.33c-4.09-5.22-19.78-4.89-23.93.38a35.09%2C35.09%2C0%2C0%2C1-3.79%2C4c-7.27%2C6.67-8.52%2C6.37-11.44-2.69-.19-.59-.18-1.38-.56-1.73-7.62-7-1.16-7.74%2C3.89-10.8%2C6.16-3.73%2C11.28-9.26%2C16.63-14.24%2C4.94-4.59%2C11.4-6.18%2C16.94-9.34%2C7.32-4.16%2C15.26-7.37%2C22-12.08%2C3.87-2.69%2C6.13-3.22%2C9.3-1a92.81%2C92.81%2C0%2C0%2C1%2C11.92%2C9.61c5.29%2C5.2%2C13.94%2C7%2C20.43%2C3.58%2C1.24-.65%2C2.83-2%2C3.8-1.62%2C7.61%2C2.6%2C9.49-2.66%2C13.3-7.61%2C8.2-10.66%2C7.8-22.86%2C9-34.92.72-7%2C3.55-13.37%2C6.11-19.77%2C1.14-2.83%2C2.12-5.73.91-8.27-2.14-4.53-2.08-9.16-1.89-13.84.34-8.64-2.85-16-7.67-22.85-1.89-2.67-3.67-5.42-5.48-8.15-.68-1-1.17-2.83-2-3-7.32-1.39-6.79-6.91-7.57-12.44-.63-4.43-3.37-8.48-8.48-9.49s-9.86.28-13.18%2C4.54c-3.14%2C4-6.88%2C7-11.82%2C8.34-2.57.68-4.43.75-3.47-3.18%2C1.9-7.86-.88-14.54-6.38-20.13-1.62-1.64-2.52-3-1.24-5.3a7.33%2C7.33%2C0%2C0%2C0%2C.44-4.18c-1-7.34-1-7.32%2C6.8-6.66%2C3.82.33%2C6.53-1.34%2C9.86-3.41%2C8.43-5.26%2C13.74-14.93%2C25-16.46%2C6.42-.88%2C11.23-5.6%2C13.67-12.1a12.36%2C12.36%2C0%2C0%2C1%2C5.72-6.22c1.58-.92%2C3.73-1.74%2C4.41-3.18%2C3.42-7.26%2C10-5%2C15.6-5.47%2C2.6-.24%2C4.13%2C1.47%2C4.17%2C4.24.13%2C8.41%2C5.24%2C16%2C4%2C24.68-.38%2C2.55%2C1.42%2C4.36%2C3.73%2C5%2C4.17%2C1.23%2C6%2C5.38%2C9.75%2C7.25%2C2.49%2C1.25%2C1.07%2C3.78-.07%2C5.36-2.61%2C3.61-2.42%2C7.65-2.55%2C11.76-.13%2C3.74%2C1.23%2C6.52%2C4.61%2C7.88%2C3.55%2C1.44%2C5%2C4.07%2C5.3%2C7.57.68%2C7%2C5.05%2C12.94%2C5.31%2C20.07.09%2C2.33%2C2.32%2C3.15%2C4.58%2C3.18%2C11.4.14%2C19.61%2C5.79%2C25.71%2C15%2C1.93%2C2.9%2C3.61%2C6%2C6.32%2C8.27%2C3.87%2C3.22%2C4.11%2C6.79%2C1.52%2C10.85-3.41%2C5.35-6.63%2C10.83-10.27%2C16a37.45%2C37.45%2C0%2C0%2C0-5.08%2C10.37c-2.09%2C6.51-8.42%2C9.39-13.64%2C12.35-7.71%2C4.37-11.89%2C9-9.83%2C18.55%2C1.47%2C6.73-3.71%2C11.48-12.74%2C13.47-1.39.31-2.88.23-4.26.59-12.45%2C3.24-15.08%2C7.13-13.59%2C19.9a28.14%2C28.14%2C0%2C0%2C0%2C.72%2C5.47c2.36%2C7.29.93%2C12.53-6.15%2C16.85-4.35%2C2.65-7.31%2C7.54-11.29%2C11.1-3.53%2C3.15-.89%2C10.59%2C3.92%2C12.72a20.63%2C20.63%2C0%2C0%2C0%2C9.06%2C1.33C556.38%2C1646.42%2C559.06%2C1648.63%2C558.74%2C1653.91Z'/%3E%3Cpath class='cls-2' d='M242.4%2C1375.24c-6.6.51-8.93-2.65-11.47-8.82-4-9.75-2.23-20.24-5.59-30a105.93%2C105.93%2C0%2C0%2C0-5.59-12.24c-1.52-3.1-1.35-4.69%2C2.7-5.32%2C8.79-1.37%2C11.18-4.64%2C11.34-13.74.06-3.33-1.18-6.84%2C2-9.8%2C3.92-3.66%2C5.34-3.61%2C7.56%2C1.2%2C1.79%2C3.9%2C3.64%2C7.77%2C5.38%2C11.69%2C1.86%2C4.23%2C4.58%2C5.33%2C8.83%2C3.11%2C7.36-3.85%2C10.11-2.38%2C10.52%2C6.05a112.77%2C112.77%2C0%2C0%2C0%2C2.6%2C17.58c.89%2C4.23%2C3%2C7.2%2C7.49%2C6%2C8.16-2.13%2C15.82%2C2.26%2C23.94%2C1s13.23-6.13%2C18-11.8c2.06-2.46%2C3.58-3.26%2C6.63-1.61%2C4.8%2C2.59%2C9.45%2C1.79%2C13.49-2%2C1-1%2C2-2.42%2C3.63-1.4a3.73%2C3.73%2C0%2C0%2C1%2C1.46%2C4.36c-1.86%2C7.32%2C2.29%2C12.53%2C6.16%2C17.86a5.07%2C5.07%2C0%2C0%2C0%2C4.19%2C2.19c7.81.16%2C15.18-.64%2C21.29-6.56%2C3.34-3.24%2C7.38-.66%2C10.76.77%2C3%2C1.27%2C5.78%2C3.13%2C9.15%2C3.3%2C2.94.15%2C6.13.2%2C6.56-3.76.37-3.39%2C1.1-7.1-3.73-8.49a49.48%2C49.48%2C0%2C0%2C1-7.29-3.2c-1.1-.52-2.37-1.12-2.35-2.55s1.3-1.94%2C2.43-2.44c12.06-5.41%2C24%2C1.22%2C25.85%2C14.25.73%2C5.29-.68%2C9.25-6%2C11.29-4.53%2C1.73-8.38%2C4.4-10.35%2C9.06a13%2C13%2C0%2C0%2C0%2C4.21%2C15.13c3.8%2C3.06%2C6.83%2C6.43%2C6.21%2C11.88-.55%2C4.9%2C1.75%2C7%2C6.79%2C7.06%2C10%2C.21%2C9.78.44%2C10.66%2C10.86.56%2C6.48%2C1.22%2C13.16%2C8.55%2C16.45%2C3.57%2C1.59%2C4.39%2C5.27%2C3%2C8.44-3.4%2C7.8-5.92%2C16.19-13.16%2C21.8-1.89%2C1.46-2.89%2C1.72-5.24.68-7.06-3.13-11.19-8.85-14.24-15.37-1.89-4-4-7.06-8.75-7.36a4.56%2C4.56%2C0%2C0%2C1-3.66-2c-3.95-6.27-9.26-5.66-15.08-3.3a53.69%2C53.69%2C0%2C0%2C1-7%2C2.27c-5.47%2C1.42-6.88.3-6.45-5.52.24-3.22-1.07-5.12-3.89-6.13a65.6%2C65.6%2C0%2C0%2C0-7-2.12c-7.82-1.84-10.18-4.49-10.94-12.49s-.7-7.79-7.82-4.76c-4.16%2C1.77-8.42-.51-12.71-.4-7.17.19-14.33-.53-20.65-4.61-3.26-2.11-6.28-1.59-8.83%2C1.2-7.06%2C7.72-17.43%2C8.55-26.31%2C12.3-5.86%2C2.48-8.56-.73-7.68-7%2C.71-5.15.33-9.81-5.25-12.45a9.75%2C9.75%2C0%2C0%2C1-5.58-6.22C249.9%2C1375.38%2C247%2C1374.35%2C242.4%2C1375.24Z'/%3E%3Cpath class='cls-2' d='M362%2C1620.58c-.18-3.88-3-7-2.71-11.14.22-2.93.29-4.57%2C4.14-3.44%2C7.61%2C2.24%2C8.52%2C1.38%2C9.8-6.44.65-4%2C1.81-8-.14-11.92%2C2.64-3.59%2C5.77-6.78%2C8.31-10.46%2C2.35-3.42%2C4.64-4.33%2C6.89.37a11.39%2C11.39%2C0%2C0%2C0%2C3%2C4.29c-6.43-9.48-6.43-9.48-.51-16.57-6.74%2C8.87-5.4%2C7.31-11.63-1.72.58%2C3.6%2C7.34%2C6.32%2C4.5%2C10.51-2.69%2C4-4.45%2C9.91-10.68%2C10.73-.62-2.8-1.38-5.54-3.47-7.7a5.3%2C5.3%2C0%2C0%2C1-1.39-5.49c1.28-5.64-1.88-8.43-7.63-7-2.29.56-4.42%2C2.42-6.19-1-1.42-2.75-2.26-5%2C.15-7.75a13.05%2C13.05%2C0%2C0%2C0%2C3.55-7c.88-7.16-2.74-10.16-9.72-8-3.64-3.06-2.43-6.47%2C0-9.15%2C5.3-5.71%2C6.82-12.33%2C6.21-19.82-.25-3-.55-6.36.36-9.17%2C2.39-7.47-1-11.67-7.16-14.75a31.79%2C31.79%2C0%2C0%2C1-3.12-2c-5.89-3.83-5-5.58%2C0-10.23%2C7-6.55%2C16.21-10.78%2C21.25-19.4%2C3.93-6.72%2C3-10-3.65-14-4.18-2.53-5.18-9.84-1.82-13.34%2C1-1%2C2.15-1.48%2C3.27-.56%2C6%2C4.87%2C12%2C2.29%2C18%2C.24%2C4.71-1.6%2C9.15-3%2C12.2%2C2.65.19.34.57.78.89.81%2C10.65.92%2C11.82%2C11.16%2C17%2C17.4a20.79%2C20.79%2C0%2C0%2C0%2C6.68%2C5.18c2.12%2C1.12%2C5.78%2C3.72%2C5.55%2C4.23-3.91%2C8.83%2C4.92%2C12%2C7.74%2C17.63%2C1.34%2C2.68%2C2.89%2C4.44%2C1.24%2C7.68-1.78%2C3.47-.72%2C6.3%2C3.65%2C7.27%2C7.81%2C1.74%2C13.44%2C8.07%2C21.48%2C9.9%2C5.57%2C1.26%2C7%2C7.86%2C8.62%2C12.71%2C1.19%2C3.45-3.21%2C5.26-5.34%2C7.57-7.61%2C8.22-12.42%2C17.77-11.74%2C29%2C.31%2C5.11%2C3.58%2C10.14%2C2%2C15.47-1.9%2C6.55-1.06%2C13.77-5.06%2C19.79a8.79%2C8.79%2C0%2C0%2C1-6.45%2C4%2C26.86%2C26.86%2C0%2C0%2C0-15.09%2C7.65c-4.68%2C4.87-10.52%2C8.32-14.93%2C13.6-3.74%2C4.48-10.88%2C3.89-15.38%2C8.28-1.49%2C1.46-4.81-.92-6.6-3.19-4.28-5.43-6-5.83-9.52-.49C374.1%2C1622.63%2C367.78%2C1620.14%2C362%2C1620.58Z'/%3E%3Cpath class='cls-2' d='M501.64%2C1256.21a9.7%2C9.7%2C0%2C0%2C0-3%2C.32c-6.38%2C2.91-12.21%2C4.36-16-3.86-.79-1.7-3.31-1.43-5.13-1.38-3.77.11-5.63-2.07-6.55-5.29-1-3.38%2C1.58-4.43%2C3.86-6%2C5.15-3.56%2C9.44-7.13%2C10.71-14.52%2C2.16-12.56%2C10.9-20.66%2C23-24.58%2C4.52-1.47%2C6.09-4%2C6.1-8.5%2C0-11.45.12-22.91%2C4.6-33.81a18.4%2C18.4%2C0%2C0%2C1%2C3.26-5.8c1.86-2%2C3.68-4.5%2C2.88-7.14-1.72-5.68.81-9.83%2C3.71-14.19%2C3.82-5.75%2C5.76-11.43.82-18a17.14%2C17.14%2C0%2C0%2C1-2.9-11.75c.14-1.47.3-3%2C1.76-3.7%2C1.75-.86%2C2.62.73%2C3.51%2C1.72a56.88%2C56.88%2C0%2C0%2C1%2C6.26%2C7.55c5.81%2C9.33%2C14.43%2C16.55%2C19.23%2C26.72%2C4.67%2C9.89%2C20.71%2C13.49%2C29.85%2C7.38%2C4.62-3.09%2C10.31-3.87%2C14.94-7.06%2C2.13-1.46%2C4.07-.13%2C2.91%2C2.3-2.37%2C4.93-.61%2C10.24-1.65%2C14.85-2.23%2C9.86-6%2C19.53-13.07%2C27.35-1.85%2C2-3.3.4-4.92-.17-5.33-1.86-7.55-.45-7%2C5.17a59.5%2C59.5%2C0%2C0%2C1-.13%2C11.56c-.38%2C4%2C.33%2C7.78%2C3.45%2C10.73%2C2.83%2C2.67%2C3.13%2C5.75%2C1%2C8.84-5%2C7-5.61%2C14.23-1.92%2C22%2C2%2C4.26%2C1.31%2C7.22-4.2%2C8.45-4.74%2C1.06-9.29%2C3.21-13.75%2C5.25-4%2C1.84-7.23%2C4.68-8.17%2C9.36-1%2C5-4%2C9.63-4.87%2C14.45-3.43%2C18.13-15.46%2C32.39-21.29%2C49.39-1.75%2C5.1-7.16%2C4.42-11.17%2C4.42-3.85%2C0-4.38-3.71-4.34-7a13.8%2C13.8%2C0%2C0%2C0-3.43-9c-3.42-4.32-3.87-8.19%2C1.38-11.92%2C5.73-4.07%2C9.66-9.31%2C8.19-17.18-.82-4.38-2-8-7.13-8.59-3-.35-3.66-1.91-3.08-4.71a37.69%2C37.69%2C0%2C0%2C0%2C.32-6.12C509.77%2C1258.33%2C507.08%2C1255.86%2C501.64%2C1256.21Z'/%3E%3Cpath class='cls-2' d='M334.65%2C1213.26c.27%2C14-9.14%2C26.24-23.38%2C30.33-7.78%2C2.23-11.8%2C8.91-9.18%2C16.71%2C2.12%2C6.3%2C3.56%2C13.08%2C9.09%2C17.83a8.26%2C8.26%2C0%2C0%2C1%2C2.73%2C6.64c-.46%2C6.18%2C3.35%2C10.74%2C5.6%2C15.89.73%2C1.68%2C2.49%2C3.26%2C2.44%2C4.85-.22%2C7.52-.55%2C15.47-4.33%2C21.87S308%2C1339.73%2C300%2C1339.09c-7.62-.6-15-2.27-22.8-.83-2.56.47-3.27-2.76-3.78-4.9-1.33-5.57-2.72-11.11-2.77-16.93-.09-10.63-6.26-13.59-13.63-8.85-2.92%2C1.87-4.54.68-5.82-1.91a99.68%2C99.68%2C0%2C0%2C1-4.79-9.94c-1.49-4.08-3.34-7.24-8.36-5.86-4.78%2C1.32-8.47%2C6.63-7.47%2C11.18%2C1.27%2C5.76.68%2C10.61-4.87%2C13.82-5%2C2.89-7.82%2C1.46-7.85-4.3-.05-7-.81-13.09-8-17.13-3.94-2.21-1.65-8-3.37-12-1.95-4.63%2C3.45-14.27%2C8.08-16.81%2C1.91-1.05%2C4.44-1.58%2C4.21-4.6a6.92%2C6.92%2C0%2C0%2C0-3.61-6c-4.66-2.65-4.77-5.62-.72-9.08%2C13.93-11.93%2C29.19-21.76%2C45-31%2C9.12-5.33%2C20.14-6.82%2C28-14.5.86-.84%2C2.7-.7%2C4.08-1%2C1%2C2.14-.45%2C3.49-1.72%2C4.77-3.35%2C3.41-2.74%2C5.58.39%2C9.56%2C5.85%2C7.4%2C14.42%2C5.4%2C21.49%2C8.23%2C1.79.72%2C3.45-.69%2C2.4-2.77-1.35-2.69-.88-5.14%2C1.24-6.53%2C2.4-1.57%2C4.31%2C1.17%2C5.7%2C2.48C326.1%2C1219%2C330.22%2C1215%2C334.65%2C1213.26Z'/%3E%3Cpath class='cls-2' d='M344.58%2C1209.49c6.06.2%2C10%2C3%2C11.45%2C9.09a11.54%2C11.54%2C0%2C0%2C0%2C8.45%2C8.87c3.91%2C1.2%2C7.64%2C3.24%2C11.62%2C3.91a56.51%2C56.51%2C0%2C0%2C1%2C26.64%2C12c13.77%2C10.93%2C14.13%2C10.33%2C6.26%2C25.9a100.87%2C100.87%2C0%2C0%2C0-4.7%2C12c-1.07%2C3-.23%2C5.39%2C2.58%2C7.4%2C3.88%2C2.79%2C8.46%2C2.9%2C12.74%2C4.15%2C2.68.78%2C7.15-.75%2C7.09%2C3.88s.27%2C9.64-5.18%2C12.12c-3.69%2C1.68-8.59%2C2.21-10.38%2C6.09-3.17%2C6.85-9%2C7.25-15.09%2C7.95a24.47%2C24.47%2C0%2C0%2C0-6%2C1.44c-4.26%2C1.65-5%2C6.58-1.21%2C9.14a44.86%2C44.86%2C0%2C0%2C0%2C8.89%2C4.09c2.23.87%2C3.61%2C2.18%2C2.9%2C4.59-.78%2C2.62-2.85%2C2.64-5%2C1.77-4.54-1.85-9-4-13.87-4.82-3.33-.54-6.24-.65-8.53%2C2.91-2.05%2C3.17-13.85%2C6.09-17%2C4.91-3.39-1.28-8.3-10.19-8.25-15%2C0-1.43.14-2.87.11-4.3-.06-2.33-.47-4.67-2.93-5.61a5.74%2C5.74%2C0%2C0%2C0-6.77%2C1.48c-3.56%2C4.16-7.15%2C4.39-11.81%2C1.45s-4.1-6.53-2.56-10.62c3.23-8.61-1.88-15.36-5.16-22.44a13.62%2C13.62%2C0%2C0%2C1-1.63-7c.22-3.15-.38-6.52-2.79-8.5-5.1-4.18-6.93-10-9-15.73-2.59-7.12.2-12.25%2C7.3-14.51%2C9.23-2.94%2C16.44-9%2C22.57-16.32%2C1.94-2.31%2C1.76-5.36%2C1.84-8.25.11-3.65-.63-7.42%2C1.33-10.85C340.36%2C1209.37%2C342.73%2C1210.72%2C344.58%2C1209.49Z'/%3E%3Cpath class='cls-2' d='M291.56%2C1545.55c-3.37%2C2.91-1.89%2C6.8-1.93%2C10.32%2C0%2C1.68.48%2C3.41-1.55%2C4.09-1.1.38-2.6.72-3.52.27-2.66-1.31%2C0-2.61.29-3.93.57-2.54-.89-3.69-2.91-4.66-5.88-2.84-11.65-3.61-17.36.46a22.65%2C22.65%2C0%2C0%2C1-3.72%2C2.1c-1.56.71-3.19%2C2.7-4.9.76s-.05-3.32%2C1.46-4.48%2C2-2.62.8-4.24c-1.31-1.83-3.07-1.77-4.89-.84-2.18%2C1.11-4.43%2C2.12-6.06%2C4-7.31-9-16.3-10.83-27.84-9.31-12.89%2C1.7-26.18.39-39.29.45a8.63%2C8.63%2C0%2C0%2C1-6.53-2.86c-1.14-1.18-2.37-2.26-3.61-3.34-2.2-1.93-7.11-1.29-6.88-4.89.14-2.09%2C3.79-3.93%2C5.81-5.94%2C1.6-1.58%2C3.68-3%2C4.59-4.91%2C3.6-7.62%2C9.29-11.11%2C17.71-10.19a4.59%2C4.59%2C0%2C0%2C0%2C3.92-1.47c7.2-8%2C16.59-14%2C22.06-23.53%2C2.31-4%2C2.22-9%2C5-13%2C3.4-4.84%2C6.89-7%2C12.8-3.85%2C5.3%2C2.83%2C7.44%2C1.42%2C8.59-4.76.4-2.14.81-4.15%2C3.28-4.59%2C2.21-.39%2C4.77-.88%2C6.12%2C1.5%2C2.1%2C3.72%2C4.74%2C3.39%2C7.67%2C1.43%2C4.29-2.86%2C7.63-2.15%2C10.19%2C2.33%2C6.13%2C10.72%2C13.84%2C17.13%2C27.75%2C16%2C11.17-.93%2C14.55%2C5.32%2C11%2C18.31a48.86%2C48.86%2C0%2C0%2C1-7.28%2C15.39%2C10.14%2C10.14%2C0%2C0%2C0-1.16%2C10.48c1.42%2C3.11.1%2C5-1.83%2C7.57C296%2C1534.82%2C289%2C1537.86%2C291.56%2C1545.55Z'/%3E%3Cpath class='cls-2' d='M528%2C1555.17c2%2C4.89%2C2.14%2C9.45-.7%2C14.36-3.14%2C5.41-7.1%2C10.44-8.92%2C16.55-1%2C3.27-3.21%2C3.17-5.11%2C1.64-3.05-2.46-5.31-.89-7.68.74-6.45%2C4.47-11%2C3.54-16.57-2.25a53.69%2C53.69%2C0%2C0%2C0-12.81-10.2c-4.53-2.44-10-5.08-13.79%2C2.26-1.24%2C2.42-4.44%2C3.61-7.56%2C2.58-2.46-.81-4.21-2.79-2.57-5.08%2C3.52-5%2C1-10.78%2C2.93-16%2C.87-2.32-.83-5.1-2.19-7.4a10.09%2C10.09%2C0%2C0%2C1%2C0-10.45c2.16-4%2C7.61-6.37%2C6.09-12.46-.29-1.18%2C2.21-1.28%2C3.66-1.06%2C2.52%2C0%2C3.36%2C1.37%2C4.23%2C3.72%2C1.6%2C4.31%2C3.48%2C8.55%2C5.27%2C12.8.79%2C1.86%2C1.33%2C4.45%2C4.35%2C4.19%2C3.52-3.86%2C3.9-9.11%2C5.73-12.32-.72%2C2.55-2.52%2C6.08-3.82%2C9.79-1.09%2C3.14-2.74%2C3.05-4.88%2C1.26-2.22-5.4-4.77-10.66-6.67-16.17-.78-2.25-2.64-3.23-4.17-4.65.08-3.63%2C3.39-4.9%2C5.37-7.06%2C2.65-2.89%2C2.63-5.9%2C1.12-9-4.19-8.66-3.8-10.9%2C4.38-15.67%2C3.25-1.9%2C6.33-3.87%2C8.43-6.91a4.08%2C4.08%2C0%2C0%2C1%2C4.12-1.89c8.72.59%2C16.07-4.07%2C24.07-6.21%2C2.16-.58%2C2.46-2.27%2C3.31-3.93%2C2.27-4.45%2C6-4.6%2C8-.26%2C2.4%2C5%2C6.45%2C8.93%2C9%2C13.75%2C3.17%2C6%2C5.47%2C12.21%2C4.87%2C19.26-.35%2C4-.62%2C8.21%2C1.73%2C12a2.78%2C2.78%2C0%2C0%2C1%2C.36%2C2.31c-5.78%2C9.53-6.26%2C20.68-9.61%2C31-3%2C.38-2.79-1.56-2.91-3.62-.3-5.25.12-10.51-.1-14.51%2C0%2C3.7%2C0%2C8.66%2C0%2C13.61C525%2C1552.28%2C525.14%2C1554.37%2C528%2C1555.17Z'/%3E%3Cpath class='cls-2' d='M348.24%2C1543.19c-1.89%2C4.09-6.1%2C6.1-8.61%2C9.64-3.24%2C3.41-7.32%2C1.88-11.05%2C1.64a22.66%2C22.66%2C0%2C0%2C1-7.69-2.06c-6.07-2.7-12.09-3.89-18.28-.34a3.63%2C3.63%2C0%2C0%2C1-3.56-.15l-5.16-6.39c-.63-6.33%2C4.35-9.74%2C7.91-13.31%2C3.39-3.4%2C4.22-6.25%2C2.08-10.16-1.59-2.9-1-5.14.84-7.84a50.21%2C50.21%2C0%2C0%2C0%2C6.94-14.12c3-10.12%2C21.78-16.57%2C31.08-11.2.87.5%2C1.89.76%2C2.71%2C1.32%2C4%2C2.76%2C9%2C4.71%2C6.7%2C11.5-.89%2C2.57-.43%2C5.71-.13%2C8.55.77%2C7.33-1.36%2C13.39-6.28%2C19C341%2C1534.73%2C342.6%2C1541.68%2C348.24%2C1543.19Z'/%3E%3Cpath class='cls-2' d='M339.63%2C1555.51c.39%2C3.43-1.35%2C5.32-3.93%2C7.57-8.82%2C7.72-19.1%2C13.81-26.36%2C23.29a11.79%2C11.79%2C0%2C0%2C0-2%2C3c-3%2C9.12-11.84%2C13.76-16.57%2C21.57-1.25%2C2.06-5.15%2C4.7-5.54%2C4.06-2.36-3.89-7.37-1.36-9.59-4.48-1.91-2.69.44-3%2C2.27-3.39%2C1.62-.36%2C4.53.39%2C3.9-2.39s-3.46-1-5.3-1.22c-2.32-.23-3.17%2C2.33-7%2C3.65%2C6.45-8.15%2C6.48-16.6%2C8.19-24.77%2C1.2-5.72%2C8.51-8.94%2C14-12%2C2.89-1.59%2C4.67-2.1%2C3-6.11-1.77-4.18%2C4.53-5.95%2C4.44-10.08%2C5.71-6.29%2C12-7.79%2C19.86-3.53a30.23%2C30.23%2C0%2C0%2C0%2C15.63%2C3.46C336.34%2C1554.14%2C338.24%2C1553.86%2C339.63%2C1555.51Z'/%3E%3Cpath class='cls-2' d='M535.53%2C798.83c-2.8%2C7.55-2.57%2C16.47-5.15%2C24.84-.68%2C2.18-1.93%2C3.12-4.1%2C1.83-3.6-2.14-7.55-1.52-11.39-1.44-6.36.12-9.83%2C3.44-10.18%2C9.75-.17%2C3.15-.28%2C6.27-3.17%2C8.16-1.67%2C1.08-3.12-.13-4.25-1.41-2.56-2.9-3.09-6.1-1.27-9.59a33.07%2C33.07%2C0%2C0%2C1%2C2.62-4.75c3.86-5.06%2C8-9.48%2C7.79-16.94-.11-4.41%2C2.91-9.16%2C9.61-8.88%2C5.08.21%2C8.31-4.67%2C12.84-6.55C533.86%2C791.79%2C535.17%2C793.62%2C535.53%2C798.83Z'/%3E%3Cpath class='cls-2' d='M417.36%2C1063c6.42.19%2C12.54%2C0%2C14.16-8.24a2.79%2C2.79%2C0%2C0%2C1%2C2.81-2c1.83.07%2C2.23%2C1.52%2C2.47%2C3s.35%2C2.85.65%2C4.25c1.31%2C6.11%2C3.93%2C10.28%2C11.29%2C10.53s8.47%2C3.07%2C5.45%2C9.54c-5%2C10.65%2C2.58%2C22.73%2C14.58%2C23.42%2C4.85.28%2C9.84-1.28%2C13.84%2C4%2C1.81%2C2.38%2C6.23%2C1.47%2C8.19-2.22%2C1.53-2.89%2C3.34-5.72%2C4.36-8.8%2C2.21-6.67%2C6.77-8.67%2C13.29-7.69%2C3.63.55%2C7.33.73%2C10.94%2C1.44s5.82%2C2.58%2C5.28%2C6.83c-1%2C7.91-.17%2C15.5%2C4.64%2C22.29%2C2.3%2C3.25-.4%2C6.41-1.86%2C8.42-4%2C5.59-6.34%2C11.17-5.44%2C18.21.5%2C3.94-3.86%2C5.92-5.22%2C9.45-4.15%2C10.77-4.69%2C21.94-4.65%2C33.18%2C0%2C5.48-1.58%2C8.36-7.17%2C10.28-5.2%2C1.78-10.63%2C4.19-14.13%2C9.22-2%2C2.84-4.63%2C3.76-8.51%2C3-12-2.4-24.49.35-32.06%2C8.46-9.1%2C9.76-22.22%2C15.45-28.3%2C28.13-2%2C4.13-5.3%2C3.71-7.92.77-5.21-5.84-13.1-8.32-17.91-14.68-1.19-1.58-3.52-1.87-5.61-2.16-6.51-.88-12.76-2.83-19-4.77-6.8-2.11-12.07-5.2-13.95-13-1.54-6.37-7.49-6.74-13-7-1.59.1-3.1.44-4.76-.25a20.12%2C20.12%2C0%2C0%2C0-15.32-.08c-3.22%2C1.26-6.28%2C1.58-8.08-1.52-1.67-2.87-1.85-6.22%2C1.21-8.82.77-.65%2C1.46-1.42%2C2.28-2s1.45-1.1%2C2.17-1.66c9.14-4.86%2C16.07-12.59%2C23.75-19.22a18.37%2C18.37%2C0%2C0%2C0%2C5.35-20.24c-2.26-6.7-.81-13.26-.72-20%2C.11-8.58%2C3.27-15.45%2C8.43-21.93%2C7.05-8.85%2C9.21-20%2C13.11-30.22%2C1.93-5.09%2C4.25-9.62%2C9.64-11.75%2C4.85%2C2.09%2C9.32%2C5.21%2C14.69%2C5.9C405.64%2C1076.32%2C412.45%2C1072.33%2C417.36%2C1063Z'/%3E%3Cpath class='cls-2' d='M473.82%2C1213c2.88.18%2C4.34.15%2C5.74.38%2C6.09%2C1%2C6.62%2C2%2C3.55%2C7.33-2.41%2C4.23-.47%2C10.31-6%2C13.28-1.91%2C1-3.24%2C3-5.42%2C3.93-4.39%2C1.8-4.43%2C5.62-3.65%2C9.36.73%2C3.57%2C2.38%2C6.71%2C6.87%2C6.45a7.47%2C7.47%2C0%2C0%2C1%2C7.5%2C4.28c2.92%2C5.28%2C7.32%2C5.1%2C12.16%2C3.25a38.24%2C38.24%2C0%2C0%2C1%2C5.75-2c4.07-.84%2C6.58%2C1.16%2C6.51%2C5.17-.09%2C4.62-.82%2C8.56-5.64%2C11.87-6.67%2C4.58-14.21%2C9.66-12.52%2C20%2C.56%2C3.44%2C2.06%2C5.78%2C5.51%2C6.51%2C10.84%2C2.31%2C14%2C11.53%2C16.17%2C20.12%2C1.5%2C5.94%2C3.16%2C8.88%2C9.31%2C8.45%2C3.94-.27%2C6.14%2C1.84%2C6.94%2C5.51.69%2C3.2%2C1.27%2C6.42%2C1.79%2C9.65.85%2C5.28%2C2.36%2C9.5%2C8.49%2C11.37%2C5%2C1.52%2C6%2C11.43%2C1.85%2C16.09-3.2%2C3.6-5.69%2C8-10.59%2C10-2%2C.82-3.43%2C2.94-4.29%2C5.07-3%2C7.54-9%2C11.6-16.5%2C13.41-6.08%2C1.45-10%2C5.34-14.56%2C9.29-5.11%2C4.42-9.89%2C11.33-19.19%2C8.64-5.75-1.67-7.81%2C1.36-6.33%2C7.35.64%2C2.6%2C1.38%2C5-.13%2C7.67-1.28%2C2.26.11%2C4.25%2C1.68%2C6.06%2C4.89%2C5.67%2C9.33%2C11.15%2C5.58%2C19.73-1.78%2C4.07%2C2.28%2C5.83%2C5.92%2C5.31a21.6%2C21.6%2C0%2C0%2C0%2C13.88-7.23c3.47-4.09%2C6.78-9%2C13.13-5.58%2C5.5%2C3%2C7.38%2C12.39%2C4.62%2C18.78a10.79%2C10.79%2C0%2C0%2C1-7.45%2C6.56c-6.84%2C2-13.42%2C4.6-20.7%2C5.43-5.95.68-9.38%2C6.79-14.39%2C9.95-6.27%2C4-13.66%2C4.78-19.76.38-1.33-1-2.42-2.63-3.86-3-6.88-1.7-11.35-4.45-9.32-12.94.77-3.19-3.23-5.51-5.19-8-5.54-7.1-5.71-8.65%2C1.78-17.77%2C6.27-7.64%2C11.37-16%2C11.18-26.46%2C0-2.94-1.08-5.26-3.75-6.54-6.62-3.17-7.77-8.92-7.56-15.42.31-9.56-1.4-11.5-11.13-11.68-4.84-.09-7.59-1.72-7-6.81.6-5.4-2.19-8.87-6-12-6.77-5.49-6.43-11.9.83-16.75.68-.45%2C1.43-.8%2C2.16-1.19%2C9.4-5.07%2C12.11-14.3%2C6.88-23.81-1.08-2-2.45-3.78-3.71-5.65-4.53-6.67-3.56-10%2C3.95-13.38%2C9-4.1%2C11.15-7.74%2C10.65-17.28-.18-3.49-1.45-5.12-5.06-5.5-4.46-.46-9-1.12-13.09-3.08-3.3-1.56-4.59-3.53-3.19-7.75%2C4.81-14.42%2C13.38-26.53%2C22.37-38.43.95-1.26%2C2.52-2%2C3.8-3.06A120.14%2C120.14%2C0%2C0%2C0%2C450.05%2C1224C456.21%2C1217.06%2C465.65%2C1214%2C473.82%2C1213Z'/%3E%3Cpath class='cls-2' d='M382.59%2C1636.53c-3%2C3.42-6.22%2C6.61-10.51%2C8.45-3.44%2C1.48-.95%2C3.23.25%2C3.83%2C5.12%2C2.56%2C2.61%2C7%2C2.88%2C10.68.08%2C1-.79%2C2.37-1.87%2C1.57-2.28-1.7-6.4%2C1.29-7.45-2.85-1.87-7.41-7.18-13.92-5.39-22.31.9-4.21-.48-8.46-1.11-12.67%2C2%2C0%2C4.1-.22%2C6.13-.08%2C7.2.51%2C14.06.3%2C17.74-8.33%2C2.61%2C6.1%2C6.86%2C8%2C12.39%2C8.41%2C6%2C.45%2C12.56%2C13.22%2C8.76%2C17.82-2.15%2C2.61-6.62.9-9.84-.55C390.7%2C1638.76%2C387.33%2C1635.62%2C382.59%2C1636.53Z'/%3E%3Cpath class='cls-2' d='M444.72%2C1639.47c.91%2C2-.52%2C3-1.77%2C4-.92.73-3%2C1.34-2.92%2C1.81%2C1%2C8.19-5.24%2C4.33-8.45%2C4.92s-6.65-.27-8.34%2C3.61a2.76%2C2.76%2C0%2C0%2C1-3.72%2C1.25c-3.4-1.38-6.25-2.28-10.12-.31-2.57%2C1.31-4.47-2.71-4.2-4.7.58-4.33.53-9.16%2C6.22-11.33a28%2C28%2C0%2C0%2C0%2C13.34-11.08c3.66-5.58%2C8.83-1.22%2C13.2-1.62a6%2C6%2C0%2C0%2C1%2C6.34%2C6.17C444.38%2C1634.61%2C444.57%2C1637%2C444.72%2C1639.47Z'/%3E%3Cpath class='cls-2' d='M481.26%2C1652.49c-1.39%2C2.48-2.77%2C5-4.19%2C7.43-.86%2C1.47-3.09%2C3-.58%2C4.54%2C2.07%2C1.26%2C3.28-.59%2C4.27-2.25.49-.83.58-2%2C3-2.21-.52%2C3.5-.85%2C6.24-3.74%2C9.17-5.4%2C5.49-7.59%2C6-13%2C1-.78-.72-1.75-1.23-1.27-2.42%2C2.54-6.25-2.29-9-5.94-12-4.17-3.45-4.82-6.34%2C0-8.3%2C6.17-2.54%2C10.23-8%2C16.49-10.14%2C3.13-1.06%2C16.22%2C2%2C18%2C4.58%2C1.32%2C2%2C1%2C3.33-1.51%2C3.89s-5.08%2C1.63-7.66%2C1.83c-3.46.27-3.8%2C2.43-3.89%2C5Z'/%3E%3Cpath class='cls-2' d='M226.39%2C1570.25c10.19%2C0%2C13.25%2C4.14%2C9.9%2C12.91a2.39%2C2.39%2C0%2C0%2C0%2C.85%2C3.11%2C4.07%2C4.07%2C0%2C0%2C0%2C5.59.06c3.31-2.62%2C5.45-.51%2C7%2C2s-.64%2C4.08-2.24%2C5.61c-2.29%2C2.17-4.52.74-5.68-1-1.68-2.48-4.21-3.76-6.21-5.71-2.27-2.21-3.84-2.09-6.12%2C0-1.76%2C1.66-3.18%2C6-6.61%2C3s-8.22-5.59-6.71-11.8C217.55%2C1572.57%2C220.8%2C1569.6%2C226.39%2C1570.25Z'/%3E%3Cpath class='cls-2' d='M370.47%2C1587.4c2.17%2C4.8-.11%2C9.53-.27%2C14.29%2C0%2C1.33-1%2C2.72-2.22%2C2.37-2.59-.76-6.1-.9-7.06-3.81-1.08-3.24-3.26-6.1-1.91-10.39%2C1.08-3.42%2C1.56-8-1.12-11.62%2C8.74-2.55%2C9.39-2.15%2C12.58%2C8Q371.75%2C1586.8%2C370.47%2C1587.4Z'/%3E%3Cpath class='cls-2' d='M254.65%2C1642.88c-.88-3.33.31-3.71%2C3.37-2.87%2C3.41.94%2C5.22-.43%2C3.9-4.25-1.19-.47-2.84-1.66-2.08-2.47%2C3.67-3.93-.26-7.54-.09-11.25%2C9.58%2C1.63%2C14.7%2C9.47%2C21.3%2C15.53-.53-7.33-6.14-11.62-9.55-17.57%2C3.86-.67%2C7.45-2.08%2C6.81%2C4.45-.33%2C3.4%2C2.94%2C5.35%2C5.44%2C6.9%2C3.44%2C2.13%2C3%2C4.7%2C2.33%2C7.91-.83%2C3.81-3.21%2C5.51-6.73%2C5.51-4.27%2C0-7.79.54-8%2C6.57C268.11%2C1643.14%2C262.87%2C1639.8%2C254.65%2C1642.88Z'/%3E%3Cpath class='cls-3' d='M316.33%2C1526.76%2C311%2C1561.08l-5.33-34.32h0a23.24%2C23.24%2C0%2C1%2C1%2C10.65%2C0Z'/%3E%3Ccircle class='cls-4' cx='311.01' cy='1504.14' r='12.1'/%3E%3Cpath class='cls-3' d='M507.58%2C1478.69%2C502.26%2C1513l-5.33-34.32h0a23.24%2C23.24%2C0%2C1%2C1%2C10.65%2C0Z'/%3E%3Ccircle class='cls-4' cx='502.26' cy='1456.07' r='12.1'/%3E%3Cpath class='cls-3' d='M221.17%2C1057.52l-5.33%2C34.32-5.32-34.32h0a23.24%2C23.24%2C0%2C1%2C1%2C10.65%2C0Z'/%3E%3Ccircle class='cls-4' cx='215.84' cy='1034.9' r='12.1' transform='translate%28-379.61 161.38%29 rotate%28-22.5%29'/%3E%3Cpath class='cls-3' d='M761.83%2C1298.53l-5.33%2C34.32-5.32-34.32h0a23.24%2C23.24%2C0%2C1%2C1%2C10.65%2C0Z'/%3E%3Ccircle class='cls-4' cx='756.5' cy='1275.91' r='12.1'/%3E%3Cpath class='cls-3' d='M1012.28%2C696.83%2C1007%2C731.15l-5.33-34.32h0a23.24%2C23.24%2C0%2C1%2C1%2C10.65%2C0Z'/%3E%3Ccircle class='cls-4' cx='1006.95' cy='674.21' r='12.1'/%3E%3Ccircle class='cls-5' cx='580.34' cy='706.65' r='15.59' transform='translate%28-240.74 1109.12%29 rotate%28-76.72%29'/%3E%3Ccircle class='cls-5' cx='983.71' cy='1116.71' r='15.59' transform='translate%28-329.14 1817.54%29 rotate%28-76.72%29'/%3E%3Ccircle class='cls-5' cx='756.5' cy='1067.35' r='15.59'/%3E%3Ccircle class='cls-5' cx='124.64' cy='1169.89' r='15.59' transform='translate%28-1042.59 1022.41%29 rotate%28-76.72%29'/%3E%3Ccircle class='cls-5' cx='38.19' cy='1734.66' r='15.59' transform='translate%28-1680.19 1494.49%29 rotate%28-80.78%29'/%3E%3Ccircle class='cls-5' cx='558.55' cy='1328.3' r='15.59' transform='translate%28-862.55 1566.73%29 rotate%28-76.72%29'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 50% 49%;
+    background-size: 116vw 300vw; }
+  .promo-info {
+    position: relative;
+    z-index: 5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6vw 10vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5vw;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); }
+  .promo-info p {
+    margin: 0;
+    margin-top: 4vw;
+    font-size: 3.5vw;
+    line-height: 4vw; }
+  .promo-content {
+    position: relative;
+    margin-top: -5vw;
+    padding: 15vw 0;
+    text-align: center;
+    background-color: rgba(255, 221, 0, 0.6); }
+    .promo-content::before, .promo-content::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 15px;
+      background-color: rgba(255, 221, 0, 0.6); }
+    .promo-content::before {
+      left: -15px; }
+    .promo-content::after {
+      right: -15px; }
+  .promo-item:first-child {
+    margin-bottom: 15vw; }
+  .promo-item b {
+    margin-bottom: 4vw;
+    display: block;
+    font-size: 10vw;
+    line-height: 5vw; }
+  .promo-item small {
+    font-size: 4vw;
+    line-height: 4vw; }
+
+.advantages {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  list-style: none; }
+  .advantages-item svg {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px; }
+  .advantages b {
+    display: block;
+    font-size: 24px; }
+  .advantages p {
+    font-size: 14px;
+    line-height: 16px; }
+
+.partners {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .partners-item {
+    margin: 5px 10px;
+    display: inline-block;
+    vertical-align: top; }
+
+.page-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #000000;
+  color: #ffffff; }
+  .page-footer-text, .page-footer-link {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC91dGlscy9fYW5pbWF0aW9ucy5zY3NzIiwiLi4vLi4vLi4vbm9kZV9tb2R1bGVzL25vcm1hbGl6ZS5jc3Mvbm9ybWFsaXplLmNzcyIsImFwcC5jc3MiLCJnbG9iYWwvX2ZvbnRzLnNjc3MiLCJnbG9iYWwvX2NvbW1vbi5zY3NzIiwiX3NldHRpbmdzLnNjc3MiLCJnbG9iYWwvX2dyaWQuc2NzcyIsImdsb2JhbC9ncmlkL19ncmlkLnNjc3MiLCJnbG9iYWwvdXRpbHMvX2JyZWFrcG9pbnRzLnNjc3MiLCJnbG9iYWwvZ3JpZC9fZ3JpZC1mcmFtZXdvcmsuc2NzcyIsImFwcC5zY3NzIiwiY29tcG9uZW50cy9fcGFnZS1oZWFkZXIuc2NzcyIsImNvbXBvbmVudHMvX3BhZ2Utc2VjdGlvbi5zY3NzIiwiY29tcG9uZW50cy9fbGluay5zY3NzIiwiY29tcG9uZW50cy9fYmFubmVyLnNjc3MiLCJjb21wb25lbnRzL19kZWxpdmVyeS5zY3NzIiwiY29tcG9uZW50cy9fcHJvbW8uc2NzcyIsImNvbXBvbmVudHMvX2FkdmFudGFnZXMuc2NzcyIsImNvbXBvbmVudHMvX3BhcnRuZXJzLnNjc3MiLCJjb21wb25lbnRzL19wYWdlLWZvb3Rlci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7SUFDRSxtQ0FBMEI7WUFBMUIsMkJBQTBCLEVBQUEsRUFBQTs7QUFGOUI7RUFDRTtJQUNFLG1DQUEwQjtZQUExQiwyQkFBMEIsRUFBQSxFQUFBOztBQ0Y5Qiw0RUFBNEU7QUFFNUU7Z0ZBQ2dGO0FBRWhGOzs7R0FHRztBQUVIO0VBQ0Usa0JBQWlCO0VBQUUsT0FBTztFQUMxQiwrQkFBOEI7RUFBRSxPQUFPLEVBQ3hDOztBQUVEO2dGQUNnRjtBQUVoRjs7R0FFRztBQUVIO0VBQ0UsVUFBUyxFQUNWOztBQUVEOztHQUVHO0FBRUg7RUFDRSxlQUFjLEVBQ2Y7O0FBRUQ7OztHQUdHO0FBRUg7RUFDRSxlQUFjO0VBQ2QsaUJBQWdCLEVBQ2pCOztBQUVEO2dG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MCUge1xuICAgIHRyYW5zZm9ybTogcm90YXRlWigzNjBkZWcpO1xuICB9XG59XG4iLCIvKiEgbm9ybWFsaXplLmNzcyB2OC4wLjEgfCBNSVQgTGljZW5zZSB8IGdpdGh1Yi5jb20vbmVjb2xhcy9ub3JtYWxpemUuY3NzICovXG5cbi8qIERvY3VtZW50XG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vKipcbiAqIDEuIENvcnJlY3QgdGhlIGxpbmUgaGVpZ2h0IGluIGFsbCBicm93c2Vycy5cbiAqIDIuIFByZXZlbnQgYWRqdXN0bWVudHMgb2YgZm9udCBzaXplIGFmdGVyIG9yaWVudGF0aW9uIGNoYW5nZXMgaW4gaU9TLlxuICovXG5cbmh0bWwge1xuICBsaW5lLWhlaWdodDogMS4xNTsgLyogMSAqL1xuICAtd2Via2l0LXRleHQtc2l6ZS1hZGp1c3Q6IDEwMCU7IC8qIDIgKi9cbn1cblxuLyogU2VjdGlvbnNcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbi8qKlxuICogUmVtb3ZlIHRoZSBtYXJnaW4gaW4gYWxsIGJyb3dzZXJzLlxuICovXG5cbmJvZHkge1xuICBtYXJnaW46IDA7XG59XG5cbi8qKlxuICogUmVuZGVyIHRoZSBgbWFpbmAgZWxlbWVudCBjb25zaXN0ZW50bHkgaW4gSUUuXG4gKi9cblxubWFpbiB7XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxuXG4vKipcbiAqIENvcnJlY3QgdGhlIGZvbnQgc2l6ZSBhbmQgbWFyZ2luIG9uIGBoMWAgZWxlbWVudHMgd2l0aGluIGBzZWN0aW9uYCBhbmRcbiAqIGBhcnRpY2xlYCBjb250ZXh0cyBpbiBDaHJvbWUsIEZpcmVmb3gsIGFuZCBTYWZhcmkuXG4gKi9cblxuaDEge1xuICBmb250LXNpemU6IDJlbTtcbiAgbWFyZ2luOiAwLjY3ZW0gMDtcbn1cblxuLyogR3JvdXBpbmcgY29udGVudFxuICAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyoqXG4gKiAxLiBBZGQgdGhlIGNvcnJlY3QgYm94IHNpemluZyBpbiBGaXJlZm94LlxuICogMi4gU2hvdyB0aGUgb3ZlcmZsb3cgaW4gRWRnZSBhbmQgSUUuXG4gKi9cblxuaHIge1xuICBib3gtc2l6aW5nOiBjb250ZW50LWJveDsgLyogMSAqL1xuICBoZWlnaHQ6IDA7IC8qIDEgKi9cbiAgb3ZlcmZsb3c6IHZpc2libGU7IC8qIDIgKi9cbn1cblxuLyoqXG4gKiAxLiBDb3JyZWN0IHRoZSBpbmhlcml0YW5jZSBhbmQgc2NhbGluZyBvZiBmb250IHNpemUgaW4gYWxsIGJyb3dzZXJzLlxuICogMi4gQ29ycmVjdCB0aGUgb2RkIGBlbWAgZm9udCBzaXppbmcgaW4gYWxsIGJyb3dzZXJzLlxuICovXG5cbnByZSB7XG4gIGZvbnQtZmFtaWx5OiBtb25vc3BhY2UsIG1vbm9zcGFjZTsgLyogMSAqL1xuICBmb250LXNpemU6IDFlbTsgLyogMiAqL1xufVxuXG4vKiBUZXh0LWxldmVsIHNlbWFudGljc1xuICAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyoqXG4gKiBSZW1vdmUgdGhlIGdyYXkgYmFja2dyb3VuZCBvbiBhY3RpdmUgbGlua3MgaW4gSUUgMTAuXG4gKi9cblxuYSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xufVxuXG4vKipcbiAqIDEuIFJlbW92ZSB0aGUgYm90dG9tIGJvcmRlciBpbiBDaHJvbWUgNTctXG4gKiAyLiBBZGQgdGhlIGNvcnJlY3QgdGV4dCBkZWNvcmF0aW9uIGluIENocm9tZSwgRWRnZSwgSUUsIE9wZXJhLCBhbmQgU2FmYXJpLlxuICovXG5cbmFiYnJbdGl0bGVdIHtcbiAgYm9yZGVyLWJvdHRvbTogbm9uZTsgLyogMSAqL1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgLyogMiAqL1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZSBkb3R0ZWQ7IC8qIDIgKi9cbn1cblxuLyoqXG4gKiBBZGQgdGhlIGNvcnJlY3QgZm9udCB3ZWlnaHQgaW4gQ2hyb21lLCBFZGdlLCBhbmQgU2FmYXJpLlxuICovXG5cbmIsXG5zdHJvbmcge1xuICBmb250LXdlaWdodDogYm9sZGVyO1xufVxuXG4vKipcbiAqIDEuIENvcnJlY3QgdGhlIGluaGVyaXRhbmNlIGFuZCBzY2FsaW5nIG9mIGZvbnQgc2l6ZSBpbiBhbGwgYnJvd3NlcnMuXG4gKiAyLiBDb3JyZWN0IHRoZSBvZGQgYGVtYCBmb250IHNpemluZyBpbiBhbGwgYnJvd3NlcnMuXG4gKi9cblxuY29kZSxcbmtiZCxcbnNhbXAge1xuICBmb250LWZhbWlseTogbW9ub3NwYWNlLCBtb25vc3BhY2U7IC8qIDEgKi9cbiAgZm9udC1zaXplOiAxZW07IC8qIDIgKi9cbn1cblxuLyoqXG4gKiBBZGQgdGhlIGNvcnJlY3QgZm9udCBzaXplIGluIGFsbCBicm93c2Vycy5cbiAqL1xuXG5zbWFsbCB7XG4gIGZvbnQtc2l6ZTogODAlO1xufVxuXG4vKipcbiAqIFByZXZlbnQgYHN1YmAgYW5kIGBzdXBgIGVsZW1lbnRzIGZyb20gYWZmZWN0aW5nIHRoZSBsaW5lIGhlaWdodCBpblxuICogYWxsIGJyb3dzZXJzLlxuICovXG5cbnN1YixcbnN1cCB7XG4gIGZvbnQtc2l6ZTogNzUlO1xuICBsaW5lLWhlaWdodDogMDtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG59XG5cbnN1YiB7XG4gIGJvdHRvbTogLTAuMjVlbTtcbn1cblxuc3VwIHtcbiAgdG9wOiAtMC41ZW07XG59XG5cbi8qIEVtYmVkZGVkIGNvbnRlbnRcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbi8qKlxuICogUmVtb3ZlIHRoZSBib3JkZXIgb24gaW1hZ2VzIGluc2lkZSBsaW5rcyBpbiBJRSAxMC5cbiAqL1xuXG5pbWcge1xuICBib3JkZXItc3R5bGU6IG5vbmU7XG59XG5cbi8qIEZvcm1zXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vKipcbiAqIDEuIENoYW5nZSB0aGUgZm9udCBzdHlsZXMgaW4gYWxsIGJyb3dzZXJzLlxuICogMi4gUmVtb3ZlIHRoZSBtYXJnaW4gaW4gRmlyZWZveCBhbmQgU2FmYXJpLlxuICovXG5cbmJ1dHRvbixcbmlucHV0LFxub3B0Z3JvdXAsXG5zZWxlY3QsXG50ZXh0YXJlYSB7XG4gIGZvbnQtZmFtaWx5OiBpbmhlcml0OyAvKiAxICovXG4gIGZvbnQtc2l6ZTogMTAwJTsgLyogMSAqL1xuICBsaW5lLWhlaWdodDogMS4xNTsgLyogMSAqL1xuICBtYXJnaW46IDA7IC8qIDIgKi9cbn1cblxuLyoqXG4gKiBTaG93IHRoZSBvdmVyZmxvdyBpbiBJRS5cbiAqIDEuIFNob3cgdGhlIG92ZXJmbG93IGluIEVkZ2UuXG4gKi9cblxuYnV0dG9uLFxuaW5wdXQgeyAvKiAxICovXG4gIG92ZXJmbG93OiB2aXNpYmxlO1xufVxuXG4vKipcbiAqIFJlbW92ZSB0aGUgaW5oZXJpdGFuY2Ugb2YgdGV4dCB0cmFuc2Zvcm0gaW4gRWRnZSwgRmlyZWZveCwgYW5kIElFLlxuICogMS4gUmVtb3ZlIHRoZSBpbmhlcml0YW5jZSBvZiB0ZXh0IHRyYW5zZm9ybSBpbiBGaXJlZm94LlxuICovXG5cbmJ1dHRvbixcbnNlbGVjdCB7IC8qIDEgKi9cbiAgdGV4dC10cmFuc2Zvcm06IG5vbmU7XG59XG5cbi8qKlxuICogQ29ycmVjdCB0aGUgaW5hYmlsaXR5IHRvIHN0eWxlIGNsaWNrYWJsZSB0eXBlcyBpbiBpT1MgYW5kIFNhZmFyaS5cbiAqL1xuXG5idXR0b24sXG5bdHlwZT1cImJ1dHRvblwiXSxcblt0eXBlPVwicmVzZXRcIl0sXG5bdHlwZT1cInN1Ym1pdFwiXSB7XG4gIC13ZWJraXQtYXBwZWFyYW5jZTogYnV0dG9uO1xufVxuXG4vKipcbiAqIFJlbW92ZSB0aGUgaW5uZXIgYm9yZGVyIGFuZCBwYWRkaW5nIGluIEZpcmVmb3guXG4gKi9cblxuYnV0dG9uOjotbW96LWZvY3VzLWlubmVyLFxuW3R5cGU9XCJidXR0b25cIl06Oi1tb3otZm9jdXMtaW5uZXIsXG5bdHlwZT1cInJlc2V0XCJdOjotbW96LWZvY3VzLWlubmVyLFxuW3R5cGU9XCJzdWJtaXRcIl06Oi1tb3otZm9jdXMtaW5uZXIge1xuICBib3JkZXItc3R5bGU6IG5vbmU7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi8qKlxuICogUmVzdG9yZSB0aGUgZm9jdXMgc3R5bGVzIHVuc2V0IGJ5IHRoZSBwcmV2aW91cyBydWxlLlxuICovXG5cbmJ1dHRvbjotbW96LWZvY3VzcmluZyxcblt0eXBlPVwiYnV0dG9uXCJdOi1tb3otZm9jdXNyaW5nLFxuW3R5cGU9XCJyZXNldFwiXTotbW96LWZvY3VzcmluZyxcblt0eXBlPVwic3VibWl0XCJdOi1tb3otZm9jdXNyaW5nIHtcbiAgb3V0bGluZTogMXB4IGRvdHRlZCBCdXR0b25UZXh0O1xufVxuXG4vKipcbiAqIENvcnJlY3QgdGhlIHBhZGRpbmcgaW4gRmlyZWZveC5cbiAqL1xuXG5maWVsZHNldCB7XG4gIHBhZGRpbmc6IDAuMzVlbSAwLjc1ZW0gMC42MjVlbTtcbn1cblxuLyoqXG4gKiAxLiBDb3JyZWN0IHRoZSB0ZXh0IHdyYXBwaW5nIGluIEVkZ2UgYW5kIElFLlxuICogMi4gQ29ycmVjdCB0aGUgY29sb3IgaW5oZXJpdGFuY2UgZnJvbSBgZmllbGRzZXRgIGVsZW1lbnRzIGluIElFLlxuICogMy4gUmVtb3ZlIHRoZSBwYWRkaW5nIHNvIGRldmVsb3BlcnMgYXJlIG5vdCBjYXVnaHQgb3V0IHdoZW4gdGhleSB6ZXJvIG91dFxuICogICAgYGZpZWxkc2V0YCBlbGVtZW50cyBpbiBhbGwgYnJvd3NlcnMuXG4gKi9cblxubGVnZW5kIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDsgLyogMSAqL1xuICBjb2xvcjogaW5oZXJpdDsgLyogMiAqL1xuICBkaXNwbGF5OiB0YWJsZTsgLyogMSAqL1xuICBtYXgtd2lkdGg6IDEwMCU7IC8qIDEgKi9cbiAgcGFkZGluZzogMDsgLyogMyAqL1xuICB3aGl0ZS1zcGFjZTogbm9ybWFsOyAvKiAxICovXG59XG5cbi8qKlxuICogQWRkIHRoZSBjb3JyZWN0IHZlcnRpY2FsIGFsaWdubWVudCBpbiBDaHJvbWUsIEZpcmVmb3gsIGFuZCBPcGVyYS5cbiAqL1xuXG5wcm9ncmVzcyB7XG4gIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbn1cblxuLyoqXG4gKiBSZW1vdmUgdGhlIGRlZmF1bHQgdmVydGljYWwgc2Nyb2xsYmFyIGluIElFIDEwKy5cbiAqL1xuXG50ZXh0YXJlYSB7XG4gIG92ZXJmbG93OiBhdXRvO1xufVxuXG4vKipcbiAqIDEuIEFkZCB0aGUgY29ycmVjdCBib3ggc2l6aW5nIGluIElFIDEwLlxuICogMi4gUmVtb3ZlIHRoZSBwYWRkaW5nIGluIElFIDEwLlxuICovXG5cblt0eXBlPVwiY2hlY2tib3hcIl0sXG5bdHlwZT1cInJhZGlvXCJdIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDsgLyogMSAqL1xuICBwYWRkaW5nOiAwOyAvKiAyICovXG59XG5cbi8qKlxuICogQ29ycmVjdCB0aGUgY3Vyc29yIHN0eWxlIG9mIGluY3JlbWVudCBhbmQgZGVjcmVtZW50IGJ1dHRvbnMgaW4gQ2hyb21lLlxuICovXG5cblt0eXBlPVwibnVtYmVyXCJdOjotd2Via2l0LWlubmVyLXNwaW4tYnV0dG9uLFxuW3R5cGU9XCJudW1iZXJcIl06Oi13ZWJraXQtb3V0ZXItc3Bpbi1idXR0b24ge1xuICBoZWlnaHQ6IGF1dG87XG59XG5cbi8qKlxuICogMS4gQ29ycmVjdCB0aGUgb2RkIGFwcGVhcmFuY2UgaW4gQ2hyb21lIGFuZCBTYWZhcmkuXG4gKiAyLiBDb3JyZWN0IHRoZSBvdXRsaW5lIHN0eWxlIGluIFNhZmFyaS5cbiAqL1xuXG5bdHlwZT1cInNlYXJjaFwiXSB7XG4gIC13ZWJraXQtYXBwZWFyYW5jZTogdGV4dGZpZWxkOyAvKiAxICovXG4gIG91dGxpbmUtb2Zmc2V0OiAtMnB4OyAvKiAyICovXG59XG5cbi8qKlxuICogUmVtb3ZlIHRoZSBpbm5lciBwYWRkaW5nIGluIENocm9tZSBhbmQgU2FmYXJpIG9uIG1hY09TLlxuICovXG5cblt0eXBlPVwic2VhcmNoXCJdOjotd2Via2l0LXNlYXJjaC1kZWNvcmF0aW9uIHtcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xufVxuXG4vKipcbiAqIDEuIENvcnJlY3QgdGhlIGluYWJpbGl0eSB0byBzdHlsZSBjbGlja2FibGUgdHlwZXMgaW4gaU9TIGFuZCBTYWZhcmkuXG4gKiAyLiBDaGFuZ2UgZm9udCBwcm9wZXJ0aWVzIHRvIGBpbmhlcml0YCBpbiBTYWZhcmkuXG4gKi9cblxuOjotd2Via2l0LWZpbGUtdXBsb2FkLWJ1dHRvbiB7XG4gIC13ZWJraXQtYXBwZWFyYW5jZTogYnV0dG9uOyAvKiAxICovXG4gIGZvbnQ6IGluaGVyaXQ7IC8qIDIgKi9cbn1cblxuLyogSW50ZXJhY3RpdmVcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbi8qXG4gKiBBZGQgdGhlIGNvcnJlY3QgZGlzcGxheSBpbiBFZGdlLCBJRSAxMCssIGFuZCBGaXJlZm94LlxuICovXG5cbmRldGFpbHMge1xuICBkaXNwbGF5OiBibG9jaztcbn1cblxuLypcbiAqIEFkZCB0aGUgY29ycmVjdCBkaXNwbGF5IGluIGFsbCBicm93c2Vycy5cbiAqL1xuXG5zdW1tYXJ5IHtcbiAgZGlzcGxheTogbGlzdC1pdGVtO1xufVxuXG4vKiBNaXNjXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vKipcbiAqIEFkZCB0aGUgY29ycmVjdCBkaXNwbGF5IGluIElFIDEwKy5cbiAqL1xuXG50ZW1wbGF0ZSB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG5cbi8qKlxuICogQWRkIHRoZSBjb3JyZWN0IGRpc3BsYXkgaW4gSUUgMTAuXG4gKi9cblxuW2hpZGRlbl0ge1xuICBkaXNwbGF5OiBub25lO1xufVxuIiwiQGtleWZyYW1lcyByb3RhdGUge1xuICAxMDAlIHtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZVooMzYwZGVnKTsgfSB9XG5cbi8qISBub3JtYWxpemUuY3NzIHY4LjAuMSB8IE1JVCBMaWNlbnNlIHwgZ2l0aHViLmNvbS9uZWNvbGFzL25vcm1hbGl6ZS5jc3MgKi9cbi8qIERvY3VtZW50XG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLyoqXG4gKiAxLiBDb3JyZWN0IHRoZSBsaW5lIGhlaWdodCBpbiBhbGwgYnJvd3NlcnMuXG4gKiAyLiBQcmV2ZW50IGFkanVzdG1lbnRzIG9mIGZvbnQgc2l6ZSBhZnRlciBvcmllbnRhdGlvbiBjaGFuZ2VzIGluIGlPUy5cbiAqL1xuaHRtbCB7XG4gIGxpbmUtaGVpZ2h0OiAxLjE1O1xuICAvKiAxICovXG4gIC13ZWJraXQtdGV4dC1zaXplLWFkanVzdDogMTAwJTtcbiAgLyogMiAqLyB9XG5cbi8qIFNlY3Rpb25zXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLyoqXG4gKiBSZW1vdmUgdGhlIG1hcmdpbiBpbiBhbGwgYnJvd3NlcnMuXG4gKi9cbmJvZHkge1xuICBtYXJnaW46IDA7IH1cblxuLyoqXG4gKiBSZW5kZXIgdGhlIGBtYWluYCBlbGVtZW50IGNvbnNpc3RlbnRseSBpbiBJRS5cbiAqL1xubWFpbiB7XG4gIGRpc3BsYXk6IGJsb2NrOyB9XG5cbi8qKlxuICogQ29ycmVjdCB0aGUgZm9udCBzaXplIGFuZCBtYXJnaW4gb24gYGgxYCBlbGVtZW50cyB3aXRoaW4gYHNlY3Rpb25gIGFuZFxuICogYGFydGljbGVgIGNvbnRleHRzIGluIENocm9tZSwgRmlyZWZveCwgYW5kIFNhZmFyaS5cbiAqL1xuaDEge1xuICBmb250LXNpemU6IDJlbTtcbiAgbWFyZ2luOiAwLjY3ZW0gMDsgfVxuXG4vKiBHcm91cGluZyBjb250ZW50XG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLyoqXG4gKiAxLiBBZGQgdGhlIGNvcnJlY3QgYm94IHNpemluZyBpbiBGaXJlZm94LlxuICogMi4gU2hvdyB0aGUgb3ZlcmZsb3cgaW4gRWRnZSBhbmQgSUUuXG4gKi9cbmhyIHtcbiAgYm94LXNpemluZzogY29udGVudC1ib3g7XG4gIC8qIDEgKi9cbiAgaGVpZ2h0OiAwO1xuICAvKiAxICovXG4gIG92ZXJmbG93OiB2aXNpYmxlO1xuICAvKiAyICovIH1cblxuLyoqXG4gKiAxLiBDb3JyZWN0IHRoZSBpbmhlcml0YW5jZSBhbmQgc2NhbGluZyBvZiBmb250IHNpemUgaW4gYWxsIGJyb3dzZXJzLlxuICogMi4gQ29ycmVjdCB0aGUgb2RkIGBlbWAgZm9udCBzaXppbmcgaW4gYWxsIGJyb3dzZXJzLlxuICovXG5wcmUge1xuICBmb250LWZhbWlseTogbW9ub3NwYWNlLCBtb25vc3BhY2U7XG4gIC8qIDEgKi9cbiAgZm9udC1zaXplOiAxZW07XG4gIC8qIDIgKi8gfVxuXG4vKiBUZXh0LWxldmVsIHNlbWFudGljc1xuICAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cbi8qKlxuICogUmVtb3ZlIHRoZSBncmF5IGJhY2tncm91bmQgb24gYWN0aXZlIGxpbmtzIGluIElFIDEwLlxuICovXG5hIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7IH1cblxuLyoqXG4gKiAxLiBSZW1vdmUgdGhlIGJvdHRvbSBib3JkZXIgaW4gQ2hyb21lIDU3LVxuICogMi4gQWRkIHRoZSBjb3JyZWN0IHRleHQgZGVjb3JhdGlvbiBpbiBDaHJvbWUsIEVkZ2UsIElFLCBPcGVyYSwgYW5kIFNhZmFyaS5cbiAqL1xuYWJiclt0aXRsZV0ge1xuICBib3JkZXItYm90dG9tOiBub25lO1xuICAvKiAxICovXG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuICAvKiAyICovXG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lIGRvdHRlZDtcbiAgLyogMiAqLyB9XG5cbi8qKlxuICogQWRkIHRoZSBjb3JyZWN0IGZvbnQgd2VpZ2h0IGluIENocm9tZSwgRWRnZSwgYW5kIFNhZmFyaS5cbiAqL1xuYixcbnN0cm9uZyB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkZXI7IH1cblxuLyoqXG4gKiAxLiBDb3JyZWN0IHRoZSBpbmhlcml0YW5jZSBhbmQgc2NhbGluZyBvZiBmb250IHNpemUgaW4gYWxsIGJyb3dzZXJzLlxuICogMi4gQ29ycmVjdCB0aGUgb2RkIGBlbWAgZm9udCBzaXppbmcgaW4gYWxsIGJyb3dzZXJzLlxuICovXG5jb2RlLFxua2JkLFxuc2FtcCB7XG4gIGZvbnQtZmFtaWx5OiBtb25vc3BhY2UsIG1vbm9zcGFjZTtcbiAgLyogMSAqL1xuICBmb250LXNpemU6IDFlbTtcbiAgLyogMiAqLyB9XG5cbi8qKlxuICogQWRkIHRoZSBjb3JyZWN0IGZvbnQgc2l6ZSBpbiBhbGwgYnJvd3NlcnMuXG4gKi9cbnNtYWxsIHtcbiAgZm9udC1zaXplOiA4MCU7IH1cblxuLyoqXG4gKiBQcmV2ZW50IGBzdWJgIGFuZCBgc3VwYCBlbGVtZW50cyBmcm9tIGFmZmVjdGluZyB0aGUgbGluZSBoZWlnaHQgaW5cbiAqIGFsbCBicm93c2Vycy5cbiAqL1xuc3ViLFxuc3VwIHtcbiAgZm9udC1zaXplOiA3NSU7XG4gIGxpbmUtaGVpZ2h0OiAwO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTsgfVxuXG5zdWIge1xuICBib3R0b206IC0wLjI1ZW07IH1cblxuc3VwIHtcbiAgdG9wOiAtMC41ZW07IH1cblxuLyogRW1iZWRkZWQgY29udGVudFxuICAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cbi8qKlxuICogUmVtb3ZlIHRoZSBib3JkZXIgb24gaW1hZ2VzIGluc2lkZSBsaW5rcyBpbiBJRSAxMC5cbiAqL1xuaW1nIHtcbiAgYm9yZGVyLXN0eWxlOiBub25lOyB9XG5cbi8qIEZvcm1zXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLyoqXG4gKiAxLiBDaGFuZ2UgdGhlIGZvbnQgc3R5bGVzIGluIGFsbCBicm93c2Vycy5cbiAqIDIuIFJlbW92ZSB0aGUgbWFyZ2luIGluIEZpcmVmb3ggYW5kIFNhZmFyaS5cbiAqL1xuYnV0dG9uLFxuaW5wdXQsXG5vcHRncm91cCxcbnNlbGVjdCxcbnRleHRhcmVhIHtcbiAgZm9udC1mYW1pbHk6IGluaGVyaXQ7XG4gIC8qIDEgKi9cbiAgZm9udC1zaXplOiAxMDAlO1xuICAvKiAxICovXG4gIGxpbmUtaGVpZ2h0OiAxLjE1O1xuICAvKiAxICovXG4gIG1hcmdpbjogMDtcbiAgLyogMiAqLyB9XG5cbi8qKlxuICogU2hvdyB0aGUgb3ZlcmZsb3cgaW4gSUUuXG4gKiAxLiBTaG93IHRoZSBvdmVyZmxvdyBpbiBFZGdlLlxuICovXG5idXR0b24sXG5pbnB1dCB7XG4gIC8qIDEgKi9cbiAgb3ZlcmZsb3c6IHZpc2libGU7IH1cblxuLyoqXG4gKiBSZW1vdmUgdGhlIGluaGVyaXRhbmNlIG9mIHRleHQgdHJhbnNmb3JtIGluIEVkZ2UsIEZpcmVmb3gsIGFuZCBJRS5cbiAqIDEuIFJlbW92ZSB0aGUgaW5oZXJpdGFuY2Ugb2YgdGV4dCB0cmFuc2Zvcm0gaW4gRmlyZWZveC5cbiAqL1xuYnV0dG9uLFxuc2VsZWN0IHtcbiAgLyogMSAqL1xuICB0ZXh0LXRyYW5zZm9ybTogbm9uZTsgfVxuXG4vKipcbiAqIENvcnJlY3QgdGhlIGluYWJpbGl0eSB0byBzdHlsZSBjbGlja2FibGUgdHlwZXMgaW4gaU9TIGFuZCBTYWZhcmkuXG4gKi9cbmJ1dHRvbixcblt0eXBlPVwiYnV0dG9uXCJdLFxuW3R5cGU9XCJyZXNldFwiXSxcblt0eXBlPVwic3VibWl0XCJdIHtcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBidXR0b247IH1cblxuLyoqXG4gKiBSZW1vdmUgdGhlIGlubmVyIGJvcmRlciBhbmQgcGFkZGluZyBpbiBGaXJlZm94LlxuICovXG5idXR0b246Oi1tb3otZm9jdXMtaW5uZXIsXG5bdHlwZT1cImJ1dHRvblwiXTo6LW1vei1mb2N1cy1pbm5lcixcblt0eXBlPVwicmVzZXRcIl06Oi1tb3otZm9jdXMtaW5uZXIsXG5bdHlwZT1cInN1Ym1pdFwiXTo6LW1vei1mb2N1cy1pbm5lciB7XG4gIGJvcmRlci1zdHlsZTogbm9uZTtcbiAgcGFkZGluZzogMDsgfVxuXG4vKipcbiAqIFJlc3RvcmUgdGhlIGZvY3VzIHN0eWxlcyB1bnNldCBieSB0aGUgcHJldmlvdXMgcnVsZS5cbiAqL1xuYnV0dG9uOi1tb3otZm9jdXNyaW5nLFxuW3R5cGU9XCJidXR0b25cIl06LW1vei1mb2N1c3JpbmcsXG5bdHlwZT1cInJlc2V0XCJdOi1tb3otZm9jdXNyaW5nLFxuW3R5cGU9XCJzdWJtaXRcIl06LW1vei1mb2N1c3Jpbmcge1xuICBvdXRsaW5lOiAxcHggZG90dGVkIEJ1dHRvblRleHQ7IH1cblxuLyoqXG4gKiBDb3JyZWN0IHRoZSBwYWRkaW5nIGluIEZpcmVmb3guXG4gKi9cbmZpZWxkc2V0IHtcbiAgcGFkZGluZzogMC4zNWVtIDAuNzVlbSAwLjYyNWVtOyB9XG5cbi8qKlxuICogMS4gQ29ycmVjdCB0aGUgdGV4dCB3cmFwcGluZyBpbiBFZGdlIGFuZCBJRS5cbiAqIDIuIENvcnJlY3QgdGhlIGNvbG9yIGluaGVyaXRhbmNlIGZyb20gYGZpZWxkc2V0YCBlbGVtZW50cyBpbiBJRS5cbiAqIDMuIFJlbW92ZSB0aGUgcGFkZGluZyBzbyBkZXZlbG9wZXJzIGFyZSBub3QgY2F1Z2h0IG91dCB3aGVuIHRoZXkgemVybyBvdXRcbiAqICAgIGBmaWVsZHNldGAgZWxlbWVudHMgaW4gYWxsIGJyb3dzZXJzLlxuICovXG5sZWdlbmQge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAvKiAxICovXG4gIGNvbG9yOiBpbmhlcml0O1xuICAvKiAyICovXG4gIGRpc3BsYXk6IHRhYmxlO1xuICAvKiAxICovXG4gIG1heC13aWR0aDogMTAwJTtcbiAgLyogMSAqL1xuICBwYWRkaW5nOiAwO1xuICAvKiAzICovXG4gIHdoaXRlLXNwYWNlOiBub3JtYWw7XG4gIC8qIDEgKi8gfVxuXG4vKipcbiAqIEFkZCB0aGUgY29ycmVjdCB2ZXJ0aWNhbCBhbGlnbm1lbnQgaW4gQ2hyb21lLCBGaXJlZm94LCBhbmQgT3BlcmEuXG4gKi9cbnByb2dyZXNzIHtcbiAgdmVydGljYWwtYWxpZ246IGJhc2VsaW5lOyB9XG5cbi8qKlxuICogUmVtb3ZlIHRoZSBkZWZhdWx0IHZlcnRpY2FsIHNjcm9sbGJhciBpbiBJRSAxMCsuXG4gKi9cbnRleHRhcmVhIHtcbiAgb3ZlcmZsb3c6IGF1dG87IH1cblxuLyoqXG4gKiAxLiBBZGQgdGhlIGNvcnJlY3QgYm94IHNpemluZyBpbiBJRSAxMC5cbiAqIDIuIFJlbW92ZSB0aGUgcGFkZGluZyBpbiBJRSAxMC5cbiAqL1xuW3R5cGU9XCJjaGVja2JveFwiXSxcblt0eXBlPVwicmFkaW9cIl0ge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAvKiAxICovXG4gIHBhZGRpbmc6IDA7XG4gIC8qIDIgKi8gfVxuXG4vKipcbiAqIENvcnJlY3QgdGhlIGN1cnNvciBzdHlsZSBvZiBpbmNyZW1lbnQgYW5kIGRlY3JlbWVudCBidXR0b25zIGluIENocm9tZS5cbiAqL1xuW3R5cGU9XCJudW1iZXJcIl06Oi13ZWJraXQtaW5uZXItc3Bpbi1idXR0b24sXG5bdHlwZT1cIm51bWJlclwiXTo6LXdlYmtpdC1vdXRlci1zcGluLWJ1dHRvbiB7XG4gIGhlaWdodDogYXV0bzsgfVxuXG4vKipcbiAqIDEuIENvcnJlY3QgdGhlIG9kZCBhcHBlYXJhbmNlIGluIENocm9tZSBhbmQgU2FmYXJpLlxuICogMi4gQ29ycmVjdCB0aGUgb3V0bGluZSBzdHlsZSBpbiBTYWZhcmkuXG4gKi9cblt0eXBlPVwic2VhcmNoXCJdIHtcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiB0ZXh0ZmllbGQ7XG4gIC8qIDEgKi9cbiAgb3V0bGluZS1vZmZzZXQ6IC0ycHg7XG4gIC8qIDIgKi8gfVxuXG4vKipcbiAqIFJlbW92ZSB0aGUgaW5uZXIgcGFkZGluZyBpbiBDaHJvbWUgYW5kIFNhZmFyaSBvbiBtYWNPUy5cbiAqL1xuW3R5cGU9XCJzZWFyY2hcIl06Oi13ZWJraXQtc2VhcmNoLWRlY29yYXRpb24ge1xuICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7IH1cblxuLyoqXG4gKiAxLiBDb3JyZWN0IHRoZSBpbmFiaWxpdHkgdG8gc3R5bGUgY2xpY2thYmxlIHR5cGVzIGluIGlPUyBhbmQgU2FmYXJpLlxuICogMi4gQ2hhbmdlIGZvbnQgcHJvcGVydGllcyB0byBgaW5oZXJpdGAgaW4gU2FmYXJpLlxuICovXG46Oi13ZWJraXQtZmlsZS11cGxvYWQtYnV0dG9uIHtcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBidXR0b247XG4gIC8qIDEgKi9cbiAgZm9udDogaW5oZXJpdDtcbiAgLyogMiAqLyB9XG5cbi8qIEludGVyYWN0aXZlXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLypcbiAqIEFkZCB0aGUgY29ycmVjdCBkaXNwbGF5IGluIEVkZ2UsIElFIDEwKywgYW5kIEZpcmVmb3guXG4gKi9cbmRldGFpbHMge1xuICBkaXNwbGF5OiBibG9jazsgfVxuXG4vKlxuICogQWRkIHRoZSBjb3JyZWN0IGRpc3BsYXkgaW4gYWxsIGJyb3dzZXJzLlxuICovXG5zdW1tYXJ5IHtcbiAgZGlzcGxheTogbGlzdC1pdGVtOyB9XG5cbi8qIE1pc2NcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG4vKipcbiAqIEFkZCB0aGUgY29ycmVjdCBkaXNwbGF5IGluIElFIDEwKy5cbiAqL1xudGVtcGxhdGUge1xuICBkaXNwbGF5OiBub25lOyB9XG5cbi8qKlxuICogQWRkIHRoZSBjb3JyZWN0IGRpc3BsYXkgaW4gSUUgMTAuXG4gKi9cbltoaWRkZW5dIHtcbiAgZGlzcGxheTogbm9uZTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiS2Vsc29uXCI7XG4gIHNyYzogdXJsKFwiLi4vZm9udHMva2Vsc29uX2xpZ2h0LndvZmYyXCIpIGZvcm1hdChcIndvZmYyXCIpLCB1cmwoXCIuLi9mb250cy9rZWxzb25fbGlnaHQud29mZlwiKSBmb3JtYXQoXCJ3b2ZmXCIpO1xuICBmb250LXdlaWdodDogMzAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIktlbHNvblwiO1xuICBzcmM6IHVybChcIi4uL2ZvbnRzL2tlbHNvbi53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSwgdXJsKFwiLi4vZm9udHMva2Vsc29uLndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJLZWxzb25cIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9rZWxzb25fYm9sZC53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSwgdXJsKFwiLi4vZm9udHMva2Vsc29uX2JvbGQud29mZlwiKSBmb3JtYXQoXCJ3b2ZmXCIpO1xuICBmb250LXdlaWdodDogNzAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiO1xuICBzcmM6IHVybChcIi4uL2ZvbnRzL29wZW5zYW5zLXJlZ3VsYXItd2ViZm9udC53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSwgdXJsKFwiLi4vZm9udHMvb3BlbnNhbnMtcmVndWxhci13ZWJmb250LndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJPcGVuIFNhbnNcIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9vcGVuc2Fucy1ib2xkLXdlYmZvbnQud29mZjJcIikgZm9ybWF0KFwid29mZjJcIiksIHVybChcIi4uL2ZvbnRzL29wZW5zYW5zLWJvbGQtd2ViZm9udC53b2ZmXCIpIGZvcm1hdChcIndvZmZcIik7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiUmIgU2Fuc1wiO1xuICBzcmM6IHVybChcIi4uL2ZvbnRzL1JiU2Fucy53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSwgdXJsKFwiLi4vZm9udHMvUmJTYW5zLndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsOyB9XG5cbmh0bWwsXG5ib2R5IHtcbiAgaGVpZ2h0OiAxMDAlO1xuICBmb250LWZhbWlseTogXCJLZWxzb25cIiwgLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCBcIlJvYm90b1wiLCBcIlVidW50dVwiLCBcIkRyb2lkIFNhbnNcIiwgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBcIkFyaWFsXCIsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMTNweDtcbiAgbGluZS1oZWlnaHQ6IDE0cHg7XG4gIGNvbG9yOiAjMDAwMDAwO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjlmOWY5OyB9XG5cbi5jb250YWluZXIge1xuICB3aWR0aDogMTAwJTtcbiAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgcGFkZGluZy1sZWZ0OiAxNXB4O1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIG1hcmdpbi1sZWZ0OiBhdXRvOyB9XG4gIEBtZWRpYSAobWluLXdpZHRoOiA1NzZweCkge1xuICAgIC5jb250YWluZXIge1xuICAgICAgbWF4LXdpZHRoOiA1NDBweDsgfSB9XG4gIEBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAgIC5jb250YWluZXIge1xuICAgICAgbWF4LXdpZHRoOiA3MjBweDsgfSB9XG4gIEBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkge1xuICAgIC5jb250YWluZXIge1xuICAgICAgbWF4LXdpZHRoOiA5NjBweDsgfSB9XG4gIEBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcbiAgICAuY29udGFpbmVyIHtcbiAgICAgIG1heC13aWR0aDogMTE3MHB4OyB9IH1cblxuLmNvbnRhaW5lci1mbHVpZCwgLmNvbnRhaW5lci1zbSwgLmNvbnRhaW5lci1tZCwgLmNvbnRhaW5lci1sZywgLmNvbnRhaW5lci14bCB7XG4gIHdpZHRoOiAxMDAlO1xuICBwYWRkaW5nLXJpZ2h0OiAxNXB4O1xuICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgbWFyZ2luLWxlZnQ6IGF1dG87IH1cblxuQG1lZGlhIChtaW4td2lkdGg6IDU3NnB4KSB7XG4gIC5jb250YWluZXIsIC5jb250YWluZXItc20ge1xuICAgIG1heC13aWR0aDogNTQwcHg7IH0gfVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgLmNvbnRhaW5lciwgLmNvbnRhaW5lci1zbSwgLmNvbnRhaW5lci1tZCB7XG4gICAgbWF4LXdpZHRoOiA3MjBweDsgfSB9XG5cbkBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkge1xuICAuY29udGFpbmVyLCAuY29udGFpbmVyLXNtLCAuY29udGFpbmVyLW1kLCAuY29udGFpbmVyLWxnIHtcbiAgICBtYXgtd2lkdGg6IDk2MHB4OyB9IH1cblxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAuY29udGFpbmVyLCAuY29udGFpbmVyLXNtLCAuY29udGFpbmVyLW1kLCAuY29udGFpbmVyLWxnLCAuY29udGFpbmVyLXhsIHtcbiAgICBtYXgtd2lkdGg6IDExNzBweDsgfSB9XG5cbi5yb3cge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LXdyYXA6IHdyYXA7XG4gIG1hcmdpbi1yaWdodDogLTE1cHg7XG4gIG1hcmdpbi1sZWZ0OiAtMTVweDsgfVxuXG4ubm8tZ3V0dGVycyB7XG4gIG1hcmdpbi1yaWdodDogMDtcbiAgbWFyZ2luLWxlZnQ6IDA7IH1cbiAgLm5vLWd1dHRlcnMgPiAuY29sLFxuICAubm8tZ3V0dGVycyA+IFtjbGFzcyo9XCJjb2wtXCJdIHtcbiAgICBwYWRkaW5nLXJpZ2h0OiAwO1xuICAgIHBhZGRpbmctbGVmdDogMDsgfVxuXG4uY29sLTEsIC5jb2wtMiwgLmNvbC0zLCAuY29sLTQsIC5jb2wtNSwgLmNvbC02LCAuY29sLTcsIC5jb2wtOCwgLmNvbC05LCAuY29sLTEwLCAuY29sLTExLCAuY29sLTEyLCAuY29sLFxuLmNvbC1hdXRvLCAuY29sLXNtLTEsIC5jb2wtc20tMiwgLmNvbC1zbS0zLCAuY29sLXNtLTQsIC5jb2wtc20tNSwgLmNvbC1zbS02LCAuY29sLXNtLTcsIC5jb2wtc20tOCwgLmNvbC1zbS05LCAuY29sLXNtLTEwLCAuY29sLXNtLTExLCAuY29sLXNtLTEyLCAuY29sLXNtLFxuLmNvbC1zbS1hdXRvLCAuY29sLW1kLTEsIC5jb2wtbWQtMiwgLmNvbC1tZC0zLCAuY29sLW1kLTQsIC5jb2wtbWQtNSwgLmNvbC1tZC02LCAuY29sLW1kLTcsIC5jb2wtbWQtOCwgLmNvbC1tZC05LCAuY29sLW1kLTEwLCAuY29sLW1kLTExLCAuY29sLW1kLTEyLCAuY29sLW1kLFxuLmNvbC1tZC1hdXRvLCAuY29sLWxnLTEsIC5jb2wtbGctMiwgLmNvbC1sZy0zLCAuY29sLWxnLTQsIC5jb2wtbGctNSwgLmNvbC1sZy02LCAuY29sLWxnLTcsIC5jb2wtbGctOCwgLmNvbC1sZy05LCAuY29sLWxnLTEwLCAuY29sLWxnLTExLCAuY29sLWxnLTEyLCAuY29sLWxnLFxuLmNvbC1sZy1hdXRvLCAuY29sLXhsLTEsIC5jb2wteGwtMiwgLmNvbC14bC0zLCAuY29sLXhsLTQsIC5jb2wteGwtNSwgLmNvbC14bC02LCAuY29sLXhsLTcsIC5jb2wteGwtOCwgLmNvbC14bC05LCAuY29sLXhsLTEwLCAuY29sLXhsLTExLCAuY29sLXhsLTEyLCAuY29sLXhsLFxuLmNvbC14bC1hdXRvIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogMTAwJTtcbiAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgcGFkZGluZy1sZWZ0OiAxNXB4OyB9XG5cbi5jb2wge1xuICBmbGV4LWJhc2lzOiAwO1xuICBmbGV4LWdyb3c6IDE7XG4gIG1heC13aWR0aDogMTAwJTsgfVxuXG4ucm93LWNvbHMtMSA+ICoge1xuICBmbGV4OiAwIDAgMTAwJTtcbiAgbWF4LXdpZHRoOiAxMDAlOyB9XG5cbi5yb3ctY29scy0yID4gKiB7XG4gIGZsZXg6IDAgMCA1MCU7XG4gIG1heC13aWR0aDogNTAlOyB9XG5cbi5yb3ctY29scy0zID4gKiB7XG4gIGZsZXg6IDAgMCAzMy4zMzMzMyU7XG4gIG1heC13aWR0aDogMzMuMzMzMzMlOyB9XG5cbi5yb3ctY29scy00ID4gKiB7XG4gIGZsZXg6IDAgMCAyNSU7XG4gIG1heC13aWR0aDogMjUlOyB9XG5cbi5yb3ctY29scy01ID4gKiB7XG4gIGZsZXg6IDAgMCAyMCU7XG4gIG1heC13aWR0aDogMjAlOyB9XG5cbi5yb3ctY29scy02ID4gKiB7XG4gIGZsZXg6IDAgMCAxNi42NjY2NyU7XG4gIG1heC13aWR0aDogMTYuNjY2NjclOyB9XG5cbi5jb2wtYXV0byB7XG4gIGZsZXg6IDAgMCBhdXRvO1xuICB3aWR0aDogYXV0bztcbiAgbWF4LXdpZHRoOiAxMDAlOyB9XG5cbi5jb2wtMSB7XG4gIGZsZXg6IDAgMCA4LjMzMzMzJTtcbiAgbWF4LXdpZHRoOiA4LjMzMzMzJTsgfVxuXG4uY29sLTIge1xuICBmbGV4OiAwIDAgMTYuNjY2NjclO1xuICBtYXgtd2lkdGg6IDE2LjY2NjY3JTsgfVxuXG4uY29sLTMge1xuICBmbGV4OiAwIDAgMjUlO1xuICBtYXgtd2lkdGg6IDI1JTsgfVxuXG4uY29sLTQge1xuICBmbGV4OiAwIDAgMzMuMzMzMzMlO1xuICBtYXgtd2lkdGg6IDMzLjMzMzMzJTsgfVxuXG4uY29sLTUge1xuICBmbGV4OiAwIDAgNDEuNjY2NjclO1xuICBtYXgtd2lkdGg6IDQxLjY2NjY3JTsgfVxuXG4uY29sLTYge1xuICBmbGV4OiAwIDAgNTAlO1xuICBtYXgtd2lkdGg6IDUwJTsgfVxuXG4uY29sLTcge1xuICBmbGV4OiAwIDAgNTguMzMzMzMlO1xuICBtYXgtd2lkdGg6IDU4LjMzMzMzJTsgfVxuXG4uY29sLTgge1xuICBmbGV4OiAwIDAgNjYuNjY2NjclO1xuICBtYXgtd2lkdGg6IDY2LjY2NjY3JTsgfVxuXG4uY29sLTkge1xuICBmbGV4OiAwIDAgNzUlO1xuICBtYXgtd2lkdGg6IDc1JTsgfVxuXG4uY29sLTEwIHtcbiAgZmxleDogMCAwIDgzLjMzMzMzJTtcbiAgbWF4LXdpZHRoOiA4My4zMzMzMyU7IH1cblxuLmNvbC0xMSB7XG4gIGZsZXg6IDAgMCA5MS42NjY2NyU7XG4gIG1heC13aWR0aDogOTEuNjY2NjclOyB9XG5cbi5jb2wtMTIge1xuICBmbGV4OiAwIDAgMTAwJTtcbiAgbWF4LXdpZHRoOiAxMDAlOyB9XG5cbi5vZmZzZXQtMSB7XG4gIG1hcmdpbi1sZWZ0OiA4LjMzMzMzJTsgfVxuXG4ub2Zmc2V0LTIge1xuICBtYXJnaW4tbGVmdDogMTYuNjY2NjclOyB9XG5cbi5vZmZzZXQtMyB7XG4gIG1hcmdpbi1sZWZ0OiAyNSU7IH1cblxuLm9mZnNldC00IHtcbiAgbWFyZ2luLWxlZnQ6IDMzLjMzMzMzJTsgfVxuXG4ub2Zmc2V0LTUge1xuICBtYXJnaW4tbGVmdDogNDEuNjY2NjclOyB9XG5cbi5vZmZzZXQtNiB7XG4gIG1hcmdpbi1sZWZ0OiA1MCU7IH1cblxuLm9mZnNldC03IHtcbiAgbWFyZ2luLWxlZnQ6IDU4LjMzMzMzJTsgfVxuXG4ub2Zmc2V0LTgge1xuICBtYXJnaW4tbGVmdDogNjYuNjY2NjclOyB9XG5cbi5vZmZzZXQtOSB7XG4gIG1hcmdpbi1sZWZ0OiA3NSU7IH1cblxuLm9mZnNldC0xMCB7XG4gIG1hcmdpbi1sZWZ0OiA4My4zMzMzMyU7IH1cblxuLm9mZnNldC0xMSB7XG4gIG1hcmdpbi1sZWZ0OiA5MS42NjY2NyU7IH1cblxuQG1lZGlhIChtaW4td2lkdGg6IDU3NnB4KSB7XG4gIC5jb2wtc20ge1xuICAgIGZsZXgtYmFzaXM6IDA7XG4gICAgZmxleC1ncm93OiAxO1xuICAgIG1heC13aWR0aDogMTAwJTsgfVxuICAucm93LWNvbHMtc20tMSA+ICoge1xuICAgIGZsZXg6IDAgMCAxMDAlO1xuICAgIG1heC13aWR0aDogMTAwJTsgfVxuICAucm93LWNvbHMtc20tMiA+ICoge1xuICAgIGZsZXg6IDAgMCA1MCU7XG4gICAgbWF4LXdpZHRoOiA1MCU7IH1cbiAgLnJvdy1jb2xzLXNtLTMgPiAqIHtcbiAgICBmbGV4OiAwIDAgMzMuMzMzMzMlO1xuICAgIG1heC13aWR0aDogMzMuMzMzMzMlOyB9XG4gIC5yb3ctY29scy1zbS00ID4gKiB7XG4gICAgZmxleDogMCAwIDI1JTtcbiAgICBtYXgtd2lkdGg6IDI1JTsgfVxuICAucm93LWNvbHMtc20tNSA+ICoge1xuICAgIGZsZXg6IDAgMCAyMCU7XG4gICAgbWF4LXdpZHRoOiAyMCU7IH1cbiAgLnJvdy1jb2xzLXNtLTYgPiAqIHtcbiAgICBmbGV4OiAwIDAgMTYuNjY2NjclO1xuICAgIG1heC13aWR0aDogMTYuNjY2NjclOyB9XG4gIC5jb2wtc20tYXV0byB7XG4gICAgZmxleDogMCAwIGF1dG87XG4gICAgd2lkdGg6IGF1dG87XG4gICAgbWF4LXdpZHRoOiAxMDAlOyB9XG4gIC5jb2wtc20tMSB7XG4gICAgZmxleDogMCAwIDguMzMzMzMlO1xuICAgIG1heC13aWR0aDogOC4zMzMzMyU7IH1cbiAgLmNvbC1zbS0yIHtcbiAgICBmbGV4OiAwIDAgMTYuNjY2NjclO1xuICAgIG1heC13aWR0aDogMTYuNjY2NjclOyB9XG4gIC5jb2wtc20tMyB7XG4gICAgZmxleDogMCAwIDI1JTtcbiAgICBtYXgtd2lkdGg6IDI1JTsgfVxuICAuY29sLXNtLTQge1xuICAgIGZsZXg6IDAgMCAzMy4zMzMzMyU7XG4gICAgbWF4LXdpZHRoOiAzMy4zMzMzMyU7IH1cbiAgLmNvbC1zbS01IHtcbiAgICBmbGV4OiAwIDAgNDEuNjY2NjclO1xuICAgIG1heC13aWR0aDogNDEuNjY2NjclOyB9XG4gIC5jb2wtc20tNiB7XG4gICAgZmxleDogMCAwIDUwJTtcbiAgICBtYXgtd2lkdGg6IDUwJTsgfVxuICAuY29sLXNtLTcge1xuICAgIGZsZXg6IDAgMCA1OC4zMzMzMyU7XG4gICAgbWF4LXdpZHRoOiA1OC4zMzMzMyU7IH1cbiAgLmNvbC1zbS04IHtcbiAgICBmbGV4OiAwIDAgNjYuNjY2NjclO1xuICAgIG1heC13aWR0aDogNjYuNjY2NjclOyB9XG4gIC5jb2wtc20tOSB7XG4gICAgZmxleDogMCAwIDc1JTtcbiAgICBtYXgtd2lkdGg6IDc1JTsgfVxuICAuY29sLXNtLTEwIHtcbiAgICBmbGV4OiAwIDAgODMuMzMzMzMlO1xuICAgIG1heC13aWR0aDogODMuMzMzMzMlOyB9XG4gIC5jb2wtc20tMTEge1xuICAgIGZsZXg6IDAgMCA5MS42NjY2NyU7XG4gICAgbWF4LXdpZHRoOiA5MS42NjY2NyU7IH1cbiAgLmNvbC1zbS0xMiB7XG4gICAgZmxleDogMCAwIDEwMCU7XG4gICAgbWF4LXdpZHRoOiAxMDAlOyB9XG4gIC5vZmZzZXQtc20tMCB7XG4gICAgbWFyZ2luLWxlZnQ6IDA7IH1cbiAgLm9mZnNldC1zbS0xIHtcbiAgICBtYXJnaW4tbGVmdDogOC4zMzMzMyU7IH1cbiAgLm9mZnNldC1zbS0yIHtcbiAgICBtYXJnaW4tbGVmdDogMTYuNjY2NjclOyB9XG4gIC5vZmZzZXQtc20tMyB7XG4gICAgbWFyZ2luLWxlZnQ6IDI1JTsgfVxuICAub2Zmc2V0LXNtLTQge1xuICAgIG1hcmdpbi1sZWZ0OiAzMy4zMzMzMyU7IH1cbiAgLm9mZnNldC1zbS01IHtcbiAgICBtYXJnaW4tbGVmdDogNDEuNjY2NjclOyB9XG4gIC5vZmZzZXQtc20tNiB7XG4gICAgbWFyZ2luLWxlZnQ6IDUwJTsgfVxuICAub2Zmc2V0LXNtLTcge1xuICAgIG1hcmdpbi1sZWZ0OiA1OC4zMzMzMyU7IH1cbiAgLm9mZnNldC1zbS04IHtcbiAgICBtYXJnaW4tbGVmdDogNjYuNjY2NjclOyB9XG4gIC5vZmZzZXQtc20tOSB7XG4gICAgbWFyZ2luLWxlZnQ6IDc1JTsgfVxuICAub2Zmc2V0LXNtLTEwIHtcbiAgICBtYXJnaW4tbGVmdDogODMuMzMzMzMlOyB9XG4gIC5vZmZzZXQtc20tMTEge1xuICAgIG1hcmdpbi1sZWZ0OiA5MS42NjY2NyU7IH0gfVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgLmNvbC1tZCB7XG4gICAgZmxleC1iYXNpczogMDtcbiAgICBmbGV4LWdyb3c6IDE7XG4gICAgbWF4LXdpZHRoOiAxMDAlOyB9XG4gIC5yb3ctY29scy1tZC0xID4gKiB7XG4gICAgZmxleDogMCAwIDEwMCU7XG4gICAgbWF4LXdpZHRoOiAxMDAlOyB9XG4gIC5yb3ctY29scy1tZC0yID4gKiB7XG4gICAgZmxleDogMCAwIDUwJTtcbiAgICBtYXgtd2lkdGg6IDUwJTsgfVxuICAucm93LWNvbHMtbWQtMyA+ICoge1xuICAgIGZsZXg6IDAgMCAzMy4zMzMzMyU7XG4gICAgbWF4LXdpZHRoOiAzMy4zMzMzMyU7IH1cbiAgLnJvdy1jb2xzLW1kLTQgPiAqIHtcbiAgICBmbGV4OiAwIDAgMjUlO1xuICAgIG1heC13aWR0aDogMjUlOyB9XG4gIC5yb3ctY29scy1tZC01ID4gKiB7XG4gICAgZmxleDogMCAwIDIwJTtcbiAgICBtYXgtd2lkdGg6IDIwJTsgfVxuICAucm93LWNvbHMtbWQtNiA+ICoge1xuICAgIGZsZXg6IDAgMCAxNi42NjY2NyU7XG4gICAgbWF4LXdpZHRoOiAxNi42NjY2NyU7IH1cbiAgLmNvbC1tZC1hdXRvIHtcbiAgICBmbGV4OiAwIDAgYXV0bztcbiAgICB3aWR0aDogYXV0bztcbiAgICBtYXgtd2lkdGg6IDEwMCU7IH1cbiAgLmNvbC1tZC0xIHtcbiAgICBmbGV4OiAwIDAgOC4zMzMzMyU7XG4gICAgbWF4LXdpZHRoOiA4LjMzMzMzJTsgfVxuICAuY29sLW1kLTIge1xuICAgIGZsZXg6IDAgMCAxNi42NjY2NyU7XG4gICAgbWF4LXdpZHRoOiAxNi42NjY2NyU7IH1cbiAgLmNvbC1tZC0zIHtcbiAgICBmbGV4OiAwIDAgMjUlO1xuICAgIG1heC13aWR0aDogMjUlOyB9XG4gIC5jb2wtbWQtNCB7XG4gICAgZmxleDogMCAwIDMzLjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDMzLjMzMzMzJTsgfVxuICAuY29sLW1kLTUge1xuICAgIGZsZXg6IDAgMCA0MS42NjY2NyU7XG4gICAgbWF4LXdpZHRoOiA0MS42NjY2NyU7IH1cbiAgLmNvbC1tZC02IHtcbiAgICBmbGV4OiAwIDAgNTAlO1xuICAgIG1heC13aWR0aDogNTAlOyB9XG4gIC5jb2wtbWQtNyB7XG4gICAgZmxleDogMCAwIDU4LjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDU4LjMzMzMzJTsgfVxuICAuY29sLW1kLTgge1xuICAgIGZsZXg6IDAgMCA2Ni42NjY2NyU7XG4gICAgbWF4LXdpZHRoOiA2Ni42NjY2NyU7IH1cbiAgLmNvbC1tZC05IHtcbiAgICBmbGV4OiAwIDAgNzUlO1xuICAgIG1heC13aWR0aDogNzUlOyB9XG4gIC5jb2wtbWQtMTAge1xuICAgIGZsZXg6IDAgMCA4My4zMzMzMyU7XG4gICAgbWF4LXdpZHRoOiA4My4zMzMzMyU7IH1cbiAgLmNvbC1tZC0xMSB7XG4gICAgZmxleDogMCAwIDkxLjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDkxLjY2NjY3JTsgfVxuICAuY29sLW1kLTEyIHtcbiAgICBmbGV4OiAwIDAgMTAwJTtcbiAgICBtYXgtd2lkdGg6IDEwMCU7IH1cbiAgLm9mZnNldC1tZC0wIHtcbiAgICBtYXJnaW4tbGVmdDogMDsgfVxuICAub2Zmc2V0LW1kLTEge1xuICAgIG1hcmdpbi1sZWZ0OiA4LjMzMzMzJTsgfVxuICAub2Zmc2V0LW1kLTIge1xuICAgIG1hcmdpbi1sZWZ0OiAxNi42NjY2NyU7IH1cbiAgLm9mZnNldC1tZC0zIHtcbiAgICBtYXJnaW4tbGVmdDogMjUlOyB9XG4gIC5vZmZzZXQtbWQtNCB7XG4gICAgbWFyZ2luLWxlZnQ6IDMzLjMzMzMzJTsgfVxuICAub2Zmc2V0LW1kLTUge1xuICAgIG1hcmdpbi1sZWZ0OiA0MS42NjY2NyU7IH1cbiAgLm9mZnNldC1tZC02IHtcbiAgICBtYXJnaW4tbGVmdDogNTAlOyB9XG4gIC5vZmZzZXQtbWQtNyB7XG4gICAgbWFyZ2luLWxlZnQ6IDU4LjMzMzMzJTsgfVxuICAub2Zmc2V0LW1kLTgge1xuICAgIG1hcmdpbi1sZWZ0OiA2Ni42NjY2NyU7IH1cbiAgLm9mZnNldC1tZC05IHtcbiAgICBtYXJnaW4tbGVmdDogNzUlOyB9XG4gIC5vZmZzZXQtbWQtMTAge1xuICAgIG1hcmdpbi1sZWZ0OiA4My4zMzMzMyU7IH1cbiAgLm9mZnNldC1tZC0xMSB7XG4gICAgbWFyZ2luLWxlZnQ6IDkxLjY2NjY3JTsgfSB9XG5cbkBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkge1xuICAuY29sLWxnIHtcbiAgICBmbGV4LWJhc2lzOiAwO1xuICAgIGZsZXgtZ3JvdzogMTtcbiAgICBtYXgtd2lkdGg6IDEwMCU7IH1cbiAgLnJvdy1jb2xzLWxnLTEgPiAqIHtcbiAgICBmbGV4OiAwIDAgMTAwJTtcbiAgICBtYXgtd2lkdGg6IDEwMCU7IH1cbiAgLnJvdy1jb2xzLWxnLTIgPiAqIHtcbiAgICBmbGV4OiAwIDAgNTAlO1xuICAgIG1heC13aWR0aDogNTAlOyB9XG4gIC5yb3ctY29scy1sZy0zID4gKiB7XG4gICAgZmxleDogMCAwIDMzLjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDMzLjMzMzMzJTsgfVxuICAucm93LWNvbHMtbGctNCA+ICoge1xuICAgIGZsZXg6IDAgMCAyNSU7XG4gICAgbWF4LXdpZHRoOiAyNSU7IH1cbiAgLnJvdy1jb2xzLWxnLTUgPiAqIHtcbiAgICBmbGV4OiAwIDAgMjAlO1xuICAgIG1heC13aWR0aDogMjAlOyB9XG4gIC5yb3ctY29scy1sZy02ID4gKiB7XG4gICAgZmxleDogMCAwIDE2LjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDE2LjY2NjY3JTsgfVxuICAuY29sLWxnLWF1dG8ge1xuICAgIGZsZXg6IDAgMCBhdXRvO1xuICAgIHdpZHRoOiBhdXRvO1xuICAgIG1heC13aWR0aDogMTAwJTsgfVxuICAuY29sLWxnLTEge1xuICAgIGZsZXg6IDAgMCA4LjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDguMzMzMzMlOyB9XG4gIC5jb2wtbGctMiB7XG4gICAgZmxleDogMCAwIDE2LjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDE2LjY2NjY3JTsgfVxuICAuY29sLWxnLTMge1xuICAgIGZsZXg6IDAgMCAyNSU7XG4gICAgbWF4LXdpZHRoOiAyNSU7IH1cbiAgLmNvbC1sZy00IHtcbiAgICBmbGV4OiAwIDAgMzMuMzMzMzMlO1xuICAgIG1heC13aWR0aDogMzMuMzMzMzMlOyB9XG4gIC5jb2wtbGctNSB7XG4gICAgZmxleDogMCAwIDQxLjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDQxLjY2NjY3JTsgfVxuICAuY29sLWxnLTYge1xuICAgIGZsZXg6IDAgMCA1MCU7XG4gICAgbWF4LXdpZHRoOiA1MCU7IH1cbiAgLmNvbC1sZy03IHtcbiAgICBmbGV4OiAwIDAgNTguMzMzMzMlO1xuICAgIG1heC13aWR0aDogNTguMzMzMzMlOyB9XG4gIC5jb2wtbGctOCB7XG4gICAgZmxleDogMCAwIDY2LjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDY2LjY2NjY3JTsgfVxuICAuY29sLWxnLTkge1xuICAgIGZsZXg6IDAgMCA3NSU7XG4gICAgbWF4LXdpZHRoOiA3NSU7IH1cbiAgLmNvbC1sZy0xMCB7XG4gICAgZmxleDogMCAwIDgzLjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDgzLjMzMzMzJTsgfVxuICAuY29sLWxnLTExIHtcbiAgICBmbGV4OiAwIDAgOTEuNjY2NjclO1xuICAgIG1heC13aWR0aDogOTEuNjY2NjclOyB9XG4gIC5jb2wtbGctMTIge1xuICAgIGZsZXg6IDAgMCAxMDAlO1xuICAgIG1heC13aWR0aDogMTAwJTsgfVxuICAub2Zmc2V0LWxnLTAge1xuICAgIG1hcmdpbi1sZWZ0OiAwOyB9XG4gIC5vZmZzZXQtbGctMSB7XG4gICAgbWFyZ2luLWxlZnQ6IDguMzMzMzMlOyB9XG4gIC5vZmZzZXQtbGctMiB7XG4gICAgbWFyZ2luLWxlZnQ6IDE2LjY2NjY3JTsgfVxuICAub2Zmc2V0LWxnLTMge1xuICAgIG1hcmdpbi1sZWZ0OiAyNSU7IH1cbiAgLm9mZnNldC1sZy00IHtcbiAgICBtYXJnaW4tbGVmdDogMzMuMzMzMzMlOyB9XG4gIC5vZmZzZXQtbGctNSB7XG4gICAgbWFyZ2luLWxlZnQ6IDQxLjY2NjY3JTsgfVxuICAub2Zmc2V0LWxnLTYge1xuICAgIG1hcmdpbi1sZWZ0OiA1MCU7IH1cbiAgLm9mZnNldC1sZy03IHtcbiAgICBtYXJnaW4tbGVmdDogNTguMzMzMzMlOyB9XG4gIC5vZmZzZXQtbGctOCB7XG4gICAgbWFyZ2luLWxlZnQ6IDY2LjY2NjY3JTsgfVxuICAub2Zmc2V0LWxnLTkge1xuICAgIG1hcmdpbi1sZWZ0OiA3NSU7IH1cbiAgLm9mZnNldC1sZy0xMCB7XG4gICAgbWFyZ2luLWxlZnQ6IDgzLjMzMzMzJTsgfVxuICAub2Zmc2V0LWxnLTExIHtcbiAgICBtYXJnaW4tbGVmdDogOTEuNjY2NjclOyB9IH1cblxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAuY29sLXhsIHtcbiAgICBmbGV4LWJhc2lzOiAwO1xuICAgIGZsZXgtZ3JvdzogMTtcbiAgICBtYXgtd2lkdGg6IDEwMCU7IH1cbiAgLnJvdy1jb2xzLXhsLTEgPiAqIHtcbiAgICBmbGV4OiAwIDAgMTAwJTtcbiAgICBtYXgtd2lkdGg6IDEwMCU7IH1cbiAgLnJvdy1jb2xzLXhsLTIgPiAqIHtcbiAgICBmbGV4OiAwIDAgNTAlO1xuICAgIG1heC13aWR0aDogNTAlOyB9XG4gIC5yb3ctY29scy14bC0zID4gKiB7XG4gICAgZmxleDogMCAwIDMzLjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDMzLjMzMzMzJTsgfVxuICAucm93LWNvbHMteGwtNCA+ICoge1xuICAgIGZsZXg6IDAgMCAyNSU7XG4gICAgbWF4LXdpZHRoOiAyNSU7IH1cbiAgLnJvdy1jb2xzLXhsLTUgPiAqIHtcbiAgICBmbGV4OiAwIDAgMjAlO1xuICAgIG1heC13aWR0aDogMjAlOyB9XG4gIC5yb3ctY29scy14bC02ID4gKiB7XG4gICAgZmxleDogMCAwIDE2LjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDE2LjY2NjY3JTsgfVxuICAuY29sLXhsLWF1dG8ge1xuICAgIGZsZXg6IDAgMCBhdXRvO1xuICAgIHdpZHRoOiBhdXRvO1xuICAgIG1heC13aWR0aDogMTAwJTsgfVxuICAuY29sLXhsLTEge1xuICAgIGZsZXg6IDAgMCA4LjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDguMzMzMzMlOyB9XG4gIC5jb2wteGwtMiB7XG4gICAgZmxleDogMCAwIDE2LjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDE2LjY2NjY3JTsgfVxuICAuY29sLXhsLTMge1xuICAgIGZsZXg6IDAgMCAyNSU7XG4gICAgbWF4LXdpZHRoOiAyNSU7IH1cbiAgLmNvbC14bC00IHtcbiAgICBmbGV4OiAwIDAgMzMuMzMzMzMlO1xuICAgIG1heC13aWR0aDogMzMuMzMzMzMlOyB9XG4gIC5jb2wteGwtNSB7XG4gICAgZmxleDogMCAwIDQxLjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDQxLjY2NjY3JTsgfVxuICAuY29sLXhsLTYge1xuICAgIGZsZXg6IDAgMCA1MCU7XG4gICAgbWF4LXdpZHRoOiA1MCU7IH1cbiAgLmNvbC14bC03IHtcbiAgICBmbGV4OiAwIDAgNTguMzMzMzMlO1xuICAgIG1heC13aWR0aDogNTguMzMzMzMlOyB9XG4gIC5jb2wteGwtOCB7XG4gICAgZmxleDogMCAwIDY2LjY2NjY3JTtcbiAgICBtYXgtd2lkdGg6IDY2LjY2NjY3JTsgfVxuICAuY29sLXhsLTkge1xuICAgIGZsZXg6IDAgMCA3NSU7XG4gICAgbWF4LXdpZHRoOiA3NSU7IH1cbiAgLmNvbC14bC0xMCB7XG4gICAgZmxleDogMCAwIDgzLjMzMzMzJTtcbiAgICBtYXgtd2lkdGg6IDgzLjMzMzMzJTsgfVxuICAuY29sLXhsLTExIHtcbiAgICBmbGV4OiAwIDAgOTEuNjY2NjclO1xuICAgIG1heC13aWR0aDogOTEuNjY2NjclOyB9XG4gIC5jb2wteGwtMTIge1xuICAgIGZsZXg6IDAgMCAxMDAlO1xuICAgIG1heC13aWR0aDogMTAwJTsgfVxuICAub2Zmc2V0LXhsLTAge1xuICAgIG1hcmdpbi1sZWZ0OiAwOyB9XG4gIC5vZmZzZXQteGwtMSB7XG4gICAgbWFyZ2luLWxlZnQ6IDguMzMzMzMlOyB9XG4gIC5vZmZzZXQteGwtMiB7XG4gICAgbWFyZ2luLWxlZnQ6IDE2LjY2NjY3JTsgfVxuICAub2Zmc2V0LXhsLTMge1xuICAgIG1hcmdpbi1sZWZ0OiAyNSU7IH1cbiAgLm9mZnNldC14bC00IHtcbiAgICBtYXJnaW4tbGVmdDogMzMuMzMzMzMlOyB9XG4gIC5vZmZzZXQteGwtNSB7XG4gICAgbWFyZ2luLWxlZnQ6IDQxLjY2NjY3JTsgfVxuICAub2Zmc2V0LXhsLTYge1xuICAgIG1hcmdpbi1sZWZ0OiA1MCU7IH1cbiAgLm9mZnNldC14bC03IHtcbiAgICBtYXJnaW4tbGVmdDogNTguMzMzMzMlOyB9XG4gIC5vZmZzZXQteGwtOCB7XG4gICAgbWFyZ2luLWxlZnQ6IDY2LjY2NjY3JTsgfVxuICAub2Zmc2V0LXhsLTkge1xuICAgIG1hcmdpbi1sZWZ0OiA3NSU7IH1cbiAgLm9mZnNldC14bC0xMCB7XG4gICAgbWFyZ2luLWxlZnQ6IDgzLjMzMzMzJTsgfVxuICAub2Zmc2V0LXhsLTExIHtcbiAgICBtYXJnaW4tbGVmdDogOTEuNjY2NjclOyB9IH1cblxuKixcbio6OmJlZm9yZSxcbio6OmFmdGVyIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDsgfVxuXG4ucGFnZS1oZWFkZXItaW5uZXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIG1hcmdpbi10b3A6IDE1cHg7XG4gIGhlaWdodDogNjBweDtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyOyB9XG4gIC5wYWdlLWhlYWRlci1pbm5lcjo6YmVmb3JlIHtcbiAgICBjb250ZW50OiBcIlwiO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBoZWlnaHQ6IDYwcHg7XG4gICAgd2lkdGg6IGNhbGMoMTAwJSAtIDMwcHgpO1xuICAgIGJveC1zaGFkb3c6IDAgM3B4IDEycHggMCByZ2JhKDAsIDAsIDAsIDAuMik7IH1cblxuLnBhZ2UtaGVhZGVyLWxvZ28ge1xuICBtYXJnaW4tbGVmdDogMTVweDsgfVxuXG4ucGFnZS1oZWFkZXItc2VsZWN0IHtcbiAgbWFyZ2luLXJpZ2h0OiAxNXB4OyB9XG5cbi5wYWdlLXNlY3Rpb24ge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7IH1cbiAgLnBhZ2Utc2VjdGlvbi0tcGFydG5lcnMgLnBhZ2Utc2VjdGlvbi1pbm5lciB7XG4gICAgcGFkZGluZzogM3Z3O1xuICAgIGJvcmRlci1yYWRpdXM6IDMwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjsgfVxuICAucGFnZS1zZWN0aW9uLXRpdGxlIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiA4dnc7XG4gICAgbGluZS1oZWlnaHQ6IDh2dzsgfVxuICAucGFnZS1zZWN0aW9uLWNvbnRlbnQge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsgfVxuICAucGFnZS1zZWN0aW9uLWJ0biB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIG1hcmdpbi10b3A6IDh2dztcbiAgICBwYWRkaW5nOiA1LjN2dyA2dnc7XG4gICAgY29sb3I6ICMwMDAwMDA7XG4gICAgZm9udC1zaXplOiA1LjV2dztcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgYm9yZGVyLXJhZGl1czogMi41dnc7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGREQwMDsgfVxuXG4ubGluayB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBmb250LWZhbWlseTogXCJLZWxzb25cIiwgLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCBcIlJvYm90b1wiLCBcIlVidW50dVwiLCBcIkRyb2lkIFNhbnNcIiwgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBcIkFyaWFsXCIsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMTNweDtcbiAgbGluZS1oZWlnaHQ6IDE0cHg7XG4gIGNvbG9yOiAjNzJDMkUwO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7IH1cbiAgLmxpbms6OmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcIjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYm90dG9tOiAwO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMXB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM3MkMyRTA7IH1cbiAgLmxpbms6aG92ZXI6OmJlZm9yZSB7XG4gICAgb3BhY2l0eTogMDsgfVxuICAubGluay0tbm8tdW5kZXJsaW5lOjpiZWZvcmUge1xuICAgIGRpc3BsYXk6IG5vbmU7IH1cbiAgLmxpbmstLW5vLXVuZGVybGluZTpob3ZlciB7XG4gICAgY29sb3I6ICM5M2QwZTc7IH1cblxuLmJhbm5lciB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyOyB9XG4gIC5iYW5uZXItdGV4dCB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMjJ2dztcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC01MCUpO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDMuNHZ3O1xuICAgIGxpbmUtaGVpZ2h0OiA0dnc7XG4gICAgZm9udC13ZWlnaHQ6IDUwMDsgfVxuXG4uZGVsaXZlcnkge1xuICBwYWRkaW5nOiAwIDEwcHg7IH1cbiAgLmRlbGl2ZXJ5LXRpdGxlIHtcbiAgICBtYXJnaW46IDR2dyAwIDZ2dyAwO1xuICAgIGZvbnQtc2l6ZTogNC41dnc7XG4gICAgbGluZS1oZWlnaHQ6IDQuNXZ3OyB9XG4gIC5kZWxpdmVyeS1jb250ZW50IHtcbiAgICBib3JkZXItcmFkaXVzOiA0dnc7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2NjY2NjYzsgfVxuICAuZGVsaXZlcnktY29udGVudCB7XG4gICAgcGFkZGluZzogMnZ3IDV2dyA0dncgNXZ3OyB9XG4gIC5kZWxpdmVyeS10ZXh0IHtcbiAgICBtYXJnaW4tdG9wOiA1dnc7XG4gICAgZm9udC1zaXplOiAyLjV2dzsgfVxuXG4ucHJvbW8ge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHBhZGRpbmctdG9wOiAxMHZ3O1xuICBwYWRkaW5nLWJvdHRvbTogMzN2dztcbiAgb3ZlcmZsb3c6IGhpZGRlbjsgfVxuICAucHJvbW86OmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcIjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAgYm90dG9tOiAwO1xuICAgIHJpZ2h0OiAtMjV2dztcbiAgICBiYWNrZ3JvdW5kOiB1cmwoXCIuLi9pbWcvc3ZnL21hcC5zdmdcIik7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA1MCUgNDklO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMTE2dncgMzAwdnc7IH1cbiAgLnByb21vLWluZm8ge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB6LWluZGV4OiA1O1xuICAgIG1hcmdpbi1sZWZ0OiAxMHB4O1xuICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgICBwYWRkaW5nOiA2dncgMTB2dztcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbiAgICBib3JkZXItcmFkaXVzOiA1dnc7XG4gICAgYm94LXNoYWRvdzogMCAwIDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMik7IH1cbiAgLnByb21vLWluZm8gcCB7XG4gICAgbWFyZ2luOiAwO1xuICAgIG1hcmdpbi10b3A6IDR2dztcbiAgICBmb250LXNpemU6IDMuNXZ3O1xuICAgIGxpbmUtaGVpZ2h0OiA0dnc7IH1cbiAgLnByb21vLWNvbnRlbnQge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBtYXJnaW4tdG9wOiAtNXZ3O1xuICAgIHBhZGRpbmc6IDE1dncgMDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDIyMSwgMCwgMC42KTsgfVxuICAgIC5wcm9tby1jb250ZW50OjpiZWZvcmUsIC5wcm9tby1jb250ZW50OjphZnRlciB7XG4gICAgICBjb250ZW50OiBcIlwiO1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgdG9wOiAwO1xuICAgICAgYm90dG9tOiAwO1xuICAgICAgd2lkdGg6IDE1cHg7XG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjIxLCAwLCAwLjYpOyB9XG4gICAgLnByb21vLWNvbnRlbnQ6OmJlZm9yZSB7XG4gICAgICBsZWZ0OiAtMTVweDsgfVxuICAgIC5wcm9tby1jb250ZW50OjphZnRlciB7XG4gICAgICByaWdodDogLTE1cHg7IH1cbiAgLnByb21vLWl0ZW06Zmlyc3QtY2hpbGQge1xuICAgIG1hcmdpbi1ib3R0b206IDE1dnc7IH1cbiAgLnByb21vLWl0ZW0gYiB7XG4gICAgbWFyZ2luLWJvdHRvbTogNHZ3O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIGZvbnQtc2l6ZTogMTB2dztcbiAgICBsaW5lLWhlaWdodDogNXZ3OyB9XG4gIC5wcm9tby1pdGVtIHNtYWxsIHtcbiAgICBmb250LXNpemU6IDR2dztcbiAgICBsaW5lLWhlaWdodDogNHZ3OyB9XG5cbi5hZHZhbnRhZ2VzIHtcbiAgbWFyZ2luOiAwO1xuICBtYXJnaW4tYm90dG9tOiA1MHB4O1xuICBwYWRkaW5nOiAwO1xuICBsaXN0LXN0eWxlOiBub25lOyB9XG4gIC5hZHZhbnRhZ2VzLWl0ZW0gc3ZnIHtcbiAgICBtYXJnaW4tdG9wOiAyNXB4O1xuICAgIG1hcmdpbi1ib3R0b206IDE1cHg7XG4gICAgd2lkdGg6IDE1MHB4O1xuICAgIGhlaWdodDogMTUwcHg7IH1cbiAgLmFkdmFudGFnZXMgYiB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgZm9udC1zaXplOiAyNHB4OyB9XG4gIC5hZHZhbnRhZ2VzIHAge1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBsaW5lLWhlaWdodDogMTZweDsgfVxuXG4ucGFydG5lcnMge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIGxpc3Qtc3R5bGU6IG5vbmU7IH1cbiAgLnBhcnRuZXJzLWl0ZW0ge1xuICAgIG1hcmdpbjogNXB4IDEwcHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7IH1cblxuLnBhZ2UtZm9vdGVyIHtcbiAgcGFkZGluZy10b3A6IDE1cHg7XG4gIHBhZGRpbmctYm90dG9tOiAxNXB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwO1xuICBjb2xvcjogI2ZmZmZmZjsgfVxuICAucGFnZS1mb290ZXItdGV4dCwgLnBhZ2UtZm9vdGVyLWxpbmsge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG4gICAgY29sb3I6ICNmZmZmZmY7IH1cbiIsIlxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIktlbHNvblwiO1xuICBzcmM6IHVybChcIi4uL2ZvbnRzL2tlbHNvbl9saWdodC53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSxcbiAgdXJsKFwiLi4vZm9udHMva2Vsc29uX2xpZ2h0LndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xufVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiS2Vsc29uXCI7XG4gIHNyYzogdXJsKFwiLi4vZm9udHMva2Vsc29uLndvZmYyXCIpIGZvcm1hdChcIndvZmYyXCIpLFxuICB1cmwoXCIuLi9mb250cy9rZWxzb24ud29mZlwiKSBmb3JtYXQoXCJ3b2ZmXCIpO1xuICBmb250LXdlaWdodDogNDAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJLZWxzb25cIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9rZWxzb25fYm9sZC53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSxcbiAgdXJsKFwiLi4vZm9udHMva2Vsc29uX2JvbGQud29mZlwiKSBmb3JtYXQoXCJ3b2ZmXCIpO1xuICBmb250LXdlaWdodDogNzAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJPcGVuIFNhbnNcIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9vcGVuc2Fucy1yZWd1bGFyLXdlYmZvbnQud29mZjJcIikgZm9ybWF0KFwid29mZjJcIiksXG4gICAgICAgdXJsKFwiLi4vZm9udHMvb3BlbnNhbnMtcmVndWxhci13ZWJmb250LndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuXG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJPcGVuIFNhbnNcIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9vcGVuc2Fucy1ib2xkLXdlYmZvbnQud29mZjJcIikgZm9ybWF0KFwid29mZjJcIiksXG4gICAgICAgdXJsKFwiLi4vZm9udHMvb3BlbnNhbnMtYm9sZC13ZWJmb250LndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xufVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiUmIgU2Fuc1wiO1xuICBzcmM6IHVybChcIi4uL2ZvbnRzL1JiU2Fucy53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKSxcbiAgdXJsKFwiLi4vZm9udHMvUmJTYW5zLndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xufVxuIiwiaHRtbCxcbmJvZHkge1xuICBoZWlnaHQ6IDEwMCU7XG4gIGZvbnQtZmFtaWx5OiAkYmFzZS1mb250LWZhbWlseTtcbiAgZm9udC1zaXplOiAxM3B4O1xuICBsaW5lLWhlaWdodDogMTRweDtcbiAgY29sb3I6ICRibGFjaztcbiAgYmFja2dyb3VuZC1jb2xvcjogJGdyYXktbGlnaHQ7XG59XG4iLCIvLyBjb2xvcnNcbiR3aGl0ZTogI2ZmZmZmZjtcbiRibGFjazogIzAwMDAwMDtcbiR5ZWxsb3c6ICNGRkREMDA7XG4kZ3JheTogI2NjY2NjYztcbiRncmF5LWxpZ2h0OiAjZjlmOWY5O1xuJGdyYXktZGFyazogIzM3M2EzYztcbiRibHVlOiAjNmRkNWYzO1xuJGJsdWUtZGFyazogIzcyQzJFMDtcbiRwaW5rOiAjZjUyMmZmO1xuJHB1cnBsZTogIzVlN2FmNDtcblxuLy8gRm9udHMgRmFtaWx5XG4kYmFzZS1mb250LWZhbWlseTogXCJLZWxzb25cIiwgLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCBcIlJvYm90b1wiLCBcIlVidW50dVwiLCBcIkRyb2lkIFNhbnNcIiwgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBcIkFyaWFsXCIsIHNhbnMtc2VyaWY7XG4kc2Vjb25kYXJ5LWZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiLCBcIkhlbHZldGljYVwiLCBcIkFyaWFsXCIsIHNhbnMtc2VyaWY7XG5cbi8vY29tbW9uXG4kYm94LXNoYWRvdzogMHB4IDNweCAzcHggcmdiYSgkYmxhY2ssIDAuMjUpO1xuJGJvcmRlci1yYWRpdXM6IDIuNXZ3O1xuXG4kZW5hYmxlLWdyaWQtY2xhc3NlczogIHRydWUgIWRlZmF1bHQ7XG5cbi8vIEdyaWQgYnJlYWtwb2ludHNcbi8vXG4vLyBEZWZpbmUgdGhlIG1pbmltdW0gZGltZW5zaW9ucyBhdCB3aGljaCB5b3VyIGxheW91dCB3aWxsIGNoYW5nZSxcbi8vIGFkYXB0aW5nIHRvIGRpZmZlcmVudCBzY3JlZW4gc2l6ZXMsIGZvciB1c2UgaW4gbWVkaWEgcXVlcmllcy5cblxuJGdyaWQtYnJlYWtwb2ludHM6IChcbiAgeHM6IDAsXG4gIHNtOiA1NzZweCxcbiAgbWQ6IDc2OHB4LFxuICBsZzogOTkycHgsXG4gIHhsOiAxMjAwcHhcbikgIWRlZmF1bHQ7XG5cbkBpbmNsdWRlIF9hc3NlcnQtYXNjZW5kaW5nKCRncmlkLWJyZWFrcG9pbnRzLCBcIiRncmlkLWJyZWFrcG9pbnRzXCIpO1xuQGluY2x1ZGUgX2Fzc2VydC1zdGFydHMtYXQtemVybygkZ3JpZC1icmVha3BvaW50cywgXCIkZ3JpZC1icmVha3BvaW50c1wiKTtcblxuXG4vLyBHcmlkIGNvbnRhaW5lcnNcbi8vXG4vLyBEZWZpbmUgdGhlIG1heGltdW0gd2lkdGggb2YgYC5jb250YWluZXJgIGZvciBkaWZmZXJlbnQgc2NyZWVuIHNpemVzLlxuXG4kY29udGFpbmVyLW1heC13aWR0aHM6IChcbiAgc206IDU0MHB4LFxuICBtZDogNzIwcHgsXG4gIGxnOiA5NjBweCxcbiAgeGw6IDExNzBweFxuKSAhZGVmYXVsdDtcblxuQGluY2x1ZGUgX2Fzc2VydC1hc2NlbmRpbmcoJGNvbnRhaW5lci1tYXgtd2lkdGhzLCBcIiRjb250YWluZXItbWF4LXdpZHRoc1wiKTtcblxuLy8gR3JpZCBjb2x1bW5zXG4vL1xuLy8gU2V0IHRoZSBudW1iZXIgb2YgY29sdW1ucyBhbmQgc3BlY2lmeSB0aGUgd2lkdGggb2YgdGhlIGd1dHRlcnMuXG5cbiRncmlkLWNvbHVtbnM6ICAgICAgICAgICAgICAgIDEyICFkZWZhdWx0O1xuJGdyaWQtZ3V0dGVyLXdpZHRoOiAgICAgICAgICAgMzBweCAhZGVmYXVsdDtcbiRncmlkLXJvdy1jb2x1bW5zOiAgICAgICAgICAgIDYgIWRlZmF1bHQ7XG5cblxuLy8gQ29udGFpbmVyIHBhZGRpbmdcblxuJGNvbnRhaW5lci1wYWRkaW5nLXg6ICRncmlkLWd1dHRlci13aWR0aCAvIDIgIWRlZmF1bHQ7XG4iLCIvLyBDb250YWluZXIgd2lkdGhzXG4vL1xuLy8gU2V0IHRoZSBjb250YWluZXIgd2lkdGgsIGFuZCBvdmVycmlkZSBpdCBmb3IgZml4ZWQgbmF2YmFycyBpbiBtZWRpYSBxdWVyaWVzLlxuXG5AaWYgJGVuYWJsZS1ncmlkLWNsYXNzZXMge1xuICAvLyBTaW5nbGUgY29udGFpbmVyIGNsYXNzIHdpdGggYnJlYWtwb2ludCBtYXgtd2lkdGhzXG4gIC5jb250YWluZXIge1xuICAgIEBpbmNsdWRlIG1ha2UtY29udGFpbmVyKCk7XG4gICAgQGluY2x1ZGUgbWFrZS1jb250YWluZXItbWF4LXdpZHRocygpO1xuICB9XG5cbiAgLy8gMTAwJSB3aWRlIGNvbnRhaW5lciBhdCBhbGwgYnJlYWtwb2ludHNcbiAgLmNvbnRhaW5lci1mbHVpZCB7XG4gICAgQGluY2x1ZGUgbWFrZS1jb250YWluZXIoKTtcbiAgfVxuXG4gIC8vIFJlc3BvbnNpdmUgY29udGFpbmVycyB0aGF0IGFyZSAxMDAlIHdpZGUgdW50aWwgYSBicmVha3BvaW50XG4gIEBlYWNoICRicmVha3BvaW50LCAkY29udGFpbmVyLW1heC13aWR0aCBpbiAkY29udGFpbmVyLW1heC13aWR0aHMge1xuICAgIC5jb250YWluZXItI3skYnJlYWtwb2ludH0ge1xuICAgICAgQGV4dGVuZCAuY29udGFpbmVyLWZsdWlkO1xuICAgIH1cblxuICAgIEBpbmNsdWRlIG1lZGlhLWJyZWFrcG9pbnQtdXAoJGJyZWFrcG9pbnQsICRncmlkLWJyZWFrcG9pbnRzKSB7XG4gICAgICAlcmVzcG9uc2l2ZS1jb250YWluZXItI3skYnJlYWtwb2ludH0ge1xuICAgICAgICBtYXgtd2lkdGg6ICRjb250YWluZXItbWF4LXdpZHRoO1xuICAgICAgfVxuXG4gICAgICBAZWFjaCAkbmFtZSwgJHdpZHRoIGluICRncmlkLWJyZWFrcG9pbnRzIHtcbiAgICAgICAgQGlmICgkY29udGFpbmVyLW1heC13aWR0aCA+ICR3aWR0aCBvciAkYnJlYWtwb2ludCA9PSAkbmFtZSkge1xuICAgICAgICAgIC5jb250YWluZXIje2JyZWFrcG9pbnQtaW5maXgoJG5hbWUsICRncmlkLWJyZWFrcG9pbnRzKX0ge1xuICAgICAgICAgICAgQGV4dGVuZCAlcmVzcG9uc2l2ZS1jb250YWluZXItI3skYnJlYWtwb2ludH07XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cblxuLy8gUm93XG4vL1xuLy8gUm93cyBjb250YWluIHlvdXIgY29sdW1ucy5cblxuQGlmICRlbmFibGUtZ3JpZC1jbGFzc2VzIHtcbiAgLnJvdyB7XG4gICAgQGluY2x1ZGUgbWFrZS1yb3coKTtcbiAgfVxuXG4gIC8vIFJlbW92ZSB0aGUgbmVnYXRpdmUgbWFyZ2luIGZyb20gZGVmYXVsdCAucm93LCB0aGVuIHRoZSBob3Jpem9udGFsIHBhZGRpbmdcbiAgLy8gZnJvbSBhbGwgaW1tZWRpYXRlIGNoaWxkcmVuIGNvbHVtbnMgKHRvIHByZXZlbnQgcnVuYXdheSBzdHlsZSBpbmhlcml0YW5jZSkuXG4gIC5uby1ndXR0ZXJzIHtcbiAgICBtYXJnaW4tcmlnaHQ6IDA7XG4gICAgbWFyZ2luLWxlZnQ6IDA7XG5cbiAgICA+IC5jb2wsXG4gICAgPiBbY2xhc3MqPVwiY29sLVwiXSB7XG4gICAgICBwYWRkaW5nLXJpZ2h0OiAwO1xuICAgICAgcGFkZGluZy1sZWZ0OiAwO1xuICAgIH1cbiAgfVxufVxuXG4vLyBDb2x1bW5zXG4vL1xuLy8gQ29tbW9uIHN0eWxlcyBmb3Igc21hbGwgYW5kIGxhcmdlIGdyaWQgY29sdW1uc1xuXG5AaWYgJGVuYWJsZS1ncmlkLWNsYXNzZXMge1xuICBAaW5jbHVkZSBtYWtlLWdyaWQtY29sdW1ucygpO1xufVxuIiwiLy8vIEdyaWQgc3lzdGVtXG4vL1xuLy8gR2VuZXJhdGUgc2VtYW50aWMgZ3JpZCBjb2x1bW5zIHdpdGggdGhlc2UgbWl4aW5zLlxuXG5AbWl4aW4gbWFrZS1jb250YWluZXIoJHBhZGRpbmcteDogJGNvbnRhaW5lci1wYWRkaW5nLXgpIHtcbiAgd2lkdGg6IDEwMCU7XG4gIHBhZGRpbmctcmlnaHQ6ICRwYWRkaW5nLXg7XG4gIHBhZGRpbmctbGVmdDogJHBhZGRpbmcteDtcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBtYXJnaW4tbGVmdDogYXV0bztcbn1cblxuXG4vLyBGb3IgZWFjaCBicmVha3BvaW50LCBkZWZpbmUgdGhlIG1heGltdW0gd2lkdGggb2YgdGhlIGNvbnRhaW5lciBpbiBhIG1lZGlhIHF1ZXJ5XG5AbWl4aW4gbWFrZS1jb250YWluZXItbWF4LXdpZHRocygkbWF4LXdpZHRoczogJGNvbnRhaW5lci1tYXgtd2lkdGhzLCAkYnJlYWtwb2ludHM6ICRncmlkLWJyZWFrcG9pbnRzKSB7XG4gIEBlYWNoICRicmVha3BvaW50LCAkY29udGFpbmVyLW1heC13aWR0aCBpbiAkbWF4LXdpZHRocyB7XG4gICAgQGluY2x1ZGUgbWVkaWEtYnJlYWtwb2ludC11cCgkYnJlYWtwb2ludCwgJGJyZWFrcG9pbnRzKSB7XG4gICAgICBtYXgtd2lkdGg6ICRjb250YWluZXItbWF4LXdpZHRoO1xuICAgIH1cbiAgfVxufVxuXG5AbWl4aW4gbWFrZS1yb3coJGd1dHRlcjogJGdyaWQtZ3V0dGVyLXdpZHRoKSB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtd3JhcDogd3JhcDtcbiAgbWFyZ2luLXJpZ2h0OiAtJGd1dHRlciAvIDI7XG4gIG1hcmdpbi1sZWZ0OiAtJGd1dHRlciAvIDI7XG59XG5cbkBtaXhpbiBtYWtlLWNvbC1yZWFkeSgkZ3V0dGVyOiAkZ3JpZC1ndXR0ZXItd2lkdGgpIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAvLyBQcmV2ZW50IGNvbHVtbnMgZnJvbSBiZWNvbWluZyB0b28gbmFycm93IHdoZW4gYXQgc21hbGxlciBncmlkIHRpZXJzIGJ5XG4gIC8vIGFsd2F5cyBzZXR0aW5nIGB3aWR0aDogMTAwJTtgLiBUaGlzIHdvcmtzIGJlY2F1c2Ugd2UgdXNlIGBmbGV4YCB2YWx1ZXNcbiAgLy8gbGF0ZXIgb24gdG8gb3ZlcnJpZGUgdGhpcyBpbml0aWFsIHdpZHRoLlxuICB3aWR0aDogMTAwJTtcbiAgcGFkZGluZy1yaWdodDogJGd1dHRlciAvIDI7XG4gIHBhZGRpbmctbGVmdDogJGd1dHRlciAvIDI7XG59XG5cbkBtaXhpbiBtYWtlLWNvbCgkc2l6ZSwgJGNvbHVtbnM6ICRncmlkLWNvbHVtbnMpIHtcbiAgZmxleDogMCAwIHBlcmNlbnRhZ2UoJHNpemUgLyAkY29sdW1ucyk7XG4gIC8vIEFkZCBhIGBtYXgtd2lkdGhgIHRvIGVuc3VyZSBjb250ZW50IHdpdGhpbiBlYWNoIGNvbHVtbiBkb2VzIG5vdCBibG93IG91dFxuICAvLyB0aGUgd2lkdGggb2YgdGhlIGNvbHVtbi4gQXBwbGllcyB0byBJRTEwKyBhbmQgRmlyZWZveC4gQ2hyb21lIGFuZCBTYWZhcmlcbiAgLy8gZG8gbm90IGFwcGVhciB0byByZXF1aXJlIHRoaXMuXG4gIG1heC13aWR0aDogcGVyY2VudGFnZSgkc2l6ZSAvICRjb2x1bW5zKTtcbn1cblxuQG1peGluIG1ha2UtY29sLW9mZnNldCgkc2l6ZSwgJGNvbHVtbnM6ICRncmlkLWNvbHVtbnMpIHtcbiAgJG51bTogJHNpemUgLyAkY29sdW1ucztcbiAgbWFyZ2luLWxlZnQ6IGlmKCRudW0gPT0gMCwgMCwgcGVyY2VudGFnZSgkbnVtKSk7XG59XG5cbi8vIFJvdyBjb2x1bW5zXG4vL1xuLy8gU3BlY2lmeSBvbiBhIHBhcmVudCBlbGVtZW50KGUuZy4sIC5yb3cpIHRvIGZvcmNlIGltbWVkaWF0ZSBjaGlsZHJlbiBpbnRvIE5OXG4vLyBudW1iZXJvZiBjb2x1bW5zLiBTdXBwb3J0cyB3cmFwcGluZyB0byBuZXcgbGluZXMsIGJ1dCBkb2VzIG5vdCBkbyBhIE1hc29ucnlcbi8vIHN0eWxlIGdyaWQuXG5AbWl4aW4gcm93LWNvbHMoJGNvdW50KSB7XG4gICYgPiAqIHtcbiAgICBmbGV4OiAwIDAgMTAwJSAvICRjb3VudDtcbiAgICBtYXgtd2lkdGg6IDEwMCUgLyAkY291bnQ7XG4gIH1cbn1cbiIsIi8vIEJyZWFrcG9pbnQgdmlld3BvcnQgc2l6ZXMgYW5kIG1lZGlhIHF1ZXJpZXMuXG4vL1xuLy8gQnJlYWtwb2ludHMgYXJlIGRlZmluZWQgYXMgYSBtYXAgb2YgKG5hbWU6IG1pbmltdW0gd2lkdGgpLCBvcmRlciBmcm9tIHNtYWxsIHRvIGxhcmdlOlxuLy9cbi8vICAgICh4czogMCwgc206IDU3NnB4LCBtZDogNzY4cHgsIGxnOiA5OTJweCwgeGw6IDEyMDBweClcbi8vXG4vLyBUaGUgbWFwIGRlZmluZWQgaW4gdGhlIGAkZ3JpZC1icmVha3BvaW50c2AgZ2xvYmFsIHZhcmlhYmxlIGlzIHVzZWQgYXMgdGhlIGAkYnJlYWtwb2ludHNgIGFyZ3VtZW50IGJ5IGRlZmF1bHQuXG5cbi8vIE5hbWUgb2YgdGhlIG5leHQgYnJlYWtwb2ludCwgb3IgbnVsbCBmb3IgdGhlIGxhc3QgYnJlYWtwb2ludC5cbi8vXG4vLyAgICA+PiBicmVha3BvaW50LW5leHQoc20pXG4vLyAgICBtZFxuLy8gICAgPj4gYnJlYWtwb2ludC1uZXh0KHNtLCAoeHM6IDAsIHNtOiA1NzZweCwgbWQ6IDc2OHB4LCBsZzogOTkycHgsIHhsOiAxMjAwcHgpKVxuLy8gICAgbWRcbi8vICAgID4+IGJyZWFrcG9pbnQtbmV4dChzbSwgJGJyZWFrcG9pbnQtbmFtZXM6ICh4cyBzbSBtZCBsZyB4bCkpXG4vLyAgICBtZFxuQGZ1bmN0aW9uIGJyZWFrcG9pbnQtbmV4dCgkbmFtZSwgJGJyZWFrcG9pbnRzOiAkZ3JpZC1icmVha3BvaW50cywgJGJyZWFrcG9pbnQtbmFtZXM6IG1hcC1rZXlzKCRicmVha3BvaW50cykpIHtcbiAgJG46IGluZGV4KCRicmVha3BvaW50LW5hbWVzLCAkbmFtZSk7XG4gIEBpZiBub3QgJG4ge1xuICAgIEBlcnJvciBcImJyZWFrcG9pbnQgYCN7JG5hbWV9YCBub3QgZm91bmQgaW4gYCN7JGJyZWFrcG9pbnRzfWBcIjtcbiAgfVxuICBAcmV0dXJuIGlmKCRuIDwgbGVuZ3RoKCRicmVha3BvaW50LW5hbWVzKSwgbnRoKCRicmVha3BvaW50LW5hbWVzLCAkbiArIDEpLCBudWxsKTtcbn1cblxuLy8gTWluaW11bSBicmVha3BvaW50IHdpZHRoLiBOdWxsIGZvciB0aGUgc21hbGxlc3QgKGZpcnN0KSBicmVha3BvaW50LlxuLy9cbi8vICAgID4+IGJyZWFrcG9pbnQtbWluKHNtLCAoeHM6IDAsIHNtOiA1NzZweCwgbWQ6IDc2OHB4LCBsZzogOTkycHgsIHhsOiAxMjAwcHgpKVxuLy8gICAgNTc2cHhcbkBmdW5jdGlvbiBicmVha3BvaW50LW1pbigkbmFtZSwgJGJyZWFrcG9pbnRzOiAkZ3JpZC1icmVha3BvaW50cykge1xuICAkbWluOiBtYXAtZ2V0KCRicmVha3BvaW50cywgJG5hbWUpO1xuICBAcmV0dXJuIGlmKCRtaW4gIT0gMCwgJG1pbiwgbnVsbCk7XG59XG5cbi8vIE1heGltdW0gYnJlYWtwb2ludCB3aWR0aC4gTnVsbCBmb3IgdGhlIGxhcmdlc3QgKGxhc3QpIGJyZWFrcG9pbnQuXG4vLyBUaGUgbWF4aW11bSB2YWx1ZSBpcyBjYWxjdWxhdGVkIGFzIHRoZSBtaW5pbXVtIG9mIHRoZSBuZXh0IG9uZSBsZXNzIDAuMDJweFxuLy8gdG8gd29yayBhcm91bmQgdGhlIGxpbWl0YXRpb25zIG9mIGBtaW4tYCBhbmQgYG1heC1gIHByZWZpeGVzIGFuZCB2aWV3cG9ydHMgd2l0aCBmcmFjdGlvbmFsIHdpZHRocy5cbi8vIFNlZSBodHRwczovL3d3dy53My5vcmcvVFIvbWVkaWFxdWVyaWVzLTQvI21xLW1pbi1tYXhcbi8vIFVzZXMgMC4wMnB4IHJhdGhlciB0aGFuIDAuMDFweCB0byB3b3JrIGFyb3VuZCBhIGN1cnJlbnQgcm91bmRpbmcgYnVnIGluIFNhZmFyaS5cbi8vIFNlZSBodHRwczovL2J1Z3Mud2Via2l0Lm9yZy9zaG93X2J1Zy5jZ2k/aWQ9MTc4MjYxXG4vL1xuLy8gICAgPj4gYnJlYWtwb2ludC1tYXgoc20sICh4czogMCwgc206IDU3NnB4LCBtZDogNzY4cHgsIGxnOiA5OTJweCwgeGw6IDEyMDBweCkpXG4vLyAgICA3NjcuOThweFxuQGZ1bmN0aW9uIGJyZWFrcG9pbnQtbWF4KCRuYW1lLCAkYnJlYWtwb2ludHM6ICRncmlkLWJyZWFrcG9pbnRzKSB7XG4gICRuZXh0OiBicmVha3BvaW50LW5leHQoJG5hbWUsICRicmVha3BvaW50cyk7XG4gIEByZXR1cm4gaWYoJG5leHQsIGJyZWFrcG9pbnQtbWluKCRuZXh0LCAkYnJlYWtwb2ludHMpIC0gLjAyLCBudWxsKTtcbn1cblxuLy8gUmV0dXJucyBhIGJsYW5rIHN0cmluZyBpZiBzbWFsbGVzdCBicmVha3BvaW50LCBvdGhlcndpc2UgcmV0dXJucyB0aGUgbmFtZSB3aXRoIGEgZGFzaCBpbiBmcm9udC5cbi8vIFVzZWZ1bCBmb3IgbWFraW5nIHJlc3BvbnNpdmUgdXRpbGl0aWVzLlxuLy9cbi8vICAgID4+IGJyZWFrcG9pbnQtaW5maXgoeHMsICh4czogMCwgc206IDU3NnB4LCBtZDogNzY4cHgsIGxnOiA5OTJweCwgeGw6IDEyMDBweCkpXG4vLyAgICBcIlwiICAoUmV0dXJucyBhIGJsYW5rIHN0cmluZylcbi8vICAgID4+IGJyZWFrcG9pbnQtaW5maXgoc20sICh4czogMCwgc206IDU3NnB4LCBtZDogNzY4cHgsIGxnOiA5OTJweCwgeGw6IDEyMDBweCkpXG4vLyAgICBcIi1zbVwiXG5AZnVuY3Rpb24gYnJlYWtwb2ludC1pbmZpeCgkbmFtZSwgJGJyZWFrcG9pbnRzOiAkZ3JpZC1icmVha3BvaW50cykge1xuICBAcmV0dXJuIGlmKGJyZWFrcG9pbnQtbWluKCRuYW1lLCAkYnJlYWtwb2ludHMpID09IG51bGwsIFwiXCIsIFwiLSN7JG5hbWV9XCIpO1xufVxuXG4vLyBNZWRpYSBvZiBhdCBsZWFzdCB0aGUgbWluaW11bSBicmVha3BvaW50IHdpZHRoLiBObyBxdWVyeSBmb3IgdGhlIHNtYWxsZXN0IGJyZWFrcG9pbnQuXG4vLyBNYWtlcyB0aGUgQGNvbnRlbnQgYXBwbHkgdG8gdGhlIGdpdmVuIGJyZWFrcG9pbnQgYW5kIHdpZGVyLlxuQG1peGluIG1lZGlhLWJyZWFrcG9pbnQtdXAoJG5hbWUsICRicmVha3BvaW50czogJGdyaWQtYnJlYWtwb2ludHMpIHtcbiAgJG1pbjogYnJlYWtwb2ludC1taW4oJG5hbWUsICRicmVha3BvaW50cyk7XG4gIEBpZiAkbWluIHtcbiAgICBAbWVkaWEgKG1pbi13aWR0aDogJG1pbikge1xuICAgICAgQGNvbnRlbnQ7XG4gICAgfVxuICB9IEBlbHNlIHtcbiAgICBAY29udGVudDtcbiAgfVxufVxuXG4vLyBNZWRpYSBvZiBhdCBtb3N0IHRoZSBtYXhpbXVtIGJyZWFrcG9pbnQgd2lkdGguIE5vIHF1ZXJ5IGZvciB0aGUgbGFyZ2VzdCBicmVha3BvaW50LlxuLy8gTWFrZXMgdGhlIEBjb250ZW50IGFwcGx5IHRvIHRoZSBnaXZlbiBicmVha3BvaW50IGFuZCBuYXJyb3dlci5cbkBtaXhpbiBtZWRpYS1icmVha3BvaW50LWRvd24oJG5hbWUsICRicmVha3BvaW50czogJGdyaWQtYnJlYWtwb2ludHMpIHtcbiAgJG1heDogYnJlYWtwb2ludC1tYXgoJG5hbWUsICRicmVha3BvaW50cyk7XG4gIEBpZiAkbWF4IHtcbiAgICBAbWVkaWEgKG1heC13aWR0aDogJG1heCkge1xuICAgICAgQGNvbnRlbnQ7XG4gICAgfVxuICB9IEBlbHNlIHtcbiAgICBAY29udGVudDtcbiAgfVxufVxuXG4vLyBNZWRpYSB0aGF0IHNwYW5zIG11bHRpcGxlIGJyZWFrcG9pbnQgd2lkdGhzLlxuLy8gTWFrZXMgdGhlIEBjb250ZW50IGFwcGx5IGJldHdlZW4gdGhlIG1pbiBhbmQgbWF4IGJyZWFrcG9pbnRzXG5AbWl4aW4gbWVkaWEtYnJlYWtwb2ludC1iZXR3ZWVuKCRsb3dlciwgJHVwcGVyLCAkYnJlYWtwb2ludHM6ICRncmlkLWJyZWFrcG9pbnRzKSB7XG4gICRtaW46IGJyZWFrcG9pbnQtbWluKCRsb3dlciwgJGJyZWFrcG9pbnRzKTtcbiAgJG1heDogYnJlYWtwb2ludC1tYXgoJHVwcGVyLCAkYnJlYWtwb2ludHMpO1xuXG4gIEBpZiAkbWluICE9IG51bGwgYW5kICRtYXggIT0gbnVsbCB7XG4gICAgQG1lZGlhIChtaW4td2lkdGg6ICRtaW4pIGFuZCAobWF4LXdpZHRoOiAkbWF4KSB7XG4gICAgICBAY29udGVudDtcbiAgICB9XG4gIH0gQGVsc2UgaWYgJG1heCA9PSBudWxsIHtcbiAgICBAaW5jbHVkZSBtZWRpYS1icmVha3BvaW50LXVwKCRsb3dlciwgJGJyZWFrcG9pbnRzKSB7XG4gICAgICBAY29udGVudDtcbiAgICB9XG4gIH0gQGVsc2UgaWYgJG1pbiA9PSBudWxsIHtcbiAgICBAaW5jbHVkZSBtZWRpYS1icmVha3BvaW50LWRvd24oJHVwcGVyLCAkYnJlYWtwb2ludHMpIHtcbiAgICAgIEBjb250ZW50O1xuICAgIH1cbiAgfVxufVxuXG4vLyBNZWRpYSBiZXR3ZWVuIHRoZSBicmVha3BvaW50J3MgbWluaW11bSBhbmQgbWF4aW11bSB3aWR0aHMuXG4vLyBObyBtaW5pbXVtIGZvciB0aGUgc21hbGxlc3QgYnJlYWtwb2ludCwgYW5kIG5vIG1heGltdW0gZm9yIHRoZSBsYXJnZXN0IG9uZS5cbi8vIE1ha2VzIHRoZSBAY29udGVudCBhcHBseSBvbmx5IHRvIHRoZSBnaXZlbiBicmVha3BvaW50LCBub3Qgdmlld3BvcnRzIGFueSB3aWRlciBvciBuYXJyb3dlci5cbkBtaXhpbiBtZWRpYS1icmVha3BvaW50LW9ubHkoJG5hbWUsICRicmVha3BvaW50czogJGdyaWQtYnJlYWtwb2ludHMpIHtcbiAgJG1pbjogYnJlYWtwb2ludC1taW4oJG5hbWUsICRicmVha3BvaW50cyk7XG4gICRtYXg6IGJyZWFrcG9pbnQtbWF4KCRuYW1lLCAkYnJlYWtwb2ludHMpO1xuXG4gIEBpZiAkbWluICE9IG51bGwgYW5kICRtYXggIT0gbnVsbCB7XG4gICAgQG1lZGlhIChtaW4td2lkdGg6ICRtaW4pIGFuZCAobWF4LXdpZHRoOiAkbWF4KSB7XG4gICAgICBAY29udGVudDtcbiAgICB9XG4gIH0gQGVsc2UgaWYgJG1heCA9PSBudWxsIHtcbiAgICBAaW5jbHVkZSBtZWRpYS1icmVha3BvaW50LXVwKCRuYW1lLCAkYnJlYWtwb2ludHMpIHtcbiAgICAgIEBjb250ZW50O1xuICAgIH1cbiAgfSBAZWxzZSBpZiAkbWluID09IG51bGwge1xuICAgIEBpbmNsdWRlIG1lZGlhLWJyZWFrcG9pbnQtZG93bigkbmFtZSwgJGJyZWFrcG9pbnRzKSB7XG4gICAgICBAY29udGVudDtcbiAgICB9XG4gIH1cbn1cbiIsIi8vIEZyYW1ld29yayBncmlkIGdlbmVyYXRpb25cbi8vXG4vLyBVc2VkIG9ubHkgYnkgQm9vdHN0cmFwIHRvIGdlbmVyYXRlIHRoZSBjb3JyZWN0IG51bWJlciBvZiBncmlkIGNsYXNzZXMgZ2l2ZW5cbi8vIGFueSB2YWx1ZSBvZiBgJGdyaWQtY29sdW1uc2AuXG5cbkBtaXhpbiBtYWtlLWdyaWQtY29sdW1ucygkY29sdW1uczogJGdyaWQtY29sdW1ucywgJGd1dHRlcjogJGdyaWQtZ3V0dGVyLXdpZHRoLCAkYnJlYWtwb2ludHM6ICRncmlkLWJyZWFrcG9pbnRzKSB7XG4gIC8vIENvbW1vbiBwcm9wZXJ0aWVzIGZvciBhbGwgYnJlYWtwb2ludHNcbiAgJWdyaWQtY29sdW1uIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgcGFkZGluZy1yaWdodDogJGd1dHRlciAvIDI7XG4gICAgcGFkZGluZy1sZWZ0OiAkZ3V0dGVyIC8gMjtcbiAgfVxuXG4gIEBlYWNoICRicmVha3BvaW50IGluIG1hcC1rZXlzKCRicmVha3BvaW50cykge1xuICAgICRpbmZpeDogYnJlYWtwb2ludC1pbmZpeCgkYnJlYWtwb2ludCwgJGJyZWFrcG9pbnRzKTtcblxuICAgIC8vIEFsbG93IGNvbHVtbnMgdG8gc3RyZXRjaCBmdWxsIHdpZHRoIGJlbG93IHRoZWlyIGJyZWFrcG9pbnRzXG4gICAgQGZvciAkaSBmcm9tIDEgdGhyb3VnaCAkY29sdW1ucyB7XG4gICAgICAuY29sI3skaW5maXh9LSN7JGl9IHtcbiAgICAgICAgQGV4dGVuZCAlZ3JpZC1jb2x1bW47XG4gICAgICB9XG4gICAgfVxuICAgIC5jb2wjeyRpbmZpeH0sXG4gICAgLmNvbCN7JGluZml4fS1hdXRvIHtcbiAgICAgIEBleHRlbmQgJWdyaWQtY29sdW1uO1xuICAgIH1cblxuICAgIEBpbmNsdWRlIG1lZGlhLWJyZWFrcG9pbnQtdXAoJGJyZWFrcG9pbnQsICRicmVha3BvaW50cykge1xuICAgICAgLy8gUHJvdmlkZSBiYXNpYyBgLmNvbC17YnB9YCBjbGFzc2VzIGZvciBlcXVhbC13aWR0aCBmbGV4Ym94IGNvbHVtbnNcbiAgICAgIC5jb2wjeyRpbmZpeH0ge1xuICAgICAgICBmbGV4LWJhc2lzOiAwO1xuICAgICAgICBmbGV4LWdyb3c6IDE7XG4gICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgIH1cblxuICAgICAgQGZvciAkaSBmcm9tIDEgdGhyb3VnaCAkZ3JpZC1yb3ctY29sdW1ucyB7XG4gICAgICAgIC5yb3ctY29scyN7JGluZml4fS0jeyRpfSB7XG4gICAgICAgICAgQGluY2x1ZGUgcm93LWNvbHMoJGkpO1xuICAgICAgICB9XG4gICAgICB9XG5cbiAgICAgIC5jb2wjeyRpbmZpeH0tYXV0byB7XG4gICAgICAgIGZsZXg6IDAgMCBhdXRvO1xuICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgbWF4LXdpZHRoOiAxMDAlOyAvLyBSZXNldCBlYXJsaWVyIGdyaWQgdGllcnNcbiAgICAgIH1cblxuICAgICAgQGZvciAkaSBmcm9tIDEgdGhyb3VnaCAkY29sdW1ucyB7XG4gICAgICAgIC5jb2wjeyRpbmZpeH0tI3skaX0ge1xuICAgICAgICAgIEBpbmNsdWRlIG1ha2UtY29sKCRpLCAkY29sdW1ucyk7XG4gICAgICAgIH1cbiAgICAgIH1cblxuICAgICAgLy8gYCRjb2x1bW5zIC0gMWAgYmVjYXVzZSBvZmZzZXR0aW5nIGJ5IHRoZSB3aWR0aCBvZiBhbiBlbnRpcmUgcm93IGlzbid0IHBvc3NpYmxlXG4gICAgICBAZm9yICRpIGZyb20gMCB0aHJvdWdoICgkY29sdW1ucyAtIDEpIHtcbiAgICAgICAgQGlmIG5vdCAoJGluZml4ID09IFwiXCIgYW5kICRpID09IDApIHsgLy8gQXZvaWQgZW1pdHRpbmcgdXNlbGVzcyAub2Zmc2V0LTBcbiAgICAgICAgICAub2Zmc2V0I3skaW5maXh9LSN7JGl9IHtcbiAgICAgICAgICAgIEBpbmNsdWRlIG1ha2UtY29sLW9mZnNldCgkaSwgJGNvbHVtbnMpO1xuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIiwiQGNoYXJzZXQgJ3V0Zi04JztcblxuLy91dGlsc1xuQGltcG9ydCAnZ2xvYmFsL3V0aWxzL2Z1bmN0aW9ucyc7XG5AaW1wb3J0ICdnbG9iYWwvdXRpbHMvbWl4aW5zJztcbkBpbXBvcnQgJ2dsb2JhbC91dGlscy91dGlscyc7XG5AaW1wb3J0ICdnbG9iYWwvdXRpbHMvYnJlYWtwb2ludHMnO1xuQGltcG9ydCAnZ2xvYmFsL3V0aWxzL2FuaW1hdGlvbnMnO1xuXG4vL3NldHRpbmdzXG5AaW1wb3J0ICdzZXR0aW5ncyc7XG5cbi8vbGlic1xuQGltcG9ydCAnbGlicyc7XG5cbi8vIEBpbXBvcnQgJ2dsb2JhbC90eXBvZ3JhcGh5JztcbkBpbXBvcnQgJ2dsb2JhbC9mb250cyc7XG5AaW1wb3J0ICdnbG9iYWwvY29tbW9uJztcblxuLy9ncmlkXG5AaW1wb3J0IFwiZ2xvYmFsL2dyaWQvZ3JpZC1mcmFtZXdvcmtcIjtcbkBpbXBvcnQgXCJnbG9iYWwvZ3JpZC9ncmlkXCI7XG5AaW1wb3J0IFwiZ2xvYmFsL2dyaWRcIjtcblxuKixcbio6OmJlZm9yZSxcbio6OmFmdGVyIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuLy9jb21wb25lbnRzXG5AaW1wb3J0IFwiY29tcG9uZW50cy9wYWdlLWhlYWRlclwiO1xuQGltcG9ydCBcImNvbXBvbmVudHMvcGFnZS1zZWN0aW9uXCI7XG5AaW1wb3J0ICdjb21wb25lbnRzL2xpbmsnO1xuQGltcG9ydCBcImNvbXBvbmVudHMvYmFubmVyXCI7XG5AaW1wb3J0IFwiY29tcG9uZW50cy9idG5cIjtcbkBpbXBvcnQgXCJjb21wb25lbnRzL2RlbGl2ZXJ5XCI7XG5AaW1wb3J0IFwiY29tcG9uZW50cy9wcm9tb1wiO1xuQGltcG9ydCBcImNvbXBvbmVudHMvYWR2YW50YWdlc1wiO1xuQGltcG9ydCBcImNvbXBvbmVudHMvcGFydG5lcnNcIjtcbkBpbXBvcnQgXCJjb21wb25lbnRzL3BhZ2UtZm9vdGVyXCI7XG4iLCIucGFnZS1oZWFkZXIge1xuXG4gICYtaW5uZXIge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBtYXJnaW4tdG9wOiAxNXB4O1xuICAgIGhlaWdodDogNjBweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuXG4gICAgJjo6YmVmb3JlIHtcbiAgICAgIGNvbnRlbnQ6IFwiXCI7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBoZWlnaHQ6IDYwcHg7XG4gICAgICB3aWR0aDogY2FsYygxMDAlIC0gI3skZ3JpZC1ndXR0ZXItd2lkdGh9KTtcbiAgICAgIGJveC1zaGFkb3c6IDAgM3B4IDEycHggMCByZ2JhKCRibGFjaywgMC4yKTtcbiAgICB9XG4gIH1cblxuICAmLWxvZ28ge1xuICAgIG1hcmdpbi1sZWZ0OiAkY29udGFpbmVyLXBhZGRpbmcteDtcbiAgfVxuXG4gICYtc2VsZWN0IHtcbiAgICBtYXJnaW4tcmlnaHQ6ICRjb250YWluZXItcGFkZGluZy14O1xuICB9XG59XG4iLCIucGFnZS1zZWN0aW9uIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuXG4gICYtLXBhcnRuZXJzICYtaW5uZXIge1xuICAgIHBhZGRpbmc6IDN2dztcbiAgICBib3JkZXItcmFkaXVzOiAzMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICR3aGl0ZTtcbiAgfVxuXG4gICYtdGl0bGUge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDh2dztcbiAgICBsaW5lLWhlaWdodDogOHZ3O1xuICB9XG5cbiAgJi1jb250ZW50IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cblxuICAmLWJ0biB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIG1hcmdpbi10b3A6IDh2dztcbiAgICBwYWRkaW5nOiA1LjN2dyA2dnc7XG4gICAgY29sb3I6ICRibGFjaztcbiAgICBmb250LXNpemU6IDUuNXZ3O1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBib3JkZXItcmFkaXVzOiAkYm9yZGVyLXJhZGl1cztcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkeWVsbG93O1xuICB9XG59XG4iLCIubGluayB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBmb250LWZhbWlseTogJGJhc2UtZm9udC1mYW1pbHk7XG4gIGZvbnQtc2l6ZTogMTNweDtcbiAgbGluZS1oZWlnaHQ6IDE0cHg7XG4gIGNvbG9yOiAkYmx1ZS1kYXJrO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cbiAgJjo6YmVmb3JlIHtcbiAgICBjb250ZW50OiBcIlwiO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBib3R0b206IDA7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGJsdWUtZGFyaztcbiAgfVxuXG4gICY6aG92ZXI6OmJlZm9yZSB7XG4gICAgb3BhY2l0eTogMDtcbiAgfVxuXG4gICYtLW5vLXVuZGVybGluZSB7XG5cbiAgICAmOjpiZWZvcmUge1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICB9XG5cbiAgICAmOmhvdmVyIHtcbiAgICAgIGNvbG9yOiBsaWdodGVuKCRibHVlLWRhcmssIDglKTtcbiAgICB9XG4gIH1cbn1cbiIsIi5iYW5uZXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcblxuICAmLXRleHQge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDIydnc7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgtNTAlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAzLjR2dztcbiAgICBsaW5lLWhlaWdodDogNHZ3O1xuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIH1cblxufVxuIiwiLmRlbGl2ZXJ5IHtcbiAgcGFkZGluZzogMCAxMHB4O1xuXG4gICYtdGl0bGUge1xuICAgIG1hcmdpbjogNHZ3IDAgNnZ3IDA7XG4gICAgZm9udC1zaXplOiA0LjV2dztcbiAgICBsaW5lLWhlaWdodDogNC41dnc7XG4gIH1cblxuICAmLWNvbnRlbnQge1xuICAgIGJvcmRlci1yYWRpdXM6IDR2dztcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkZ3JheTtcbiAgfVxuXG4gICYtY29udGVudCB7XG4gICAgcGFkZGluZzogMnZ3IDV2dyA0dncgNXZ3O1xuICB9XG5cbiAgJi10ZXh0IHtcbiAgICBtYXJnaW4tdG9wOiA1dnc7XG4gICAgZm9udC1zaXplOiAyLjV2dztcbiAgfVxufVxuIiwiLnByb21vIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBwYWRkaW5nLXRvcDogMTB2dztcbiAgcGFkZGluZy1ib3R0b206IDMzdnc7XG4gIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgJjo6YmVmb3JlIHtcbiAgICBjb250ZW50OiBcIlwiO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDA7XG4gICAgbGVmdDogMDtcbiAgICBib3R0b206IDA7XG4gICAgcmlnaHQ6IC0yNXZ3O1xuICAgIC8vei1pbmRleDogMTtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoXCIuLi9pbWcvc3ZnL21hcC5zdmdcIik7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA1MCUgNDklO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMTE2dncgMzAwdnc7XG4gIH1cblxuICAmLWluZm8ge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB6LWluZGV4OiA1O1xuICAgIG1hcmdpbi1sZWZ0OiAxMHB4O1xuICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgICBwYWRkaW5nOiA2dncgMTB2dztcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogJHdoaXRlO1xuICAgIGJvcmRlci1yYWRpdXM6IDV2dztcbiAgICBib3gtc2hhZG93OiAwIDAgMjBweCAwIHJnYmEoJGJsYWNrLCAwLjIpO1xuICB9XG5cbiAgJi1pbmZvIHAge1xuICAgIG1hcmdpbjogMDtcbiAgICBtYXJnaW4tdG9wOiA0dnc7XG4gICAgZm9udC1zaXplOiAzLjV2dztcbiAgICBsaW5lLWhlaWdodDogNHZ3O1xuICB9XG5cbiAgJi1jb250ZW50IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgbWFyZ2luLXRvcDogLTV2dztcbiAgICBwYWRkaW5nOiAxNXZ3IDA7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoJHllbGxvdywgMC42KTtcblxuICAgICY6OmJlZm9yZSxcbiAgICAmOjphZnRlciB7XG4gICAgICBjb250ZW50OiBcIlwiO1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgdG9wOiAwO1xuICAgICAgYm90dG9tOiAwO1xuICAgICAgd2lkdGg6ICRjb250YWluZXItcGFkZGluZy14O1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgkeWVsbG93LCAwLjYpO1xuICAgIH1cblxuICAgICY6OmJlZm9yZSB7XG4gICAgICBsZWZ0OiAtJGNvbnRhaW5lci1wYWRkaW5nLXhcbiAgICB9XG5cbiAgICAmOjphZnRlciB7XG4gICAgICByaWdodDogLSRjb250YWluZXItcGFkZGluZy14O1xuICAgIH1cbiAgfVxuXG4gICYtaXRlbSB7XG5cbiAgICAmOmZpcnN0LWNoaWxkIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDE1dnc7XG4gICAgfVxuICB9XG5cbiAgJi1pdGVtIGIge1xuICAgIG1hcmdpbi1ib3R0b206IDR2dztcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBmb250LXNpemU6IDEwdnc7XG4gICAgbGluZS1oZWlnaHQ6IDV2dztcbiAgfVxuXG4gICYtaXRlbSBzbWFsbCB7XG4gICAgZm9udC1zaXplOiA0dnc7XG4gICAgbGluZS1oZWlnaHQ6IDR2dztcbiAgfVxufVxuIiwiLmFkdmFudGFnZXMge1xuICBtYXJnaW46IDA7XG4gIG1hcmdpbi1ib3R0b206IDUwcHg7XG4gIHBhZGRpbmc6IDA7XG4gIGxpc3Qtc3R5bGU6IG5vbmU7XG5cblxuICAmLWl0ZW0gc3ZnIHtcbiAgICBtYXJnaW4tdG9wOiAyNXB4O1xuICAgIG1hcmdpbi1ib3R0b206IDE1cHg7XG4gICAgd2lkdGg6IDE1MHB4O1xuICAgIGhlaWdodDogMTUwcHg7XG4gIH1cblxuICBiIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBmb250LXNpemU6IDI0cHg7XG4gIH1cblxuICBwIHtcbiAgICBmb250LXNpemU6IDE0cHg7XG4gICAgbGluZS1oZWlnaHQ6IDE2cHg7XG4gIH1cbn1cbiIsIi5wYXJ0bmVycyB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcblxuICAmLWl0ZW0ge1xuICAgIG1hcmdpbjogNXB4IDEwcHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gIH1cbn1cbiIsIi5wYWdlLWZvb3RlciB7XG4gIHBhZGRpbmctdG9wOiAxNXB4O1xuICBwYWRkaW5nLWJvdHRvbTogMTVweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogJGJsYWNrO1xuICBjb2xvcjogJHdoaXRlO1xuXG4gICYtY29sIHtcbiAgICAvL21hcmdpbi1ib3R0b206IDE1cHg7XG4gIH1cblxuICAmLXRleHQsXG4gICYtbGluayB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgZm9udC1zaXplOiAxNHB4O1xuICAgIG1hcmdpbi10b3A6IDEwcHg7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgICBjb2xvcjogJHdoaXRlO1xuICB9XG59XG4iXX0= */
