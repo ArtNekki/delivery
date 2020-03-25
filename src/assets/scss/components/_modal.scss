@@ -34,16 +34,16 @@
     background-color: transparent;
     border: none;
     font-size: 65px;
-    color: $blue;
+    color: $black;
     cursor: pointer;
     outline: none;
 
     @include hover {
-      color: rgba($blue, 0.7);
+      color: rgba($black, 0.7);
     }
 
     @include active {
-      color: rgba($blue, 0.7);
+      color: rgba($black, 0.7);
     }
   }
 

@@ -4,10 +4,6 @@ import 'what-input';
 //polyfill
 import './utils/polyfill';
 
-//modules
-// import './modules/CustomScroll';
-
-
 $('[data-open-modal]').on('click', function() {
   $('html').addClass('page--modal-opened');
 });
