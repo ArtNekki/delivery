@@ -1,0 +1,76 @@
+.form {
+  padding: 15px;
+  background-color: $white;
+  border-top: 3px solid $yellow;
+  border-radius: 0.7vw;
+  box-shadow: 0 0 30px rgba($black, 0.2);
+
+  &-main {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $gray;
+  }
+
+  &-title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  &-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 8px;
+    font-size: 17px;
+    color: $black;
+    background-color: $yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+    @include hover {
+      background-color: lighten($yellow, 10%);
+    }
+
+    @include active {
+      background-color: lighten($yellow, 10%);
+      box-shadow: 0 0 10px rgba($yellow, 0.6);
+    }
+
+    &:disabled {
+      color: rgba($black, 0.2);
+      background-color: $gray !important;
+      cursor: not-allowed;
+    }
+  }
+
+  &-group {
+    margin-bottom: 6px;
+  }
+
+  &-footer {
+    padding-top: 17px;
+    text-align: center;
+  }
+
+  &-label {
+    margin-bottom: 1vw;
+    display: block;
+    font-family: $base-font-family;
+    font-size: 17px;
+    color: $gray;
+    text-transform: uppercase;
+  }
+
+  label {
+    display: block;
+    font-family: $secondary-font-family;
+    font-size: 12px;
+    line-height: 22px;
+    color: $gray;
+  }
+}

@@ -1,0 +1,67 @@
+.modal {
+  position: relative;
+  margin: 15px;
+  width: 100%;
+  max-width: 600px;
+  min-height: auto;
+  display: none;
+  transform: translate3d(-100vw, 0, 0);
+
+  @include media-breakpoint-up(md) {
+    margin: 25px;
+  }
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba($white, 0.9);
+    backdrop-filter: blur(9px);
+  }
+
+  &-close {
+    position: absolute;
+    top: -65px;
+    right: -7px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 65px;
+    color: $blue;
+    cursor: pointer;
+    outline: none;
+
+    @include hover {
+      color: rgba($blue, 0.7);
+    }
+
+    @include active {
+      color: rgba($blue, 0.7);
+    }
+  }
+
+  html[class~="ie"] & {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.page--modal-opened .modal-overlay {
+  display: flex;
+}
+
+.page--modal-opened .modal {
+  display: block;
+  animation-name: bounce-left;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}

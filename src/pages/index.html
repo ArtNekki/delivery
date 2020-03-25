@@ -9,14 +9,14 @@ layout: default
    <div class="container">
      <h2 class="page-section-title">Сверхсрочная<br /> доставка</h2>
      {{> banner }}
-     <a href="#" class="btn">Заказать курьера</a>
+     <a href="#" class="btn" data-open-modal>Заказать курьера</a>
    </div>
   </section>
   <section class="page-section">
     <div class="container">
       <h2 class="page-section-title">Доставляем с адреса<br /> от 600 рублей</h2>
       {{> delivery }}
-      <a href="#" class="btn">Заказать курьера</a>
+      <a href="#" class="btn" data-open-modal>Заказать курьера</a>
     </div>
   </section>
   {{> promo}}
@@ -35,7 +35,29 @@ layout: default
     </div>
   </section>
   <div class="u-tac">
-    <a href="#" class="btn">Заказать курьера</a>
+    <a href="#" class="btn" data-open-modal>Заказать курьера</a>
   </div>
   {{> page-footer}}
+</div>
+
+<div class="modal-overlay" data-close-modal="true">
+  <div class="modal">
+    <form action="" class="form">
+      <h3 class="form-title">Отправить сообщение</h3>
+      <div class="form-group">
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" class="input">
+      </div>
+      <div class="form-group">
+        <label for="name">Телефон</label>
+        <input type="text" name="tel" id="tel" class="input">
+      </div>
+      <div class="form-group">
+        <label for="name">Текст</label>
+        <textarea name="message" id="message" class="input" cols="30" rows="5"></textarea>
+      </div>
+      <button type="submit" class="form-btn" disabled>Отправить</button>
+    </form>
+    <button class="modal-close" data-close-modal="true">&times;</button>
+  </div>
 </div>

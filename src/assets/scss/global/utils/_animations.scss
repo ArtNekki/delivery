@@ -3,3 +3,16 @@
     transform: rotateZ(360deg);
   }
 }
+
+@keyframes bounce-left {
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
