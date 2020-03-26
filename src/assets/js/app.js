@@ -3,6 +3,7 @@ import 'what-input';
 
 //polyfill
 import './utils/polyfill';
+import './modules/form-validation';
 
 $(document).ready(function () {
 
