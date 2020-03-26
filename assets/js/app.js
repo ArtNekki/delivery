@@ -11471,11 +11471,15 @@ $(document).ready(function () {
 });
 $('[data-open-modal]').on('click', function () {
   $('html').addClass('page--modal-opened');
+});
+$('[data-open-form]').on('click', function () {
+  $('html').addClass('page--form-opened');
 }); // modal opening
 
 $(document).on('click', function (e) {
   if ($(e.target).attr('data-close-modal')) {
     $('html').removeClass('page--modal-opened');
+    $('html').removeClass('page--form-opened');
   }
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
