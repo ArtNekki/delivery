@@ -1,10 +1,14 @@
 .modal {
   position: relative;
   margin: 15px;
-  width: 100%;
-  max-width: 600px;
+  padding: 15px;
+  padding-bottom: 30px;
   min-height: auto;
   display: none;
+  background-color: $white;
+  border-top: 3px solid $yellow;
+  border-radius: 0.7vw;
+  box-shadow: 0 0 30px rgba($black, 0.2);
   transform: translate3d(-100vw, 0, 0);
 
   @include media-breakpoint-up(md) {
@@ -23,6 +27,23 @@
     justify-content: center;
     background-color: rgba($white, 0.9);
     backdrop-filter: blur(9px);
+  }
+
+  &-contacts {
+    display: flex;
+    flex-direction: column;
+
+    .page--form-opened & {
+      display: none;
+    }
+  }
+
+  &-form {
+    display: none;
+
+    .page--form-opened & {
+      display: block;
+    }
   }
 
   &-close {

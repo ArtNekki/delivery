@@ -1,9 +1,9 @@
 .form {
-  padding: 15px;
-  background-color: $white;
-  border-top: 3px solid $yellow;
-  border-radius: 0.7vw;
-  box-shadow: 0 0 30px rgba($black, 0.2);
+  width: 280px;
+
+  @include media-breakpoint-up(md) {
+    width: 320px;
+  }
 
   &-main {
     padding-right: 10px;
@@ -13,7 +13,7 @@
   }
 
   &-title {
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 18px;
     font-size: 14px;
     font-weight: 300;

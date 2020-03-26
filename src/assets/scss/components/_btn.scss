@@ -9,6 +9,21 @@
   background-color: $yellow;
   transition: all 0.2s ease-in;
   user-select: none;
+  cursor: pointer;
+
+  &.btn--sm {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 20px;
+      padding: 15px 20px;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+  }
 
   &:hover,
   &:active {

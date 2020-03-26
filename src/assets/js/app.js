@@ -24,10 +24,14 @@ $('[data-open-modal]').on('click', function() {
   $('html').addClass('page--modal-opened');
 });
 
+$('[data-open-form]').on('click', function() {
+  $('html').addClass('page--form-opened');
+});
+
 // modal opening
 $(document).on('click', function(e) {
-
   if($(e.target).attr('data-close-modal')) {
     $('html').removeClass('page--modal-opened');
+    $('html').removeClass('page--form-opened');
   }
 });
