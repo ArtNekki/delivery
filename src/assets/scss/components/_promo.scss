@@ -155,6 +155,7 @@
   }
 
   &-item {
+    position: relative;
 
     &:first-child {
       margin-bottom: 15vw;
@@ -165,7 +166,7 @@
 
       @include media-breakpoint-up(lg) {
         margin-bottom: 0;
-        margin-right: 100px;
+        margin-right: 250px;
       }
     }
 
@@ -191,9 +192,11 @@
     @include media-breakpoint-up(lg) {
       margin-right: 15px;
       margin-bottom: 0;
+      width: 130px;
       display: inline-block;
       vertical-align: sub;
       font-size: 60px;
+      text-align: center;
     }
   }
 
