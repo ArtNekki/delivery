@@ -24,7 +24,7 @@
     "popper.js": "^1.15.0",
     "postcss-svg": "^3.0.0",
     "svg4everybody": "^2.1.9",
-    "swiper": "^5.0.3",
+    "swiper": "^6.5.1",
     "what-input": "^5.1.2"
   },
   "devDependencies": {
